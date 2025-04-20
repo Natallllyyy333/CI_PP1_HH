@@ -34,7 +34,7 @@ a {
 
 .index_header-inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 70px;
 }
@@ -473,7 +473,7 @@ a {
 
 .articles_header-inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 70px;
 }
@@ -907,7 +907,7 @@ a {
 
 .documentaries_header-inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 70px;
 }
@@ -1578,7 +1578,7 @@ a {
 
 .podcasts_header-inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 70px;
 }
@@ -1688,7 +1688,7 @@ a {
   padding: 20px 0;
 }
 
-.podcasts_title {
+h2.title {
   font-size: 32px;
   font-weight: 700;
   color: #b71c1c;
@@ -2183,7 +2183,7 @@ body {
 
 .london_header-inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 70px;
 }
@@ -2892,7 +2892,7 @@ body {
 
 .events_header-inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 70px;
 }
@@ -3413,7 +3413,7 @@ body {
 
 .people_header-inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 70px;
 }
@@ -3936,7 +3936,7 @@ body {
 
 .ada_lovelace_article_header-inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 70px;
 }
@@ -4355,7 +4355,7 @@ body {
 
 .einstein_article_header-inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 70px;
 }
@@ -4802,7 +4802,7 @@ body {
 
 .first_train_article_header-inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 70px;
 }
@@ -5244,7 +5244,7 @@ body {
 
 .roman_empire_article_header-inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 70px;
 }
@@ -5677,7 +5677,7 @@ body {
 
 .about_us_header-inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 70px;
 }
@@ -5687,6 +5687,7 @@ body {
   font-weight: 700;
   text-decoration: none;
   color: #333;
+   
 }
 
 .about_us_logo span {
@@ -6104,7 +6105,7 @@ body {
 
 .contact_us_header-inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 70px;
 }
@@ -6532,7 +6533,7 @@ body {
 
 .privacy_policy_header-inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 70px;
 }
@@ -6976,7 +6977,7 @@ body {
 
 .terms_of_use_header-inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 70px;
 }
@@ -7423,7 +7424,7 @@ body {
 
 .our_team_header-inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 70px;
 }
@@ -7858,7 +7859,7 @@ body {
 
 .cookie_policy_header-inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 70px;
 }
