@@ -1,87 +1,7 @@
 @charset "UTF-8";
-@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css";
-
-@keyframes fa-beat {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(var(--fa-beat-scale, 1.25));
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
-
-@keyframes fa-fade {
-  0% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: var(--fa-fade-opacity, 0.4);
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
 
 
-@keyframes fa-beat-fade {
-  0% {
-    opacity: 1;
-    transform: scale(1);
-  }
 
-  50% {
-    opacity: var(--fa-fade-opacity, 0.4);
-    transform: scale(var(--fa-beat-scale, 1.25));
-  }
-
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-.fa-fade {
-  animation-name: fa-fade;
-}
-
-.fa-beat-fade {
-  animation-name: fa-beat-fade;
-}
-
-@keyframes fa-flip {
-  0% {
-    transform: rotateY(0);
-  }
-
-  50% {
-    transform: rotateY(var(--fa-flip-angle, 180deg));
-  }
-
-  100% {
-    transform: rotateY(0);
-  }
-}
-
-@keyframes fa-spin {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.fa-rotate-by {
-  transform: rotate(var(--fa-rotate-angle, 0deg))
-}
 
 * {
   margin: 0;
@@ -8889,5 +8809,3 @@ body {
     font-size: 20px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
