@@ -20,6 +20,12 @@ a {
   color: #333;
 }
 
+.index_social-links a span {
+  display: none;
+}
+
+
+
 .index_container {
   width: 100%;
   max-width: 1200px;
