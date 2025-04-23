@@ -20,7 +20,23 @@ a {
   color: #333;
 }
 
-.index_social-links a span {
+.index_social-links a span,
+.articles_social-links a span,
+.documentaries_social-links a span,
+.about_us_social-links a span,
+.ada_lovelace_article_social-links a span,
+.contact_us_social-links a span,
+.cookie_policy_social-links a span,
+.privacy_policy_social-links a span,
+.terms_of_use_social-links a span,
+.einstein_article_social-links a span,
+.events_social-links a span,
+.first_train_article_social-links a span,
+.london_social-links a span,
+.our_team_social-links a span,
+.people_social-links a span,
+.podcasts_social-links a span,
+.roman_empire_article_social-links a span {
   display: none;
 }
 
@@ -116,8 +132,33 @@ a {
   transition: all 0.3s ease;
 }
 
-.index_hero-banner {
+/* .index_hero-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/history_maxresdefault.jpg') center/cover no-repeat;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  color: white;
+  text-align: center;
+} */
+
+.index_hero-banner {
+  /* Фолбэк для старых браузеров */
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url('../images/history_1280w.webp') center/cover no-repeat;
+
+  /* Современные браузеры */
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    -webkit-image-set(url('../images/history_320w.webp') 1x,
+      url('../images/history_640w.webp') 2x,
+      url('../images/history_1024w.webp') 3x) center/cover no-repeat;
+
+  /* Стандартный синтаксис */
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    image-set(url('../images/history_320w.webp') type('image/webp') 1x,
+      url('../images/history_640w.webp') type('image/webp') 2x,
+      url('../images/history_1024w.webp') type('image/webp') 3x) center/cover no-repeat;
+
   height: 600px;
   display: flex;
   align-items: center;
