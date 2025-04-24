@@ -16,6 +16,30 @@
 
     <link rel="stylesheet" href="./assets/css/fontawesome-free-6.7.2-web/css/all.min.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="./assets//css/fontawesome-free-6.7.2-web/css/all.min.css" type="text/css" media="all">
+
+    <link rel="preload" href="./assets/images/sort_your_books-1024w.avif" as="image" type="image/avif"
+        fetchpiority="high" imagesrcset="
+      ./assets/images/sort_your_books-320w.avif 320w,
+      ./assets/images//sort_your_books-640w.avif 640w,
+      ./assets/images/sort_your_books-1024w.avif 1024w,
+      
+      " imagesizes="100vw">
+
+    <!-- Для мобильных (320px) -->
+    <link rel="preload" href="./assets/images/sort_your_books-320w.avif" as="image"
+        media="(max-width: 576px) and (max-resolution: 1.5dppx)">
+
+    <!-- Для мобильных Retina (640px) -->
+    <link rel="preload" href="./assets/images/sort_your_books-640w.avif" as="image"
+        media="(max-width: 576px) and (min-resolution: 1.6dppx)">
+
+    <!-- Для планшетов (640px) -->
+    <link rel="preload" href="./assets/images/sort_your_books-640w.avif" as="image"
+        media="(min-width: 577px) and (max-width: 992px)">
+
 </head>
 
 <body>
@@ -71,7 +95,15 @@
                 <a href="./roman_empire_article.html">
                     <div class="articles_featured-card">
                         <div class="articles_card-image">
-                            <img src="./assets/images/rome4_656135.jpg" alt="Roman Empire">
+
+
+                            <img srcset="./assets/images/rome4_656135-320w.avif 320w,
+                                        ./assets/images/rome4_656135-640w.avif 640w,
+                                        
+                                        ./assets/images/rome4_656135-1024w.avif 1024w"
+                                sizes="(max-width: 480px) 320px, 640px" src="./assets/images/rome4_656135-640w.webp"
+                                alt="Rome Empire" loading="lazy" width="640" height="427"
+                                style="max-width: 100%; height: auto;">
 
                         </div>
                         <div class="articles_card-content">
