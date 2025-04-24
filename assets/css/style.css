@@ -1124,14 +1124,44 @@ a {
 }
 
 .documentaries_hero-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("../images/image-asset.jpeg") center/cover no-repeat;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("../images/image-asset.jpeg") center/cover no-repeat;
   height: 600px;
   display: flex;
   align-items: center;
   margin-top: 70px;
   color: white;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 20px; */
+
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url('../images/image-asset-1024w.webp') center/cover no-repeat;
+
+
+
+
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    -webkit-image-set(url('../images/image-asset-320w.avif') 1x,
+      url('../images/image-asset-640w.avif') 2x,
+      url('../images/image-asset-1024w.avif') 3x) center/cover no-repeat;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    image-set(url('../images/image-asset-320w.avif') type('image/avif') 1x,
+      url('../images/image-asset-640w.avif') type('image/avif') 2x,
+      url('../images/image-asset-1024w.avif') type('image/avif') 3x) center/cover no-repeat;
+
+
+  height: 600px;
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  color: white;
+  text-align: center;
+
 }
 
 .documentaries_hero-content {
