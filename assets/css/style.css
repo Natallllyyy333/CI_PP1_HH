@@ -168,17 +168,17 @@ a {
 } */
 
 .index_hero-banner {
-  /* Фолбэк для древних браузеров */
-  /* background:
+  /* 1. Фолбэк для самых старых браузеров (JPEG) */
+  background:
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url('../images/history_1280w.jpg') center/cover no-repeat; */
+    url('../images/history_1280w.jpg') center/cover no-repeat;
 
-  /* WebP для Safari <16 */
-  /* background:
+  /* 2. WebP для браузеров без AVIF (Safari <16, старые Android) */
+  background:
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url('../images/history_1280w.webp') center/cover no-repeat; */
+    url('../images/history_1280w.webp') center/cover no-repeat;
 
-  /* AVIF с градиентом */
+  /* 3. AVIF для современных браузеров */
   background:
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     -webkit-image-set(url('../images/history_320w.avif') 1x,
@@ -190,6 +190,14 @@ a {
     image-set(url('../images/history_320w.avif') type('image/avif') 1x,
       url('../images/history_640w.avif') type('image/avif') 2x,
       url('../images/history_1024w.avif') type('image/avif') 3x) center/cover no-repeat;
+
+  /* Остальные стили */
+  height: 600px;
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  color: white;
+  text-align: center;
 }
 
 .index_hero-content {
