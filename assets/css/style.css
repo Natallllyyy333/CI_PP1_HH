@@ -169,14 +169,14 @@ a {
 
 .index_hero-banner {
   /* Фолбэк для древних браузеров */
-  background:
+  /* background:
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url('../images/history_1280w.jpg') center/cover no-repeat;
+    url('../images/history_1280w.jpg') center/cover no-repeat; */
 
   /* WebP для Safari <16 */
-  background:
+  /* background:
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url('../images/history_1280w.webp') center/cover no-repeat;
+    url('../images/history_1280w.webp') center/cover no-repeat; */
 
   /* AVIF с градиентом */
   background:
