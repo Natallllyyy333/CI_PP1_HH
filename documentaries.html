@@ -144,11 +144,16 @@
                                 <div class="documentaries_video-wrapper">
                                     <label for="slide2" class="documentaries_arrow prev">‹</label>
                                     <!-- <img class="poster" src="./assets/images/poster_egypt_1-320w.avif" loading="eager"> -->
-                                    <iframe width="560" height="315"
-                                        src="https://www.youtube.com/embed/TMkoX1kfyDs?si=tbbryiPyZogNxcy9"
-                                        title="YouTube video player" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <script
+                                        src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js"></script>
+                                    <link rel="stylesheet"
+                                        href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css" />
+
+                                    <lite-youtube videoid="TMkoX1kfyDs&t=10s" style="background-image: url('./assets/images/poster_egypt_1-320w.avif');
+                                      width: 560px;
+                                      height: 315px;">
+                                        <button type="button" class="lty-playbtn"></button>
+                                    </lite-youtube>
                                 </div>
 
                             </div>
