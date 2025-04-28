@@ -48,12 +48,18 @@
       ./assets/images/image-asset-1024w.avif 1024w,
       
       " imagesizes="100vw">
-    <link rel="preload" href="./assets/images/poster_egypt_1-560.webp" as="image" type="image/webp" fetchpriority="low">
-    <link rel="preload" href="./assets/images/poster_egypt_2-560.webp" as="image" type="image/webp" fetchpriority="low">
-    <link rel="preload" href="./assets/images/poster_egypt_3-560.webp" as="image" type="image/webp" fetchpriority="low">
-    <link rel="preload" href="./assets/images/poster_egypt_4-560.webp" as="image" type="image/webp" fetchpriority="low">
-    <link rel="preload" href="./assets/images/poster_egypt_5-560.webp" as="image" type="image/webp" fetchpriority="low">
-    <link rel="preload" href="./assets/images/poster_egypt_6-560.webp" as="image" type="image/webp" fetchpriority="low">
+    <link rel="preload" href="./assets/images/poster_egypt_1-560.webp" as="image" type="image/webp" fetchpriority="high"
+        , media="(width:560px)">
+    <link rel="preload" href="./assets/images/poster_egypt_2-560.webp" as="image" type="image/webp" fetchpriority="low"
+        , media="(width:560px)">
+    <link rel="preload" href="./assets/images/poster_egypt_3-560.webp" as="image" type="image/webp" fetchpriority="low"
+        , media="(width:560px)">
+    <link rel="preload" href="./assets/images/poster_egypt_4-560.webp" as="image" type="image/webp" fetchpriority="low"
+        , media="(width:560px)">
+    <link rel="preload" href="./assets/images/poster_egypt_5-560.webp" as="image" type="image/webp" fetchpriority="low"
+        , media="(width:560px)">
+    <link rel="preload" href="./assets/images/poster_egypt_6-560.webp" as="image" type="image/webp" fetchpriority="low"
+        , media="(width:560px)">
     <!-- <link rel="preconnect" href="https://www.youtube.com">
     <link rel="preconnect" href="https://www.google.com">
     <link rel="dns-prefetch" href="https://www.youtube.com">
@@ -157,7 +163,7 @@
 
                                     <lite-youtube videoid="smqJTUjRx74" class="lite-yt"
                                         style="background-image: url('./assets/images/poster_egypt_1-560.webp');"
-                                        loadning="lazy" preload="none" nokookie>
+                                        loadning="eager" preload="none" nokookie>
                                         <button type="button" class="lty-playbtn"></button>
                                     </lite-youtube>
                                 </div>
