@@ -1380,11 +1380,11 @@ input[type=radio] {
   height: 100%;
 }
 
-.documentaries_video-wrapper img {
+/* .documentaries_video-wrapper img {
   width: 100%;
   height: auto;
   object-fit: cover;
-}
+} */
 
 .youtube-iframe {
   border: none;
