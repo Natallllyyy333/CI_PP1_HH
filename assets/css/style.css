@@ -1287,41 +1287,87 @@ input[type=radio] {
   display: none;
 }
 
-#slide0:checked~.documentaries_carousel-wrapper .documentaries_carousel {
+#slide0_prev:checked~.documentaries_carousel-wrapper .documentaries_carousel {
   transform: translateX(0);
 }
 
-#slide1:checked~.documentaries_carousel-wrapper .documentaries_carousel {
+#slide1_prev:checked~.documentaries_carousel-wrapper .documentaries_carousel {
   transform: translateX(-100%);
 }
 
-#slide2:checked~.documentaries_carousel-wrapper .documentaries_carousel {
+#slide2_prev:checked~.documentaries_carousel-wrapper .documentaries_carousel {
   transform: translateX(-200%);
 }
 
-#slide0_europe:checked~.documentaries_carousel-wrapper .documentaries_carousel {
+#slide0_europe_prev:checked~.documentaries_carousel-wrapper .documentaries_carousel {
   transform: translateX(0);
 }
 
-#slide1_europe:checked~.documentaries_carousel-wrapper .documentaries_carousel {
+#slide1_europe_prev:checked~.documentaries_carousel-wrapper .documentaries_carousel {
   transform: translateX(-100%);
 }
 
-#slide2_europe:checked~.documentaries_carousel-wrapper .documentaries_carousel {
+#slide2_europe_prev:checked~.documentaries_carousel-wrapper .documentaries_carousel {
   transform: translateX(-200%);
 }
 
-#slide0_world:checked~.documentaries_carousel-wrapper .documentaries_carousel {
+#slide0_world_prev:checked~.documentaries_carousel-wrapper .documentaries_carousel {
   transform: translateX(0);
 }
 
-#slide1_world:checked~.documentaries_carousel-wrapper .documentaries_carousel {
+#slide1_world_prev:checked~.documentaries_carousel-wrapper .documentaries_carousel {
   transform: translateX(-100%);
 }
 
-#slide2_world:checked~.documentaries_carousel-wrapper .documentaries_carousel {
+#slide2_world_prev:checked~.documentaries_carousel-wrapper .documentaries_carousel {
   transform: translateX(-200%);
 }
+
+
+
+
+
+
+
+#slide0_next:checked~.documentaries_carousel-wrapper .documentaries_carousel {
+  transform: translateX(0);
+}
+
+#slide1_next:checked~.documentaries_carousel-wrapper .documentaries_carousel {
+  transform: translateX(-100%);
+}
+
+#slide2_next:checked~.documentaries_carousel-wrapper .documentaries_carousel {
+  transform: translateX(-200%);
+}
+
+#slide0_europe_next:checked~.documentaries_carousel-wrapper .documentaries_carousel {
+  transform: translateX(0);
+}
+
+#slide1_europe_next:checked~.documentaries_carousel-wrapper .documentaries_carousel {
+  transform: translateX(-100%);
+}
+
+#slide2_europe_next:checked~.documentaries_carousel-wrapper .documentaries_carousel {
+  transform: translateX(-200%);
+}
+
+#slide0_world_next:checked~.documentaries_carousel-wrapper .documentaries_carousel {
+  transform: translateX(0);
+}
+
+#slide1_world_next:checked~.documentaries_carousel-wrapper .documentaries_carousel {
+  transform: translateX(-100%);
+}
+
+#slide2_world_next:checked~.documentaries_carousel-wrapper .documentaries_carousel {
+  transform: translateX(-200%);
+}
+
+
+
+
 
 .documentaries_back-x {
   position: absolute;
