@@ -1365,7 +1365,16 @@ input[type=radio] {
   transform: translateX(-200%);
 }
 
+fieldset {
+  border: 0px solid transparent;
+  padding: 0rem;
+  margin: 0rem 0;
+}
 
+legend {
+  padding: 0 0rem;
+  font-weight: bold;
+}
 
 
 
