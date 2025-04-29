@@ -1366,14 +1366,15 @@ input[type=radio] {
 }
 
 fieldset {
-  border: 0px solid transparent;
-  padding: 0rem;
-  margin: 0rem 0;
+  border-style: none;
+
+  padding: 0;
+  margin: 0;
 }
 
 legend {
-  padding: 0 0rem;
-  font-weight: bold;
+  padding: 0;
+
 }
 
 
@@ -1427,11 +1428,12 @@ legend {
   overflow: hidden;
 }
 
-.documentaries_video-wrapper iframe {
+.documentaries_video-wrapper lite-yt {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
+  min-width: 560px;
   height: 100%;
 }
 
