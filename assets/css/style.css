@@ -1959,14 +1959,14 @@ a {
 
   background:
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    -webkit-image-set(url('../images/1502858-320-80q-4.avif') 1x,
-      url('../images/1502858-640-80q-4.avif') 2x,
+    -webkit-image-set(url('../images/1502858-320-85q-we.webp') 1x,
+      url('../images/1502858-640-80q-we.webp') 2x,
       url('../images/1502858-1024-80q.avif') 3x) center/cover no-repeat;
 
   background:
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    image-set(url('../images/1502858-320-80q-4.avif') type('image/avif') 1x,
-      url('../images/1502858-640-80q-4.avif') type('image/avif') 2x,
+    image-set(url('../images1502858-320-85q-we.webp') type('image/webp') 1x,
+      url('../images/1502858-640-80q-we.webp') type('image/webp') 2x,
       url('../images/1502858-1024-80q.avif') type('image/avif') 3x) center/cover no-repeat;
 
 
