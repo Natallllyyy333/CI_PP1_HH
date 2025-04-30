@@ -146,8 +146,14 @@
                         <h2 class="podcasts_section-title">Napoleon Bonaparte</h2>
                         <h3>From emperor to exile</h3>
                         <figure class="podcasts_photo-caption">
-                            <img src="./assets/images/Napoleon_I_of_France_by_Andrea_Appiani.jpg"
-                                alt="Napoleon Bonaparte" class="podcasts_featured-image">
+                            <!-- <img src="./assets/images/Napoleon_I_of_France_by_Andrea_Appiani.jpg"
+                                alt="Napoleon Bonaparte" class="podcasts_featured-image"> -->
+
+                            <img srcset="./assets/images\Napoleon_I_of_France_by_Andrea_Appiani-320.avif 320w,
+                                ./assets/images/\Napoleon_I_of_France_by_Andrea_Appiani-640.avif 640w
+                                " sizes="(max-width: 480px) 320px, 640px"
+                                src="./assets/images/\Napoleon_I_of_France_by_Andrea_Appiani-640.avif" alt="Napoleon"
+                                loading="lazy" width="640" height="861" style="max-width: 100%; height: auto;">
                             <figcaption class="podcasts_featured-image">
 
                                 Born in Corsica in 1769, Napoleon quickly advanced through military ranks during the
