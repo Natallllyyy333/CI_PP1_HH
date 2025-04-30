@@ -1124,14 +1124,6 @@ a {
 }
 
 .documentaries_hero-banner {
-  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("../images/image-asset.jpeg") center/cover no-repeat;
-  height: 600px;
-  display: flex;
-  align-items: center;
-  margin-top: 70px;
-  color: white;
-  text-align: center;
-  margin-bottom: 20px; */
 
 
   background:
@@ -1957,13 +1949,34 @@ a {
 }
 
 .podcasts_hero-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/1502858-1024.avif") center/cover no-repeat;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url('../images/1502858-1024.avif') center/cover no-repeat;
+
+
+
+
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    -webkit-image-set(url('../images/1502858-320.avif') 1x,
+      url('../images/1502858-640.avif') 2x,
+      url('../images/1502858-1024.avif') 3x) center/cover no-repeat;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    image-set(url('../images/1502858-320.avif') type('image/avif') 1x,
+      url('../images/1502858-640.avif') type('image/avif') 2x,
+      url('../images/1502858-1024.avif') type('image/avif') 3x) center/cover no-repeat;
+
+
   height: 600px;
   display: flex;
   align-items: center;
   margin-top: 70px;
   color: white;
   text-align: center;
+
 }
 
 .podcasts_hero-content {
