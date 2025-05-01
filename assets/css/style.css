@@ -2605,7 +2605,7 @@ body {
   transition: all 0.3s ease;
 }
 
-.london_hero-banner {
+/* .london_hero-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("../images/top-historical-travel-destinations-for-history-buffs-njy.jpg") center/cover no-repeat;
   height: 600px;
   display: flex;
@@ -2613,6 +2613,37 @@ body {
   margin-top: 70px;
   color: white;
   text-align: center;
+} */
+
+.london_hero-banner {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url('../images/top-historical-travel-destinations-for-history-buffs-njy-1024-85q-we.webp') center/cover no-repeat;
+
+
+
+
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    -webkit-image-set(url('../images/top-historical-travel-destinations-for-history-buffs-njy-320-we-80q.avif') 1x,
+      url('../images/top-historical-travel-destinations-for-history-buffs-njy-640-we-80q.avif') 2x,
+      url('../images/top-historical-travel-destinations-for-history-buffs-njy-1024-we-80q.avif') 3x) center/cover no-repeat;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    image-set(url('../images/top-historical-travel-destinations-for-history-buffs-njy-320-we-80q.avif') type('image/avif') 1x,
+      url('../images/top-historical-travel-destinations-for-history-buffs-njy-640-we-80q.avif') type('image/avif') 2x,
+      url('../images/top-historical-travel-destinations-for-history-buffs-njy-1024-we-80q.avif') type('image/avif') 3x) center/cover no-repeat;
+
+
+  height: 600px;
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  color: white;
+  text-align: center;
+
 }
 
 .london_hero-content {
