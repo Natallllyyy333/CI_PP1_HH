@@ -2855,7 +2855,7 @@ body {
   color: #666;
 }
 
-.london_video-guide {
+/* .london_video-guide {
   background-color: white;
   height: 315px;
   width: auto;
@@ -2865,11 +2865,45 @@ body {
   justify-content: center;
   color: white;
   margin: 30px auto;
+} */
+
+.london_video-guide {
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+  margin: 30px auto;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  border-radius: 45px;
 }
 
-iframe {
+/* iframe {
   border-radius: 15px;
+} */
+.london_video-guide lite-yt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 560px;
+  border-radius: 15px;
+  height: 100%;
 }
+
+/* iframe {
+  border-radius: 15px;
+} */
+
+
+
+/* .london_video-guide lite-yt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 560px;
+  height: 100%;
+} */
 
 .london_pdf-guide {
   background-color: #f8f8f8;

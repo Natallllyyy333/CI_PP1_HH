@@ -195,10 +195,25 @@
 
 
                 <div class="london_video-guide">
-                    <iframe class="youtube-iframe" width="560" height="315"
+
+                    <script src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js"></script>
+                    <link rel="stylesheet"
+                        href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css" />
+
+                    <lite-youtube videoid="5FbNPDknL-g" class="lite-yt"
+                        style="background-image: url('./assets/images/london_guide_video_cover-908-85q.avif');"
+                        loadning="lazy" preload="none" nokookie>
+                        <button type="button" class="lty-playbtn">
+
+                            <span class="documentaries_visually-hidden">Play</span>
+
+
+                        </button>
+                    </lite-youtube>
+                    <!-- <iframe class="youtube-iframe" width="560" height="315"
                         src="https://www.youtube.com/embed/5FbNPDknL-g?si=1OZAQ1zbGZaLwU-F" title="YouTube video player"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
                 </div>
 
                 <h3>Explore London</h3>
