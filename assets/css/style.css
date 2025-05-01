@@ -2676,7 +2676,7 @@ body {
 
 .london_featured-grid {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   gap: 10px;
 }
 
@@ -3044,7 +3044,7 @@ body {
 
 @media (max-width: 1024px) {
   .london_featured-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
   }
 
   .london_categories-grid {
@@ -3099,6 +3099,10 @@ body {
 }
 
 @media screen and (width: 1024px) and (height: 600px) {
+  .london_featured-grid {
+    grid-template-rows: 1fr;
+  }
+
   .london_zoom-checkbox:checked~.london_zoom-label {
     width: 100vw;
     height: 100vh;
@@ -3112,6 +3116,10 @@ body {
 }
 
 @media (max-width: 768px) {
+  .london_featured-grid {
+    grid-template-rows: 1fr;
+  }
+
   .london_mobile-menu-btn {
     display: block;
   }
