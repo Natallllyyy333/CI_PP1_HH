@@ -214,9 +214,30 @@
 
                     <label for="zoomCheck" class="london_zoom-label">
 
-                        <img src="./assets/images/london_map_image-asset.jpeg" alt="london_map"
-                            class="london_zoomable-image">
+                        <!-- <img srcset="
+                        ./assets/images/inca-320w.avif 320w,
+                        ./assets/images/inca-640w.avif 640w 2x,
+                        ./assets/images/inca-960w.avif 960w 3x
+                      " sizes="(max-width: 480px) 100vw, 640px" class="london_zoomable-image"> -->
 
+                        <img src="./assets/images/london_map_image-asset-1024-we-80q.avif" alt="london_map"
+                            class="london_zoomable-image" loading="lazy">
+                        <!-- 
+                        <picture class="london_zoomable-image">
+                            <source type="image/avif" srcset="
+                                    ./assets/images/inca-320w.avif 320w,
+                                    ./assets/images/inca-640w.avif 640w 2x,
+                                    ./assets/images/inca-960w.avif 960w 3x
+                                  " sizes="(max-width: 480px) 100vw, 640px" class="london_zoomable-image">
+                            <source type="image/webp" srcset="
+                                    ./assets/images/inca-320w.webp 320w,
+                                    ./assets/images/inca-640w.webp 640w 2x
+                                  " sizes="(max-width: 480px) 100vw, 640px" class="london_zoomable-image">
+                            <img src="./assets/images/london_map_image-asset.jpeg" alt="inca-ceremony" loading="lazy"
+                                width="640" height="425" decoding="async"
+                                style="max-width: 100%; height: auto; content-visibility: auto;"
+                                class="london_zoomable-image">
+                        </picture> -->
 
                         <span class="london_image-caption">Zoom the Map of London</span>
                     </label>
