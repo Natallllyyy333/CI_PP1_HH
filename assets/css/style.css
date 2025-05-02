@@ -2875,6 +2875,7 @@ body {
   aspect-ratio: 16/9;
   overflow: hidden;
   border-radius: 45px;
+
 }
 
 /* iframe {
@@ -2888,6 +2889,10 @@ body {
   min-width: 560px;
   border-radius: 15px;
   height: 100%;
+
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
 }
 
 /* iframe {
