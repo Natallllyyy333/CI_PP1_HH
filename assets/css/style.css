@@ -2632,9 +2632,9 @@ body {
 
   background:
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    image-set(url('../images/top-historical-travel-destinations-for-history-buffs-njy-320-we-80q.avif') type('image/avif') 1x,
-      url('../images/top-historical-travel-destinations-for-history-buffs-njy-640-we-80q.avif') type('image/avif') 2x,
-      url('../images/top-historical-travel-destinations-for-history-buffs-njy-1024-we-80q.avif') type('image/avif') 3x) center/cover no-repeat;
+    image-set(url('../images/top-historical-travel-destinations-for-history-buffs-njy-320-85q-we.webp') type('image/webp') 1x,
+      url('../images/top-historical-travel-destinations-for-history-buffs-njy-640-85q-we.webp') type('image/webp') 2x,
+      url('../images/top-historical-travel-destinations-for-history-buffs-njy-1024-85q-we.webp') type('image/webp') 3x) center/cover no-repeat;
 
 
   height: 600px;
