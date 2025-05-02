@@ -46,7 +46,7 @@
   " imagesizes="100vw">
     <link rel="preload" as="image" href="./assets/images/london_map_image-asset.jpeg"
         imagesrcset="./assets/images/london_map_image-asset-320-we-85q.webp 320w, ./assets/images/london_map_image-asset-640-avi-80q.avif 640w, ./assets/images/london_map_image-asset-1024-we-85q.webp 1024w"
-        fetchpriority="low">
+        imagesizes="(max-width: 600px) 320px, (max-width: 1024px) 640px, 1024px" fetchpriority="low">
 </head>
 
 <body>
@@ -239,9 +239,10 @@
                         <!-- <img src="./assets/images/london_map_image-asset-1024-we-80q.avif" alt="london_map"
                             class="london_zoomable-image" loading="lazy"> -->
                         <img src="./assets/images/london_map_image-asset.jpeg"
-                            srcset="./assets/images/london_map_image-asset-320-we-85q.webp 320w, ./assets/images/london_map_image-asset-640-avi-80q.avif 640w,  ./assets/images/london_map_image-asset-1024-we-85q.webp 1024w"
+                            srcset="./assets/images/london_map_image-asset-320-we-85q.webp 320w, ./assets/images/london_map_image-asset-640-we-85q.webp 640w,  ./assets/images/london_map_image-asset-1024-we-85q.webp 1024w"
                             sizes="(max-width: 600px) 320px, (max-width: 1024px) 640px, 1024px"
-                            alt="London attractions map" class="london_zoomable-image" loading="lazy">
+                            alt="London attractions map" class="london_zoomable-image" loading="lazy" width="1024"
+                            height="744">
                         <!-- <picture class="london_zoomable-image"> -->
                         <!-- <source type="image/avif" srcset="
                                     ./assets/images/london_map_image-asset-320-avi-80q.avif 320w,
