@@ -1,20 +1,12 @@
 @charset "UTF-8";
 
-/* Regular-SemiBold (600) */
-@font-face {
-  font-family: 'Open Sans';
-  src: url('../assets/fonts/OpenSans-SemiBold.woff2') format('woff2');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
 
-/* Italic-SemiBold (600) */
+
 @font-face {
   font-family: 'Open Sans';
-  src: url('../assets/fonts/OpenSans-SemiBoldItalic.woff2') format('woff2');
-  font-weight: 600;
-  font-style: italic;
+  src: url('../fonts/OpenSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
   font-display: swap;
 }
 
@@ -27,14 +19,7 @@
   font-display: swap;
 }
 
-/* Italic-Bold (700) */
-@font-face {
-  font-family: 'Open Sans';
-  src: url('../assets/fonts/OpenSans-BoldItalic.woff2') format('woff2');
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-}
+
 
 
 
@@ -2605,6 +2590,7 @@ body {
   font-size: 27px;
   transition: all 0.3s;
   padding: 5px 15px;
+
 }
 
 .london_main-nav li:nth-of-type(5) a {
