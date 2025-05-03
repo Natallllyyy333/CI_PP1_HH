@@ -2870,7 +2870,7 @@ body {
 .london_video-guide {
   position: relative;
   width: 100%;
-  max-width: 560px;
+  max-width: 500px;
   margin: 30px auto;
   aspect-ratio: 16/9;
   overflow: hidden;
@@ -2886,7 +2886,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  min-width: 560px;
+  min-width: 500px;
   border-radius: 15px;
   height: 100%;
 
