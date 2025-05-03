@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* Normal (600, 700) */
-@font-face {
+/* @font-face { 
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
@@ -15,7 +15,7 @@
   font-weight: 700;
   src: url('./fonts/Open_Sans/static/OpenSans-Bold.woff2') format('woff2');
   font-display: swap;
-}
+}*/
 
 /* Italic (600, 700) */
 /* @font-face {
