@@ -5,17 +5,29 @@
 
 
 /* Regular-Bold (700) */
-@font-face {
+/* @font-face {
   font-family: 'Open Sans';
   src: url('../assets/fonts/OpenSans-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
+} */
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./assets/fonts/OpenSans-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
-
-
-
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
 
 * {
   margin: 0;
@@ -2577,7 +2589,8 @@ body {
   border-right: none;
 }
 
-.london_main-nav a {
+nav.london_main-nav li a {
+  font-family: sans-serif serif;
   text-decoration: none;
   color: #333;
   font-weight: 600;
