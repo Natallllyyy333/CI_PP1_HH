@@ -1,6 +1,38 @@
 @charset "UTF-8";
 
-/* open-sans-regular - latin */
+/* Normal (600, 700) */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./fonts/Open_Sans/static/OpenSans-SemiBold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/Open_Sans/static/OpenSans-Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+/* Italic (600, 700) */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: url('./fonts/Open_Sans/static/OpenSans-SemiBoldItalic.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url('./fonts/Open_Sans/static/OpenSans-BoldItalic.ttf') format('truetype');
+  font-display: swap;
+}
 
 
 
