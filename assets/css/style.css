@@ -1,18 +1,38 @@
 @charset "UTF-8";
 
-
-
-
-
-
-
+/* open-sans-regular - latin */
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/OpenSans-SemiBold.woff2') format('woff2');
-  font-weight: 600;
-  font-style: normal;
   font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v40-latin-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
+/* open-sans-500 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/open-sans-v40-latin-500.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* open-sans-700 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/open-sans-v40-latin-700.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 
 * {
   margin: 0;
@@ -2574,15 +2594,13 @@ body {
   border-right: none;
 }
 
-nav.london_main-nav li a {
-  font-family: sans-serif serif;
+.london_main-nav a {
   text-decoration: none;
   color: #333;
   font-weight: 600;
   font-size: 27px;
   transition: all 0.3s;
   padding: 5px 15px;
-
 }
 
 .london_main-nav li:nth-of-type(5) a {
