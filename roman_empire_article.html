@@ -102,8 +102,16 @@
 
                 <div class="roman_empire_article_featured-card">
                     <div class="roman_empire_article_card-image">
-                        <img src="./assets/images/How-Did-Ancient-Roman-Civilization-Grow-In-Size-1024x512.jpeg"
-                            alt="Roman Empire">
+                        <picture>
+                            <source type="image/webp" srcset="
+                              ./assets/images/roman_empire_1_320webp.webp 320w,
+                              ./assets/images/roman_empire_1_640webp.webp 640w 2x
+                            " sizes="(max-width: 576px) 320px, 640px">
+                            <img src="./assets/images/roman_empire_1_640webp.webp" alt="Roman Empire" loading="lazy"
+                                width="640" height="320" decoding="async"
+                                style="max-width: 100%; height: auto; content-visibility: auto;">
+                        </picture>
+
 
                     </div>
                     <div class="roman_empire_article_card-content">
