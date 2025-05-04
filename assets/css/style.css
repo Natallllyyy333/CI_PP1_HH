@@ -3531,7 +3531,33 @@ body {
 }
 
 .events_hero-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("../images/Alamy-Historical-Homepage-1024x458-1.jpg") center/cover no-repeat;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+    url('../images/significant-Events-in-World-History-and-Their-Impact-on-Society.jpg') center/cover no-repeat;
+
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+    url('../images/significant-Events-in-World-History-and-Their-Impact-on-Society_1024_webp.webp') center/cover no-repeat;
+
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+    -webkit-image-set(url('../images/significant-Events-in-World-History-and-Their-Impact-on-Society_320_avif.avif') 1x,
+      url('../images/significant-Events-in-World-History-and-Their-Impact-on-Society_640_avif.avif') 2x,
+      url('../images/significant-Events-in-World-History-and-Their-Impact-on-Society_1024_avif.avif') 3x url('../images/significant-Events-in-World-History-and-Their-Impact-on-Society_320_webp.webp') 1x,
+      url('../images/significant-Events-in-World-History-and-Their-Impact-on-Society_640_webp.webp') 2x,
+      url('../images/significant-Events-in-World-History-and-Their-Impact-on-Society_1024_webp.webp') 3x) center/cover no-repeat;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+    image-set(url('../images/significant-Events-in-World-History-and-Their-Impact-on-Society_320_avif.avif') type('image/avif') 1x,
+      url('../images/significant-Events-in-World-History-and-Their-Impact-on-Society_640_avif.avif') type('image/avif') 2x,
+      url('../images/significant-Events-in-World-History-and-Their-Impact-on-Society_1024_avif.avif') type('image/avif') 3x,
+      url('../images/significant-Events-in-World-History-and-Their-Impact-on-Society_320_webp.webp') type('image/webp') 1x,
+      url('../images/significant-Events-in-World-History-and-Their-Impact-on-Society_640_webp.webp') type('image/webp') 2x,
+      url('../images/significant-Events-in-World-History-and-Their-Impact-on-Society_1024_webp.webp') type('image/webp') 3x) center/cover no-repeat;
+
   height: 600px;
   display: flex;
   align-items: center;

@@ -10,12 +10,53 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
 
     <link rel="stylesheet" href="./assets/css/fontawesome-free-6.7.2-web/css/all.min.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+
+    <!-- Для мобильных (320px) -->
+    <link rel="preload" href="significant-Events-in-World-History-and-Their-Impact-on-Society_320_avif.avif" as="image"
+        type="image/avif" fetchpriority="high" media="(max-width: 576px) and (max-resolution: 1.5dppx)">
+    <link rel="preload" href="significant-Events-in-World-History-and-Their-Impact-on-Society_320_webp.webp" as="image"
+        type="image/webp" fetchpriority="high" media="(max-width: 576px) and (max-resolution: 1.5dppx)">
+
+
+    <!-- Для мобильных Retina (640px)  -->
+    <link rel="preload"
+        href="./assets/images/significant-Events-in-World-History-and-Their-Impact-on-Society_640_avif.avif" as="image"
+        type="image/avif" fetchpriority="high" media="(max-width: 576px) and (min-resolution: 1.6dppx)">
+    <link rel="preload"
+        href="./assets/images/significant-Events-in-World-History-and-Their-Impact-on-Society_640_webp.webp" as="image"
+        type="image/webp" fetchpriority="high" media="(max-width: 576px) and (min-resolution: 1.6dppx)">
+
+    <!-- Для планшетов (640px) -->
+    <link rel="preload"
+        href="./assets/images/significant-Events-in-World-History-and-Their-Impact-on-Society_640_avif.avif" as="image"
+        type="image/avif" fetchpriority="high" media="(min-width: 577px) and (max-width: 992px)">
+    <link rel="preload"
+        href="./assets/images/significant-Events-in-World-History-and-Their-Impact-on-Society_640_webp.webp" as="image"
+        type="image/webp" fetchpriority="high" media="(min-width: 577px) and (max-width: 992px)">
+
+    <!-- Для desktop (1024px) -->
+    <link rel="preload"
+        href="./assets/images/significant-Events-in-World-History-and-Their-Impact-on-Society_1024_avif.avif" as="image"
+        type="image/avif" fetchpriority="high" media="(min-width: 993px)">
+    <link rel="preload"
+        href="./assets/images/significant-Events-in-World-History-and-Their-Impact-on-Society_1024_webp.webp" as="image"
+        type="image/webp" fetchpriority="high" media="(min-width: 993px)">
+    <link rel="preload"
+        href="./assets/images/gnificant-Events-in-World-History-and-Their-Impact-on-Society_1024_avif.avif" as="image"
+        type="image/avif" fetchpiority="high" imagesrcset="
+./assets/images/images/significant-Events-in-World-History-and-Their-Impact-on-Society_320_avif.avif 320w,
+./assets/images/images/significant-Events-in-World-History-and-Their-Impact-on-Society_640_avif.avif 640w,
+./assets/images/images/significant-Events-in-World-History-and-Their-Impact-on-Society_1024_avif.avif 1024w, 
+
+" imagesizes="100vw">
+
+    <link rel="preload" as="image" href="./assets/images/historical_events_1st_image_690_2webp.webp" fetchpriority="low"
+        type="image/avif" width="690px" hight="350px" media="(max-width:992px)">
+
+
 </head>
 
 <body>
@@ -73,8 +114,12 @@
 
                 <div class="events_featured-card">
                     <div class="events_card-image">
-                        <img src="./assets/images/a4f891f7d522049d6a17bad230d565f4.png"
-                            alt="Most significant events in history">
+
+
+                        <img src="./assets/images/historical_events_1st_image_690_2webp.webp"
+                            alt="Most significant events in history" loading="lazy" width="690" height="350">
+
+
 
 
 
