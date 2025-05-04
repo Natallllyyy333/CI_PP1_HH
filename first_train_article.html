@@ -15,6 +15,41 @@
 
     <link rel="stylesheet" href="./assets/css/fontawesome-free-6.7.2-web/css/all.min.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+
+
+
+    <link rel="preload" href="./assets/images/header_train_cbq35-wessel1_640_avif.avif" as="image" type="image/avif"
+        fetchpriority="high" media="(max-width: 576px) and (max-resolution: 1.5dppx)">
+    <link rel="preload" href="./assets/images/header_train_cbq35-wessel1_640_webp.webp" as="image" type="image/webp"
+        fetchpriority="high" media="(max-width: 576px) and (max-resolution: 1.5dppx)">
+
+    <!-- Для мобильных Retina (640px)  -->
+    <link rel="preload" href="./assets/images/header_train_cbq35-wessel1_320_avif.avif" as="image" type="image/avif"
+        fetchpriority="high" media="(max-width: 576px) and (min-resolution: 1.6dppx)">
+    <link rel="preload" href="./assets/images/header_train_cbq35-wessel1_320_webp.webp" as="image" type="image/webp"
+        fetchpriority="high" media="(max-width: 576px) and (min-resolution: 1.6dppx)">
+
+    <!-- Для планшетов (640px) -->
+    <link rel="preload" href="./assets/images/header_train_cbq35-wessel1_640_avif.avif" as="image" type="image/avif"
+        fetchpriority="high" media="(min-width: 577px) and (max-width: 992px)">
+    <link rel="preload" href="./assets/images/header_train_cbq35-wessel1_640_webp.webp" as="image" type="image/webp"
+        fetchpriority="high" media="(min-width: 577px) and (max-width: 992px)">
+
+    <link rel="preload" href="./assets/images/header_train_cbq35-wessel1_1024_avif.avif" as="image" type="image/avif"
+        fetchpriority="high" media="(min-width: 993px)">
+    <link rel="preload" href="./assets/images/header_train_cbq35-wessel1_1024_webp.webp" as="image" type="image/webp"
+        fetchpriority="high" media="(min-width: 993px)">
+    <link rel="preload" href="./assets/images/header_train_cbq35-wessel1_1024_webp.webp" as="image" type="image/webp"
+        fetchpiority="high" imagesrcset="
+./assets/images/images/header_train_cbq35-wessel1_320_avif.avif 320w,
+./assets/images/images/header_train_cbq35-wessel1_640_avif.avif 640w,
+./assets/images/images/header_train_cbq35-wessel1_1024_avif.avif 1024w, 
+
+" imagesizes="100vw">
+    <link rel="preload" as="image" href="./assets/images/first_train_58754e46b031b2047396b6fa64863701_640_avif.avif"
+        fetchpriority="low" type="image/webp" width="640px" hight="412px" media="(max-width:992px)">
+
+
 </head>
 
 <body>
@@ -78,8 +113,20 @@
 
                 <div class="first_train_article_featured-card">
                     <div class="first_train_article_card-image">
-                        <img src="./assets/images/first_train_58754e46b031b2047396b6fa64863701.jpg"
-                            alt="First Train Image">
+
+                        <picture>
+                            <source type="image/avif" srcset="
+                              
+                              ./assets/images/first_train_58754e46b031b2047396b6fa64863701_640_avif.avif 640w 2x,
+                              ./assets/images/first_train_58754e46b031b2047396b6fa64863701_1024_avif.avif 1024w 3x
+                            " sizes="(max-width: 758px) 640px,  1024px">
+                            <img src="./assets/images/first_train_58754e46b031b2047396b6fa64863701_1024_avif.avif"
+                                alt="First Train Image" loading="lazy" width="1024" height="659" decoding="async"
+                                style="max-width: 100%; height: auto; content-visibility: auto;">
+                        </picture>
+
+
+
 
                     </div>
                     <div class="first_train_article_card-content">
