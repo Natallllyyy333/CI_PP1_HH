@@ -18,7 +18,34 @@
 
 
 
+    <link rel="preload" href="./assets/images/monitor-640avif.avif" as="image" type="image/avif" fetchpriority="high"
+        media="(max-width: 576px) and (max-resolution: 1.5dppx)">
+    <link rel="preload" href="./assets/images/monitor-640_webp.webp" as="image" type="image/webp" fetchpriority="high"
+        media="(max-width: 576px) and (max-resolution: 1.5dppx)">
 
+    <!-- Для мобильных Retina (640px)  -->
+    <link rel="preload" href="./assets/images/monitor_320_avif.avif" as="image" type="image/avif" fetchpriority="high"
+        media="(max-width: 576px) and (min-resolution: 1.6dppx)">
+    <link rel="preload" href="./assets/images/monitor_320webp.webp" as="image" type="image/webp" fetchpriority="high"
+        media="(max-width: 576px) and (min-resolution: 1.6dppx)">
+
+    <!-- Для планшетов (640px) -->
+    <link rel="preload" href="./assets/images/monitor-640avif.avif" as="image" type="image/avif" fetchpriority="high"
+        media="(min-width: 577px) and (max-width: 992px)">
+    <link rel="preload" href="./assets/images/monitor-640_webp.webp" as="image" type="image/webp" fetchpriority="high"
+        media="(min-width: 577px) and (max-width: 992px)">
+
+    <link rel="preload" href="./assets/images/monitor_1024avif.avif" as="image" type="image/avif" fetchpriority="high"
+        media="(min-width: 993px)">
+    <link rel="preload" href="./assets/images/monitor_1024webp.webp" as="image" type="image/webp" fetchpriority="high"
+        media="(min-width: 993px)">
+    <link rel="preload" href="./assets/images/monitor_1024webp.webp" as="image" type="image/webp" fetchpiority="high"
+        imagesrcset="
+./assets/images/images/monitor_320_avif.avif 320w,
+./assets/images/images//monitor-640avif.avif 640w,
+./assets/images/images/monitor_1024avif.avif 1024w, 
+
+" imagesizes="100vw">
 
 </head>
 
