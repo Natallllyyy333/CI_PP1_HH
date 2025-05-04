@@ -9,12 +9,41 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+
 
     <link rel="stylesheet" href="./assets/css/fontawesome-free-6.7.2-web/css/all.min.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+
+
+    <link rel="preload" href="./assets/images/1-640w.avif" as="image" type="image/avif" fetchpriority="high"
+        media="(max-width: 576px) and (max-resolution: 1.5dppx)">
+
+
+    <!-- Для мобильных Retina (640px)  -->
+    <link rel="preload" href="./assets/images/1-320w.avif" as="image" type="image/avif" fetchpriority="high"
+        media="(max-width: 576px) and (min-resolution: 1.6dppx)">
+
+
+    <!-- Для планшетов (640px) -->
+    <link rel="preload" href="./assets/images/1-640w.avif" as="image" type="image/avif" fetchpriority="high"
+        media="(min-width: 577px) and (max-width: 992px)">
+
+    <link rel="preload" href="./assets/images/1-1024w.avif" as="image" type="image/avif" fetchpriority="high"
+        media="(min-width: 993px)">
+    <link rel="preload" href="./assets/images/1-1024_webp.webp" as="image" type="image/webp" fetchpriority="high"
+        media="(min-width: 993px)">
+    <link rel="preload" href="./assets/images/1-1024_webp.webp" as="image" type="image/webp" fetchpiority="high"
+        imagesrcset="
+./assets/images/images/1-320w.avif 320w,
+./assets/images/images/1-640w.avif 640w,
+./assets/images/images/1-1024w.avif 1024w, 
+
+" imagesizes="100vw">
+    <link rel="preload" as="image" href="./assets/images/albert-einstein-9_640_avif.avif" fetchpriority="low"
+        type="image/avif" width="640px" hight="384px" media="(max-width:992px)">
+
+
+
 </head>
 
 <body>
@@ -76,8 +105,18 @@
 
                 <div class="einstein_article_featured-card">
                     <div class="einstein_article_card-image">
-                        <img src="./assets/images/albert-einstein-9.jpg" alt="Albert Einstein"
-                            class="einstein_article_image">
+
+                        <picture>
+                            <source type="image/avif" srcset="
+                              
+                              ./assets/images/albert-einstein-9_640_avif.avif 640w 2x,
+                              ./assets/images/albert-einstein-9_900_avif.avif 900w 3x
+                            " sizes="(max-width: 758px) 640px,  900px">
+                            <img src="./assets/images/albert-einstein-9_900_avif.avif" alt="Einstein article image"
+                                loading="lazy" width="900" height="750" decoding="async"
+                                style="max-width: 100%; height: auto; content-visibility: auto;">
+                        </picture>
+
 
                     </div>
                     <div class="einstein_article_card-content">
