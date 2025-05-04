@@ -107,7 +107,19 @@
 
                 <div class="ada_lovelace_article_featured-card">
                     <div class="ada_lovelace_article_card-image">
-                        <img src="./assets/images/ada-lovelace.jpg" alt="Ada Lovelace">
+
+
+                        <picture>
+                            <source type="image/webp" srcset="
+                              
+                              ./assets/images/ada-lovelace-640w.webp 640w 2x,
+                              ./assets/images/ada-lovelace-1024w.webp 1024w 3x
+                            " sizes="(max-width: 758px) 640px,  1024px">
+                            <img src="./assets/images/ada-lovelace-1024w.webp" alt="Ada Lovelace" loading="lazy"
+                                width="1024" height="679" decoding="async"
+                                style="max-width: 100%; height: auto; content-visibility: auto;">
+                        </picture>
+
 
                     </div>
                     <div class="ada_lovelace_article_card-content">
