@@ -211,7 +211,7 @@
                             <h3>3. Foundation of the Roman Empire (27 BCE)</h3>
                             <div class="events_card-image">
                                 <img src="./assets/images/roman_empire_1_640webp.webp"
-                                    alt="Foundation of the Roman Empire">
+                                    alt="Foundation of the Roman Empire" loading="lazy">
 
                             </div>
                             <ul>
@@ -227,7 +227,18 @@
 
                             <h3>4. Spread of Christianity (after 313 CE).</h3>
                             <div class="events_card-image">
-                                <img src="./assets/images/constantinechristianity-2.jpg" alt="Spread of Christianity">
+                                <picture>
+                                    <source type="image/webp" srcset="
+                                      ./assets/images/constantinechristianity-2-320w2.webp 320w,
+                                      ./assets/images/constantinechristianity-2-640w2.webp 640w,
+                                      ./assets/images/constantinechristianity-2-1024w2.webp 1024w"
+                                        sizes="(max-width: 576px) 320px, (max-width: 992px) 640px, 1024px">
+                                    <img src="./assets/images/constantinechristianity-2-1024w2.webp"
+                                        alt="Spread of Christianity" loading="lazy" width="1024" height="576"
+                                        decoding="async"
+                                        style="max-width: 100%; height: auto; content-visibility: auto;">
+                                </picture>
+
 
                             </div>
                             <ul>
