@@ -4103,7 +4103,29 @@ body {
 }
 
 .people_hero-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("../images/scientists.jpg") center/cover no-repeat;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url('../images/scientists.jpg') center/cover no-repeat;
+
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url('../images/scientists_1024.webp') center/cover no-repeat;
+
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    -webkit-image-set(url('../images/scientists_320.webp') 1x,
+      url('../images/scientists_640.webp') 2x,
+      url('../images/scientists_1024.webp') 3x) center/cover no-repeat;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    image-set(url('../images/scientists_320.webp') type('image/webp') 1x,
+      url('../images/scientists_640.webp') type('image/webp') 2x,
+      url('../images/scientists_1024.webp') type('image/webp') 3x) center/cover no-repeat;
+
   height: 600px;
   display: flex;
   align-items: center;
