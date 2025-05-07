@@ -7120,20 +7120,20 @@ body {
 
   background:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
-    url('../images/history-featured-image_1024c.webp') center/cover no-repeat;
+    url('../images/history-featured-image_1024.avif') center/cover no-repeat;
 
 
   background:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
-    -webkit-image-set(url('../images/history-featured-image_320c.webp') 1x,
-      url('../images//history-featured-image_640c.webp') 2x,
-      url('../images/history-featured-image_1024c.webp') 3x) center/cover no-repeat;
+    -webkit-image-set(url('../images/history-featured-image_320.avif') 1x,
+      url('../images/history-featured-image_640.avif') 2x,
+      url('../images/history-featured-image_1024.avif') 3x) center/cover no-repeat;
 
   background:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
-    image-set(url('../images/history-featured-image_320c.webp') type('image/webp') 1x,
-      url('../images//history-featured-image_640c.webp') type('image/webp') 2x,
-      url('../images/history-featured-image_1024c.webp') type('image/webp') 3x) center/cover no-repeat;
+    image-set(url('../images/history-featured-image_320.avif') type('image/avif') 1x,
+      url('../images/history-featured-image_640.avif') type('image/avif') 2x,
+      url('../images/history-featured-image_1024.avif') type('image/avif') 3x) center/cover no-repeat;
 
 
   height: 600px;
