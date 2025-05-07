@@ -7125,9 +7125,6 @@ body {
 
 .contact_us_hero-banner {
 
-
-
-
   background:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
     -webkit-image-set(url('../images/history-featured-image_320.avif') 1x,
@@ -8555,13 +8552,27 @@ body {
 }
 
 .our_team_hero-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("../images/history-featured-image.jpg") center/cover no-repeat;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    -webkit-image-set(url('../images/history-featured-image_320.avif') 1x,
+      url('../images/history-featured-image_640.avif') 2x,
+      url('../images/history-featured-image_1024.avif') 3x) center/cover no-repeat;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    image-set(url('../images/history-featured-image_320.avif') type('image/avif') 1x,
+      url('../images/history-featured-image_640.avif') type('image/avif') 2x,
+      url('../images/history-featured-image_1024.avif') type('image/avif') 3x) center/cover no-repeat;
+
+
   height: 600px;
   display: flex;
   align-items: center;
   margin-top: 70px;
   color: white;
   text-align: center;
+
 }
 
 .our_team_hero-content {
