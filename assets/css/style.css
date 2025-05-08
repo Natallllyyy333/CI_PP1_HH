@@ -1994,13 +1994,13 @@ a {
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     -webkit-image-set(url('../images/1502858_320_45.avif') 1x,
       url('../images/1502858_640_45.avif') 2x,
-      url('../images/1502858_320_45.avif') 3x) center/cover no-repeat;
+      url('../images/1502858_1024_45b.avif') 3x) center/cover no-repeat;
 
   background:
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     image-set(url('../1502858_320_45.avif') type('image/avif') 1x,
       url('../images/1502858_640_45.avif') type('image/avif') 2x,
-      url('../images/1502858_320_45.avif') type('image/avif') 3x) center/cover no-repeat;
+      url('../images/1502858_1024_45b.avif') type('image/avif') 3x) center/cover no-repeat;
 
 
   height: 600px;
