@@ -185,11 +185,11 @@ a {
       url('../images/history_640w.avif') 2x,
       url('../images/history_1024w.avif') 3x) center/cover no-repeat;
 
-  background:
+  /* background:
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     image-set(url('../images/history_320w.avif') type('image/avif') 1x,
       url('../images/history_640w.avif') type('image/avif') 2x,
-      url('../images/history_1024w.avif') type('image/avif') 3x) center/cover no-repeat;
+      url('../images/history_1024w.avif') type('image/avif') 3x) center/cover no-repeat; */
 
 
   height: 600px;
@@ -687,11 +687,11 @@ a {
       url('../images//sort_your_books-640w.avif') 2x,
       url('../images/sort_your_books-1024w.avif') 3x) center/cover no-repeat;
 
-  background:
+  /* background:
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     image-set(url('../images/sort_your_books-320w.avif') type('image/avif') 1x,
       url('../images//sort_your_books-640w.avif') type('image/avif') 2x,
-      url('../images/sort_your_books-1024w.avif') type('image/avif') 3x) center/cover no-repeat;
+      url('../images/sort_your_books-1024w.avif') type('image/avif') 3x) center/cover no-repeat; */
 
 
   height: 600px;
@@ -1173,11 +1173,11 @@ a {
       url('../images/image-asset-640w.avif') 2x,
       url('../images/image-asset-1024w.avif') 3x) center/cover no-repeat;
 
-  background:
+  /* background:
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     image-set(url('../images/image-asset-320w.avif') type('image/avif') 1x,
       url('../images/image-asset-640w.avif') type('image/avif') 2x,
-      url('../images/image-asset-1024w.avif') type('image/avif') 3x) center/cover no-repeat;
+      url('../images/image-asset-1024w.avif') type('image/avif') 3x) center/cover no-repeat; */
 
 
   height: 600px;
@@ -2663,11 +2663,11 @@ body {
       url('../images/top-historical-travel-destinations-for-history-buffs-njy-640-we-80q.avif') 2x,
       url('../images/top-historical-travel-destinations-for-history-buffs-njy-1024-we-80q.avif') 3x) center/cover no-repeat;
 
-  background:
+  /* background:
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     image-set(url('../images/top-historical-travel-destinations-for-history-buffs-njy-320-85q-we.webp') type('image/webp') 1x,
       url('../images/top-historical-travel-destinations-for-history-buffs-njy-640-85q-we.webp') type('image/webp') 2x,
-      url('../images/top-historical-travel-destinations-for-history-buffs-njy-1024-85q-we.webp') type('image/webp') 3x) center/cover no-repeat;
+      url('../images/top-historical-travel-destinations-for-history-buffs-njy-1024-85q-we.webp') type('image/webp') 3x) center/cover no-repeat; */
 
 
   height: 600px;
@@ -3547,11 +3547,11 @@ body {
       url('../images/significant-Events-in-World-History-and-Their-Impact-on-Society_640_webp.webp') 2x,
       url('../images/significant-Events-in-World-History-and-Their-Impact-on-Society_1024_webp.webp') 3x) center/cover no-repeat;
 
-  background:
+  /* background:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
     image-set(url('../images/significant-Events-in-World-History-and-Their-Impact-on-Society_320_webp.webp') type('image/webp') 1x,
       url('../images/significant-Events-in-World-History-and-Their-Impact-on-Society_640_webp.webp') type('image/webp') 2x,
-      url('../images/significant-Events-in-World-History-and-Their-Impact-on-Society_1024_webp.webp') type('image/webp') 3x) center/cover no-repeat;
+      url('../images/significant-Events-in-World-History-and-Their-Impact-on-Society_1024_webp.webp') type('image/webp') 3x) center/cover no-repeat; */
 
   height: 600px;
   display: flex;
@@ -4120,11 +4120,11 @@ body {
       url('../images/scientists-640w.avif') 2x,
       url('../images/scientists-1024w.avif') 3x) center/cover no-repeat;
 
-  background:
+  /* background:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
     image-set(url('../images/scientists-320w.avif') type('image/avif') 1x,
       url('../images/scientists-640w.avif') type('image/avif') 2x,
-      url('../images/scientists-1024w.avif') type('image/avif') 3x) center/cover no-repeat;
+      url('../images/scientists-1024w.avif') type('image/avif') 3x) center/cover no-repeat; */
 
   height: 600px;
   display: flex;
@@ -4697,7 +4697,7 @@ body {
 
     ) center/cover no-repeat;
 
-  background:
+  /* background:
     linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)),
     image-set(url('../images/monitor_320_avif.avif') type('image/avif') 1x,
       url('../images/monitor-640avif.avif') type('image/avif') 2x,
@@ -4705,7 +4705,7 @@ body {
 
       url('../images/monitor_320webp.webp') type('image/webp') 1x,
       url('../imagesmonitor-640_webp.webp') type('image/webp') 2x,
-      url('../images/monitor_1024webp.webp') type('image/webp') 3x) center/cover no-repeat;
+      url('../images/monitor_1024webp.webp') type('image/webp') 3x) center/cover no-repeat; */
 
 
   height: 600px;
@@ -5178,11 +5178,11 @@ body {
       url('../images/1-640w.avif') 2x,
       url('../images/1-1024w.avif') 3x) center/cover no-repeat;
 
-  background:
+  /* background:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
     image-set(url('../images/1-320w.avif') type('image/avif') 1x,
       url('../images/1-640w.avif') type('image/avif') 2x,
-      url('../images/1-1024w.avif') type('image/avif') 3x) center/cover no-repeat;
+      url('../images/1-1024w.avif') type('image/avif') 3x) center/cover no-repeat; */
 
 
   height: 600px;
@@ -5688,7 +5688,7 @@ body {
 
     ) center/cover no-repeat;
 
-  background:
+  /* background:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
     image-set(url('../images/header_train_cbq35-wessel1_320_avif.avif') type('image/avif') 1x,
       url('../images/header_train_cbq35-wessel1_640_avif.avif') type('image/avif') 2x,
@@ -5696,7 +5696,7 @@ body {
 
       url('../images/header_train_cbq35-wessel1_320_webp.webp') type('image/webp') 1x,
       url('../images/header_train_cbq35-wessel1_640_webp.webp') type('image/webp') 2x,
-      url('../images/header_train_cbq35-wessel1_1024_webp.webp') type('image/webp') 3x) center/cover no-repeat;
+      url('../images/header_train_cbq35-wessel1_1024_webp.webp') type('image/webp') 3x) center/cover no-repeat; */
 
 
   height: 600px;
@@ -6184,11 +6184,11 @@ body {
       url('../images/Rise_and_Fall_of_the_Roman_Empire_glory_640avi.avif') 2x,
       url('../images/Rise_and_Fall_of_the_Roman_Empire_glory_1020avif.avif') 3x) center/cover no-repeat;
 
-  background:
+  /* background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
     image-set(url('../images/Rise_and_Fall_of_the_Roman_Empire_glory_320avi.avif') type('image/avif') 1x,
       url('../images/Rise_and_Fall_of_the_Roman_Empire_glory_640avi.avif') type('image/avif') 2x,
-      url('../images/Rise_and_Fall_of_the_Roman_Empire_glory_1020avif.avif') type('image/avif') 3x) center/cover no-repeat;
+      url('../images/Rise_and_Fall_of_the_Roman_Empire_glory_1020avif.avif') type('image/avif') 3x) center/cover no-repeat; */
 
 
   height: 600px;
@@ -6661,11 +6661,11 @@ body {
       url('../images/history-featured-image_640.avif') 2x,
       url('../images/history-featured-image_1024.avif') 3x) center/cover no-repeat;
 
-  background:
+  /* background:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
     image-set(url('../images/history-featured-image_320.avif') type('image/avif') 1x,
       url('../images/history-featured-image_640.avif') type('image/avif') 2x,
-      url('../images/history-featured-image_1024.avif') type('image/avif') 3x) center/cover no-repeat;
+      url('../images/history-featured-image_1024.avif') type('image/avif') 3x) center/cover no-repeat; */
 
 
   height: 600px;
@@ -7131,11 +7131,11 @@ body {
       url('../images/history-featured-image_640.avif') 2x,
       url('../images/history-featured-image_1024.avif') 3x) center/cover no-repeat;
 
-  background:
+  /* background:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
     image-set(url('../images/history-featured-image_320.avif') type('image/avif') 1x,
       url('../images/history-featured-image_640.avif') type('image/avif') 2x,
-      url('../images/history-featured-image_1024.avif') type('image/avif') 3x) center/cover no-repeat;
+      url('../images/history-featured-image_1024.avif') type('image/avif') 3x) center/cover no-repeat; */
 
 
   height: 600px;
@@ -7604,11 +7604,11 @@ body {
       url('../images/history-featured-image_640.avif') 2x,
       url('../images/history-featured-image_1024.avif') 3x) center/cover no-repeat;
 
-  background:
+  /* background:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
     image-set(url('../images/history-featured-image_320.avif') type('image/avif') 1x,
       url('../images/history-featured-image_640.avif') type('image/avif') 2x,
-      url('../images/history-featured-image_1024.avif') type('image/avif') 3x) center/cover no-repeat;
+      url('../images/history-featured-image_1024.avif') type('image/avif') 3x) center/cover no-repeat; */
 
 
   height: 600px;
@@ -8092,11 +8092,11 @@ body {
       url('../images/history-featured-image_640.avif') 2x,
       url('../images/history-featured-image_1024.avif') 3x) center/cover no-repeat;
 
-  background:
+  /* background:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
     image-set(url('../images/history-featured-image_320.avif') type('image/avif') 1x,
       url('../images/history-featured-image_640.avif') type('image/avif') 2x,
-      url('../images/history-featured-image_1024.avif') type('image/avif') 3x) center/cover no-repeat;
+      url('../images/history-featured-image_1024.avif') type('image/avif') 3x) center/cover no-repeat; */
 
 
   height: 600px;
@@ -8583,11 +8583,11 @@ body {
       url('../images/history-featured-image_640.avif') 2x,
       url('../images/history-featured-image_1024.avif') 3x) center/cover no-repeat;
 
-  background:
+  /* background:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
     image-set(url('../images/history-featured-image_320.avif') type('image/avif') 1x,
       url('../images/history-featured-image_640.avif') type('image/avif') 2x,
-      url('../images/history-featured-image_1024.avif') type('image/avif') 3x) center/cover no-repeat;
+      url('../images/history-featured-image_1024.avif') type('image/avif') 3x) center/cover no-repeat; */
 
 
   height: 600px;
@@ -9062,11 +9062,11 @@ body {
       url('../images/history-featured-image_640.avif') 2x,
       url('../images/history-featured-image_1024.avif') 3x) center/cover no-repeat;
 
-  background:
+  /* background:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
     image-set(url('../images/history-featured-image_320.avif') type('image/avif') 1x,
       url('../images/history-featured-image_640.avif') type('image/avif') 2x,
-      url('../images/history-featured-image_1024.avif') type('image/avif') 3x) center/cover no-repeat;
+      url('../images/history-featured-image_1024.avif') type('image/avif') 3x) center/cover no-repeat; */
 
 
   height: 600px;
