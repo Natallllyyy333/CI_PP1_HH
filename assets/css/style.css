@@ -4691,11 +4691,7 @@ body {
       url('../images/monitor_1024avif.avif') 3x,
       url('../images/monitor_320webp.webp') 1x,
       url('../images/monitor-640_webp.webp') 2x,
-      url('../images/monitor_1024webp.webp') 3x,
-
-
-
-    ) center/cover no-repeat;
+      url('../images/monitor_1024webp.webp') 3x) center/cover no-repeat;
 
   /* background:
     linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)),
@@ -5682,11 +5678,7 @@ body {
       url('../images/header_train_cbq35-wessel1_1024_avif.avif') 3x,
       url('../images/header_train_cbq35-wessel1_320_webp.webp') 1x,
       url('../images/header_train_cbq35-wessel1_640_webp.webp') 2x,
-      url('../images/header_train_cbq35-wessel1_1024_webp.webp') 3x,
-
-
-
-    ) center/cover no-repeat;
+      url('../images/header_train_cbq35-wessel1_1024_webp.webp') 3x) center/cover no-repeat;
 
   /* background:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
