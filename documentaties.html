@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+
+
+
+
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+
+
+    <link rel="stylesheet" href="./assets/css/fontawesome-free-6.7.2-web/css/all.min.css" type="text/css">
+
+
+    <!-- <link rel="preload" href="./assets/images/image-asset-1024w.webp" as="image" type="image/webp" fetchpriority="high"
+        imagesrcset="
+      ./assets/images/image-asset-320w.avif 320w,
+      ./assets/images/image-asset-640w.avif 640w,
+      ./assets/images/image-asset-1024w.avif 1024w
+      
+      " imagesizes="100vw"> -->
+
+    <!-- Для мобильных (320px) -->
+    <link rel="preload" href="./assets/images/image-asset-320w.avif" as="image" type="image/avif" fetchpriority="high"
+        media="(max-width: 576px) and (max-resolution: 1.5dppx)">
+
+    <!-- Для мобильных Retina (640px) -->
+    <link rel="preload" href="./assets/images/image-asset-640w.avif" as="image" type="image/avif" fetchpriority="high"
+        media="(max-width: 576px) and (min-resolution: 1.6dppx)">
+
+    <!-- Для планшетов (640px) -->
+    <link rel="preload" href="./assets/images/image-asset-640w.avif" as="image" type="image/avif" fetchpriority="high"
+        media="(min-width: 577px) and (max-width: 992px)">
+
+    <link rel="preload" href="./assets/images/image-asset-1024w.avif" as="image" type="image/avif" fetchpriority="high"
+        media="(min-width: 993px)">
+    <link rel="preload" href="./assets/images/image-asset-1024w.avif" as="image" type="image/avif" fetchpriority="high"
+        imagesrcset="
+      ./assets/images/image-asset-320w.avif 320w,
+      ./assets/images/image-asset-640w.avif 640w,
+      ./assets/images/image-asset-1024w.avif 1024w
+      
+      " imagesizes="100vw">
+    <link rel="preload" href="./assets/images/poster_egypt_1-560.webp" as="image" type="image/webp"
+        fetchpriority="high">
+    , media="(width:560px)">
+    <link rel="preload" href="./assets/images/poster_egypt_2-560.webp" as="image" type="image/webp" fetchpriority="low"
+        media="(width:560px)">
+    <link rel="preload" href="./assets/images/poster_egypt_3-560.webp" as="image" type="image/webp" fetchpriority="low"
+        media="(width:560px)">
+    <link rel="preload" href="./assets/images/poster_egypt_4-560.webp" as="image" type="image/webp" fetchpriority="low"
+        media="(width:560px)">
+    <link rel="preload" href="./assets/images/poster_egypt_5-560.webp" as="image" type="image/webp" fetchpriority="low"
+        media="(width:560px)">
+    <link rel="preload" href="./assets/images/poster_egypt_6-560.webp" as="image" type="image/webp" fetchpriority="low"
+        media="(width:560px)">
+
+    <link rel="preload" href="./assets/images/spain_europe_1_poster-560.webp" as="image" type="image/webp"
+        fetchpriority="low" media="(width:560px)">
+    <link rel="preload" href="./assets/images/germany_europe_2_poster-560.webp" as="image" type="image/webp"
+        fetchpriority="low" media="(width:560px)">
+    <link rel="preload" href="./assets/images/france_europe_3_poster-560.webp" as="image" type="image/webp"
+        fetchpriority="low" media="(width:560px)">
+    <link rel="preload" href="./assets/images/italy_europe_4_poster-560.webp" as="image" type="image/webp"
+        fetchpriority="low" media="(width:560px)">
+    <link rel="preload" href="./assets/images/greece_europe_5_poster-560.webp" as="image" type="image/webp"
+        fetchpriority="low" media="(width:560px)">
+    <link rel="preload" href="./assets/images/norway_europe_6_poster-560.webp" as="image" type="image/webp"
+        fetchpriority="low" media="(width:560px)">
+
+    <link rel="preload" href="./assets/images/inca_world_1_poster-560.webp" as="image" type="image/webp"
+        fetchpriority="low" media="(width:560px)">
+    <link rel="preload" href="./assets/images/britain_world_2_poster-560.webp" as="image" type="image/webp"
+        fetchpriority="low" media="(width:560px)">
+    <link rel="preload" href="./assets/images/china_world_3_poster-560.webp" as="image" type="image/webp"
+        fetchpriority="low" media="(width:560px)">
+    <link rel="preload" href="./assets/images/japan_world_4_poster-560.webp" as="image" type="image/webp"
+        fetchpriority="low" media="(width:560px)">
+    <link rel="preload" href="./assets/images/brazil_world_5_poster-560.webp" as="image" type="image/webp"
+        fetchpriority="low" media="(width:560px)">
+    <link rel="preload" href="./assets/images/us_world_6_poster-560.webp" as="image" type="image/webp"
+        fetchpriority="low" media="(width:560px)">
+</head>
+
+<body>
+    <header class="documentaries_header">
+        <div class="documentaries_container">
+
+            <div class="documentaries_header-inner">
+                <div class="documentaries_logo">
+                    <a href="./index.html">THE<span>HISTORY</span></a>
+                </div>
+
+
+                <input type="checkbox" id="mobile-menu-toggle" class="documentaries_mobile-menu-toggle">
+
+
+                <label for="mobile-menu-toggle" class="documentaries_mobile-menu-btn" title="Menu" aria-label="Menu">
+                    <span class="documentaries_hamburger-line"></span>
+                    <span class="documentaries_hamburger-line"></span>
+                    <span class="documentaries_hamburger-line"></span>
+                </label>
+
+
+
+                <nav class="documentaries_main-nav" aria-label="Main Navigation">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./articles.html">Articles</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="./podcasts.html">Podcasts</a></li>
+                        <li><a href="./london.html?v=1.0">Guides</a></li>
+
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+
+    <section class="documentaries_hero-banner">
+        <div class="documentaries_container">
+            <div class="documentaries_hero-content">
+                <h1>Your Home for History</h1>
+                <h2>DOCUMENTARIES</h2>
+            </div>
+        </div>
+
+
+    </section>
+
+    <nav class="documentaries_video-nav">
+        <ul>
+            <li><a href="#egypt">EGYPT</a></li>
+            <li><a href="#europe">EUROPE</a></li>
+            <li><a href="#world">WORLD</a></li>
+        </ul>
+    </nav>
+
+
+
+
+
+
+
+
+    <main>
+
+
+
+        <h2 class="documentaries_section-title">The Past in Motion: Visual Journeys Through Time</h2>
+
+        <section class="documentaries_egypt" id="egypt">
+            <fieldset>
+                <legend>
+                    <h3>EGYPT</h3>
+                </legend>
+
+                <div class="documentaries_carousel-container">
+
+                    <input type="radio" name="carousel_egypt" id="slide0_prev" checked>
+                    <input type="radio" name="carousel_egypt" id="slide1_prev">
+                    <input type="radio" name="carousel_egypt" id="slide2_prev">
+                    <input type="radio" name="carousel_egypt" id="slide0_next" checked>
+                    <input type="radio" name="carousel_egypt" id="slide1_next">
+                    <input type="radio" name="carousel_egypt" id="slide2_next">
+
+                    <div class="documentaries_carousel-wrapper">
+
+                        <div class="documentaries_carousel">
+                            <div class="documentaries_card">
+                                <div class="documentaries_video-card" id="video_egypt1">
+
+                                    <div class="documentaries_video-wrapper">
+                                        <label for="slide2_prev" class="documentaries_arrow prev">‹</label>
+
+                                        <script
+                                            src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js"></script>
+                                        <link rel="stylesheet"
+                                            href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css">
+
+                                        <lite-youtube videoid="smqJTUjRx74" class="lite-yt"
+                                            style="background-image: url('./assets/images/poster_egypt_1-560.webp');"
+                                            loadning="eager" preload="none" nokookie>
+                                            <button type="button" class="lty-playbtn">
+
+                                                <span class="documentaries_visually-hidden">Play</span>
+
+
+                                            </button>
+                                        </lite-youtube>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="documentaries_card">
+                                <div class="documentaries_video-card" id="video_egypt_2">
+
+                                    <div class="documentaries_video-wrapper"> <label for="slide1_next"
+                                            class="documentaries_arrow next">›</label>
+                                        <script
+                                            src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js"></script>
+                                        <link rel="stylesheet"
+                                            href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css">
+
+                                        <lite-youtube videoid="xBKydxlMShw" class="lite-yt"
+                                            style="background-image: url('./assets/images/poster_egypt_2-560.webp');"
+                                            loadning="lazy" preload="none" nokookie>
+                                            <button type="button" class="lty-playbtn">
+
+                                                <span class="documentaries_visually-hidden">Play</span>
+
+                                            </button>
+                                        </lite-youtube>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="documentaries_card">
+                                <div class="documentaries_video-card" id="video_egypt_3">
+
+                                    <div class="documentaries_video-wrapper"> <label for="slide0_prev"
+                                            class="documentaries_arrow prev">‹</label>
+                                        <script
+                                            src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js"></script>
+                                        <link rel="stylesheet"
+                                            href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css">
+
+                                        <lite-youtube videoid="mDi51dEloLM" class="lite-yt"
+                                            style="background-image: url('./assets/images/poster_egypt_3-560.webp');"
+                                            loadning="lazy" preload="none" nokookie>
+                                            <button type="button" class="lty-playbtn">
+
+                                                <span class="documentaries_visually-hidden">Play</span>
+
+                                            </button>
+                                        </lite-youtube>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="documentaries_card">
+
+                                <div class="documentaries_video-card" id="video_egypt_4">
+
+                                    <div class="documentaries_video-wrapper">
+                                        <label for="slide2_next" class="documentaries_arrow next">›</label>
+
+                                        <script
+                                            src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js"></script>
+                                        <link rel="stylesheet"
+                                            href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css">
+
+                                        <lite-youtube videoid="ULofBtBAJn4" class="lite-yt"
+                                            style="background-image: url('./assets/images/poster_egypt_4-560.webp');"
+                                            loadning="lazy" preload="none" nokookie>
+                                            <button type="button" class="lty-playbtn">
+                                                <span class="documentaries_visually-hidden">Play</span>
+
+                                            </button>
+                                        </lite-youtube>
+                                    </div>
+
+                                </div>
+
+
+
+
+                            </div>
+
+
+
+                            <div class="documentaries_card">
+                                <div class="documentaries_video-card" id="video_egypt_5">
+
+                                    <div class="documentaries_video-wrapper"> <label for="slide1_prev"
+                                            class="documentaries_arrow prev">‹</label>
+                                        <script
+                                            src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js"></script>
+                                        <link rel="stylesheet"
+                                            href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css">
+
+                                        <lite-youtube videoid="BoBapnk6TB8" class="lite-yt"
+                                            style="background-image: url('./assets/images/poster_egypt_5-560.webp');"
+                                            loadning="lazy" preload="none" nokookie>
+                                            <button type="button" class="lty-playbtn">
+                                                <span class="documentaries_visually-hidden">Play</span>
+
+                                            </button>
+                                        </lite-youtube>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="documentaries_card">
+
+                                <div class="documentaries_video-card" id="video_egypt_6">
+
+                                    <div class="documentaries_video-wrapper">
+                                        <label for="slide0_next" class="documentaries_arrow next">›</label>
+
+                                        <script
+                                            src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js"></script>
+                                        <link rel="stylesheet"
+                                            href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css">
+
+                                        <lite-youtube videoid="zdGThahx5sE" class="lite-yt"
+                                            style="background-image: url('./assets/images/poster_egypt_6-560.webp');"
+                                            loadning="lazy" preload="none" nokookie>
+                                            <button type="button" class="lty-playbtn">
+                                                <span class="documentaries_visually-hidden">Play</span>
+
+                                            </button>
+                                        </lite-youtube>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </fieldset>
+
+        </section>
+
+
+
+        <section class="documentaries_europe" id="europe">
+            <fieldset>
+                <legend>
+                    <h3>EUROPE</h3>
+                </legend>
+                <div class="documentaries_carousel-container">
+
+                    <input type="radio" name="carousel_europe" id="slide0_europe_prev" checked>
+                    <input type="radio" name="carousel_europe" id="slide1_europe_prev">
+                    <input type="radio" name="carousel_europe" id="slide2_europe_prev">
+
+                    <input type="radio" name="carousel_europe" id="slide0_europe_next" checked>
+                    <input type="radio" name="carousel_europe" id="slide1_europe_next">
+                    <input type="radio" name="carousel_europe" id="slide2_europe_next">
+
+                    <div class="documentaries_carousel-wrapper">
+
+                        <div class="documentaries_carousel">
+                            <div class="documentaries_card">
+
+                                <div class="documentaries_video-card" id="video_europe_1">
+
+
+                                    <div class="documentaries_video-wrapper">
+                                        <label for="slide2_europe_prev" class="documentaries_arrow prev">‹</label>
+                                        <script
+                                            src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js"></script>
+                                        <link rel="stylesheet"
+                                            href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css">
+
+                                        <lite-youtube videoid="0qrwa2Ixk5c" class="lite-yt"
+                                            style="background-image: url('./assets/images/spain_europe_1_poster-560.webp');"
+                                            loadning="lazy" preload="none" nokookie>
+                                            <button type="button" class="lty-playbtn">
+                                                <span class="documentaries_visually-hidden">Play</span>
+
+                                            </button>
+                                        </lite-youtube>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="documentaries_card">
+                                <div class="documentaries_video-card" id="video_europe_2">
+
+                                    <div class="documentaries_video-wrapper">
+                                        <label for="slide1_europe_next" class="documentaries_arrow next">›</label>
+                                        <script
+                                            src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js"></script>
+                                        <link rel="stylesheet"
+                                            href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css">
+
+                                        <lite-youtube videoid="yDnTF860g7M" class="lite-yt"
+                                            style="background-image: url('./assets/images/germany_europe_2_poster-560.webp');"
+                                            loadning="lazy" preload="none" nokookie>
+                                            <button type="button" class="lty-playbtn">
+                                                <span class="documentaries_visually-hidden">Play</span>
+
+                                            </button>
+                                        </lite-youtube>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="documentaries_card">
+                                <div class="documentaries_video-card" id="video_europe_3">
+
+                                    <div class="documentaries_video-wrapper">
+                                        <label for="slide0_europe_prev" class="documentaries_arrow prev">‹</label>
+                                        <script
+                                            src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js"></script>
+                                        <link rel="stylesheet"
+                                            href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css">
+
+                                        <lite-youtube videoid="eJNJdovqmx8" class="lite-yt"
+                                            style="background-image: url('./assets/images/france_europe_3_poster-560.webp');"
+                                            loadning="lazy" preload="none" nokookie>
+                                            <button type="button" class="lty-playbtn">
+                                                <span class="documentaries_visually-hidden">Play</span>
+
+                                            </button>
+                                        </lite-youtube>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="documentaries_card">
+                                <div class="documentaries_video-card" id="video_europe_4">
+
+                                    <div class="documentaries_video-wrapper">
+                                        <label for="slide2_europe_next" class="documentaries_arrow next">›</label>
+
+                                        <script
+                                            src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js"></script>
+                                        <link rel="stylesheet"
+                                            href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css">
+
+                                        <lite-youtube videoid="JUK8j4ZovQs" class="lite-yt"
+                                            style="background-image: url('./assets/images/italy_europe_4_poster-560.webp');"
+                                            loadning="lazy" preload="none" nokookie>
+                                            <button type="button" class="lty-playbtn">
+                                                <span class="documentaries_visually-hidden">Play</span>
+
+                                            </button>
+                                        </lite-youtube>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="documentaries_card">
+
+                                <div class="documentaries_video-card" id="video_europe_5">
+
+
+                                    <div class="documentaries_video-wrapper">
+                                        <label for="slide1_europe_prev" class="documentaries_arrow prev">‹</label>
+
+                                        <script
+                                            src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js"></script>
+                                        <link rel="stylesheet"
+                                            href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css">
+
+                                        <lite-youtube videoid="Mk-OyRI7c7Q" class="lite-yt"
+                                            style="background-image: url('./assets/images/greece_europe_5_poster-560.webp');"
+                                            loadning="lazy" preload="none" nokookie>
+                                            <button type="button" class="lty-playbtn">
+                                                <span class="documentaries_visually-hidden">Play</span>
+
+                                            </button>
+                                        </lite-youtube>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="documentaries_card">
+                                <div class="documentaries_video-card" id="video_europe_6">
+
+                                    <div class="documentaries_video-wrapper">
+                                        <label for="slide0_europe_next" class="documentaries_arrow next">›</label>
+
+                                        <script
+                                            src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js"></script>
+                                        <link rel="stylesheet"
+                                            href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css">
+
+                                        <lite-youtube videoid="SBRxRYLYLyo" class="lite-yt"
+                                            style="background-image: url('./assets/images/norway_europe_6_poster-560.webp');"
+                                            loadning="lazy" preload="none" nokookie>
+                                            <button type="button" class="lty-playbtn">
+                                                <span class="documentaries_visually-hidden">Play</span>
+
+                                            </button>
+                                        </lite-youtube>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+            </fieldset>
+
+        </section>
+
+
+
+
+        <section class="documentaries_world" id="world">
+            <fieldset>
+                <legend>
+                    <h3>WORLD</h3>
+                </legend>
+
+                <div class="documentaries_carousel-container">
+
+                    <input type="radio" name="carousel_world" id="slide0_world_prev" checked>
+                    <input type="radio" name="carousel_world" id="slide1_world_prev">
+                    <input type="radio" name="carousel_world" id="slide2_world_prev">
+                    <input type="radio" name="carousel_world" id="slide0_world_next" checked>
+                    <input type="radio" name="carousel_world" id="slide1_world_next">
+                    <input type="radio" name="carousel_world" id="slide2_world_next">
+
+                    <div class="documentaries_carousel-wrapper">
+
+                        <div class="documentaries_carousel">
+                            <div class="documentaries_card" id="inca">
+                                <div class="documentaries_video-card" id="video_world_1">
+                                    <div class="documentaries_video-wrapper">
+                                        <label for="slide2_world_prev" class="documentaries_arrow prev">‹</label>
+                                        <script
+                                            src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js"></script>
+                                        <link rel="stylesheet"
+                                            href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css">
+
+                                        <lite-youtube videoid="iYYfg2tph3w" class="lite-yt"
+                                            style="background-image: url('./assets/images/inca_world_1_poster-560.webp');"
+                                            loadning="lazy" preload="none" nokookie>
+                                            <button type="button" class="lty-playbtn">
+                                                <span class="documentaries_visually-hidden">Play</span>
+
+                                            </button>
+                                        </lite-youtube>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="documentaries_card">
+                                <div class="documentaries_video-card" id="video_world_2">
+                                    <div class="documentaries_video-wrapper" id="england">
+                                        <label for="slide1_world_next" class="documentaries_arrow next">›</label>
+
+                                        <script
+                                            src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js"></script>
+                                        <link rel="stylesheet"
+                                            href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css">
+
+                                        <lite-youtube videoid="P6r_qBoeHuA" class="lite-yt"
+                                            style="background-image: url('./assets/images/britain_world_2_poster-560.webp');"
+                                            loadning="lazy" preload="none" nokookie>
+                                            <button type="button" class="lty-playbtn">
+                                                <span class="documentaries_visually-hidden">Play</span>
+
+                                            </button>
+                                        </lite-youtube>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="documentaries_card">
+                                <div class="documentaries_video-card" id="video_world_3">
+                                    <div class="documentaries_video-wrapper" id="china">
+                                        <label for="slide0_world_prev" class="documentaries_arrow prev">‹</label>
+                                        <script
+                                            src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js"></script>
+                                        <link rel="stylesheet"
+                                            href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css">
+
+                                        <lite-youtube videoid="i_G7pd5eHSo" class="lite-yt"
+                                            style="background-image: url('./assets/images/china_world_3_poster-560.webp');"
+                                            loadning="lazy" preload="none" nokookie>
+                                            <button type="button" class="lty-playbtn">
+                                                <span class="documentaries_visually-hidden">Play</span>
+
+                                            </button>
+                                        </lite-youtube>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="documentaries_card">
+                                <div class="documentaries_video-card" id="video_world_4">
+                                    <div class="documentaries_video-wrapper" id="japan">
+                                        <label for="slide2_world_next" class="documentaries_arrow next">›</label>
+                                        <script
+                                            src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js"></script>
+                                        <link rel="stylesheet"
+                                            href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css">
+
+                                        <lite-youtube videoid="_m9_ZiqLg5I" class="lite-yt"
+                                            style="background-image: url('./assets/images/japan_world_4_poster-560.webp');"
+                                            loadning="lazy" preload="none" nokookie>
+                                            <button type="button" class="lty-playbtn">
+                                                <span class="documentaries_visually-hidden">Play</span>
+
+                                            </button>
+                                        </lite-youtube>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+                            <div class="documentaries_card back-x">
+                                <div class="documentaries_video-card" id="video_world_5">
+                                    <div class="documentaries_video-wrapper" id="brazil">
+                                        <label for="slide1_world_prev" class="documentaries_arrow prev">‹</label>
+                                        <script
+                                            src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js"></script>
+                                        <link rel="stylesheet"
+                                            href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css">
+
+                                        <lite-youtube videoid="rqT51lU1IJw" class="lite-yt"
+                                            style="background-image: url('./assets/images/brazil_world_5_poster-560.webp');"
+                                            loadning="lazy" preload="none" nokookie>
+                                            <button type="button" class="lty-playbtn">
+                                                <span class="documentaries_visually-hidden">Play</span>
+
+                                            </button>
+                                        </lite-youtube>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="documentaries_card back-x">
+                                <div class="documentaries_video-card" id="video_world_6">
+                                    <div class="documentaries_video-wrapper" id="usa">
+                                        <label for="slide0_world_next" class="documentaries_arrow next">›</label>
+                                        <script
+                                            src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js"></script>
+                                        <link rel="stylesheet"
+                                            href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css">
+
+                                        <lite-youtube videoid="hxdSr03ULdM" class="lite-yt"
+                                            style="background-image: url('./assets/images/us_world_6_poster-560.webp');"
+                                            loadning="lazy" preload="none" nokookie>
+                                            <button type="button" class="lty-playbtn">
+                                                <span class="documentaries_visually-hidden">Play</span>
+
+                                            </button>
+                                        </lite-youtube>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+            </fieldset>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+    <section class="documentaries_categories-section">
+        <div class="documentaries_container">
+            <h2 class="documentaries_section-title">Browse by Category</h2>
+            <div class="documentaries_categories-grid">
+                <a href="#" class="documentaries_category-card">
+                    <div class="documentaries_category-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3>Documentaries</h3>
+                </a>
+                <a href="./articles.html" class="documentaries_category-card">
+                    <div class="documentaries_category-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <h3>Articles</h3>
+                </a>
+                <a href="./podcasts.html" class="documentaries_category-card">
+                    <div class="documentaries_category-icon">
+                        <i class="fas fa-podcast"></i>
+                    </div>
+                    <h3>Podcasts</h3>
+                </a>
+                <a href="./london.html" class="documentaries_category-card">
+                    <div class="documentaries_category-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Guides</h3>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="documentaries_footer">
+        <div class="documentaries_container">
+            <div class="documentaries_footer-grid">
+                <div class="documentaries_footer-col">
+                    <h4>HistoryHome</h4>
+                    <ul>
+                        <li><a href="./about_us.html">About Us</a></li>
+                        <li><a href="./our_team.html">Our Team</a></li>
+                        <li><a href="./contact_us.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="documentaries_footer-col">
+                    <h4>Content</h4>
+                    <ul>
+                        <li><a href="./documentaries.html">Documentaries</a></li>
+                        <li><a href="./articles.html">Articles</a></li>
+                        <li><a href="./podcasts.html">Podcasts</a></li>
+                        <li><a href="./london.html">Guides</a></li>
+                    </ul>
+                </div>
+                <div class="documentaries_footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="./terms_of_use.html">Terms of Use</a></li>
+                        <li><a href="./privacy_policy.html">Privacy Policy</a></li>
+                        <li><a href="./cookie_policy.html">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                <div class="documentaries_footer-col">
+                    <h4>Connect</h4>
+                    <div class="documentaries_social-links">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i><span>facebook</span></a>
+                        <a href="https://x.com/"><i class="fab fa-twitter"></i><span>twitter</span></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i><span>instagram</span></a>
+                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i><span>youtube</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="documentaries_footer-bottom">
+                <p>&copy; 2025 HistoryHome. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
