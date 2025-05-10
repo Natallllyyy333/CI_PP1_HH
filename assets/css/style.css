@@ -2167,13 +2167,19 @@ label.podcasts_section_more_less {
 
 .podcasts_card-content p {
   font-size: 16px;
+
+}
+
+.podcasts_card-content .intro p {
   color: #555;
 }
 
 .podcasts_transcript p {
   margin-bottom: 20px;
-  color: #333;
+  color: #222;
 }
+
+
 
 .podcasts_accordion-content .transcript_ancor {
   margin-left: 20px;
