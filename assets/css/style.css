@@ -5086,7 +5086,8 @@ body {
   padding: 0 15px;
 }
 
-.einstein_article_container h3 {
+.einstein_article_container h3,
+.einstein_article_container h2 {
   color: #b71c1c;
 }
 
