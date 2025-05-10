@@ -2884,6 +2884,7 @@ body {
   backdrop-filter: blur(5px);
   /* Размытие подложки */
   z-index: 5;
+
 }
 
 .london_zoom-checkbox:checked~.overlay {
