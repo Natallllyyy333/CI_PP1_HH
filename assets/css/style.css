@@ -3460,7 +3460,8 @@ body {
   padding: 0 15px;
 }
 
-.events_container h3 {
+.events_container h3,
+.events_container h2 {
   color: #b71c1c;
 }
 
@@ -3657,7 +3658,7 @@ featured-card p {
   font-size: 24px;
   font-weight: 400;
   color: #333;
-  text-align: justify;
+  text-align: left;
   margin-top: 10px;
   margin-bottom: 10px;
   width: 90%;
