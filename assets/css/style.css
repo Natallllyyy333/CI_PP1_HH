@@ -2169,6 +2169,10 @@ label.podcasts_section_more_less {
   color: #555;
 }
 
+.podcasts_transcript p {
+  margin-bottom: 20px;
+}
+
 .podcasts_photo-caption {
   display: grid;
   grid-template-columns: 300px auto;
