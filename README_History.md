@@ -519,12 +519,16 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
-All pages pass with no errors no warnings to show.
-<details><summary>whole page</summary>
-<img src="docs/validation/validation-css-whole-page.jpg">
-</details>
+Passes with no errors.
+Some warnings related to:
+- Vendor-specific prefixes (e.g., -webkit-image-set)
+- Deprecated properties (e.g., clip)
+- Non-standard pseudo-elements (e.g., ::-webkit-media-controls-panel)
 <details><summary>style.css</summary>
-<img src="./docs/validation/">
+<img src="./docs/validation/validation-css-style.jpg">
+</details>
+<details><summary>all.min.css</summary>
+<img src="./docs/validation/validation-all_min_css-style.jpg">
 </details>
 
 ### Accessibility
