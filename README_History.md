@@ -534,38 +534,132 @@ Some warnings related to:
 ### Accessibility
 The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
 <details><summary>Home</summary>
-<img src="docs/validation/validation-accessibility-index.jpg">
+<img src="./docs/validation/accessibility-index.html.jpg">
 </details>
-<details><summary>About</summary>
-<img src="docs/validation/validation-accessibility-about.jpg">
+<details><summary>Articles</summary>
+<img src="./docs/validation/accessibility-articles_html.jpg">
 </details>
-<details><summary>Menu</summary>
-<img src="docs/validation/validation-accessibility-menu.jpg">
+<details><summary>Documentaries</summary>
+<img src="./docs/validation/accessibility-documentaries_html.jpg">
 </details>
-<details><summary>Gallery</summary>
-<img src="docs/validation/validation-accessibility-gallery.jpg">
+<details><summary>Podcasts</summary>
+<img src="./docs/validation/accessibility-podcasts_html.jpg">
 </details>
-<details><summary>Contact</summary>
-<img src="docs/validation/validation-accessibility-contact.jpg">
+<details><summary>Guides</summary>
+<img src="./docs/validation/accessibility-london_html.jpg">
 </details>
+
+<details><summary>Roman Empire Article</summary>
+<img src="./docs/validation/accessibility-roman_empire_article_html.jpg">
+</details>
+<details><summary>Ada Lovelace Article</summary>
+<img src="./docs/validation/accessibility-ada_lovelace_article_html.jpg">
+</details>
+<details><summary>First Train Article</summary>
+<img src="./docs/validation/validation-html-first_train_article_page.jpg">
+</details>
+<details><summary>Einstein Article</summary>
+<img src="./docs/validation/accessibility-einstein_article_html.jpgg">
+</details>
+<details><summary>Events Article</summary>
+<img src="./docs/validation/accessibility-events_html.jpg">
+</details>
+
+<details><summary>People Page</summary>
+<img src="./docs/validation/accessibility-people_html.jpg">
+</details>
+<details><summary>About Us</summary>
+<img src="./docs/validation/accessibility-about_us_html.jpg">
+</details>
+<details><summary>Our Team</summary>
+<img src="./docs/validation/accessibility-our_team_html.jpg">
+</details>
+<details><summary>Contact Us</summary>
+<img src="./docs/validation/accessibility-contact_us_html.jpg">
+</details>
+<details><summary>Terms of Use</summary>
+<img src="./docs/validation/accessibility-terms_of_use_html.jpg">
+</details>
+<details><summary>Privacy Policy</summary>
+<img src="./docs/validation/accessibility-privacy_policy_html.jpg">
+</details>
+<details><summary>Cookie Policy</summary>
+<img src="./docs/validation/accessibility-cookie_policy_html.jpg">
+</details>
+
 
 ### Performance 
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. 
 
 <details><summary>Home</summary>
-<img src="docs/validation/lighthouse-performance-index.jpg">
+<img src="./docs/validation/lighthouse-performance-index_desktop.jpg">
+<img src="./docs/validation/lighthouse-performance-index_mobile.jpg">
 </details>
-<details><summary>About</summary>
-<img src="docs/validation/lighthouse-performance-about.jpg">
+<details><summary>Articles</summary>
+<img src="./docs/validation/lighthouse-performance-articles_desktop.jpg">
+<img src="./docs/validation/lighthouse-performance-articles_mobile.jpg">
 </details>
-<details><summary>Menu</summary>
-<img src="docs/validation/lighthouse-performance-menu.jpg">
+<details><summary>Documentaries</summary>
+<img src="./docs/validation/lighthouse-performance-documentaries_desktop.jpg">
+<img src="./docs/validation/lighthouse-performance-documentaries_mobile.jpg">
 </details>
-<details><summary>Gallery</summary>
-<img src="docs/validation/lighthouse-performance-gallery.jpg">
+<details><summary>Podcasts</summary>
+<img src="./docs/validation/lighthouse-performance-podkasts_desktop.jpg">
+<img src="./docs/validation/lighthouse-performance-podkasts_mobile.jpg">
 </details>
-<details><summary>Contact</summary>
-<img src="docs/validation/lighthouse-performance-contact.jpg">
+<details><summary>Guides</summary>
+<img src="./docs/validation/lighthouse-performance-london_desktop.jpg">
+<img src="./docs/validation/lighthouse-performance-london_mobile.jpg">
+</details>
+
+<details><summary>Roman Empire Article</summary>
+<img src="./docs/validation/lighthouse-performance-roman_empire_article_desktop.jpg">
+<img src="./docs/validation/lighthouse-performance-roman_empire_article_mobile.jpg">
+</details>
+<details><summary>Ada Lovelace Article</summary>
+<img src="./docs/validation/lighthouse-performance-ada_lovelace_article_desktop.jpg">
+<img src="./docs/validation/lighthouse-performance-ada_lovelace_article_mobile.jpg">
+</details>
+<details><summary>First Train Article</summary>
+<img src="./docs/validation/lighthouse-performance-first_train_article_desktop.jpg">
+<img src="./docs/validation/lighthouse-performance-first_train_article_mobile.jpg">
+</details>
+<details><summary>Einstein Article</summary>
+<img src="./docs/validation/lighthouse-performance-einstein_article_desktop.jpg">
+<img src="./docs/validation/lighthouse-performance-einstein_article_mobile.jpg">
+</details>
+<details><summary>Events Article</summary>
+<img src="./docs/validation/lighthouse-performance_events_desktop.jpg">
+<img src="./docs/validation/lighthouse-performance_events_mobile.jpg">
+</details>
+
+<details><summary>People Page</summary>
+<img src="./docs/validation/lighthouse-performance_people_desktop.jpg">
+<img src="./docs/validation/lighthouse-performance_people_mobile.jpg">
+</details>
+<details><summary>About Us</summary>
+<img src="./docs/validation/lighthouse-performance_about_us_desktop.jpg">
+<img src="./docs/validation/lighthouse-performance_about_us_mobile.jpg">
+</details>
+<details><summary>Our Team</summary>
+<img src="./docs/validation/lighthouse-performance_our_team_desktop.jpg">
+<img src="./docs/validation/lighthouse-performance_our_team_mobile.jpg">
+</details>
+<details><summary>Contact Us</summary>
+<img src="./docs/validation/lighthouse-performance_contact_us_desktop.jpg">
+<img src="./docs/validation/lighthouse-performance_contact_us_mobile.jpg">
+</details>
+<details><summary>Terms of Use</summary>
+<img src="./docs/validation/lighthouse-performance_terms_of_use_desktop.jpg">
+<img src="./docs/validation/lighthouse-performance_terms_of_use_mobile.jpg">
+</details>
+<details><summary>Privacy Policy</summary>
+<img src="./docs/validation/lighthouse-performance_privacy_policy_desktop.jpg">
+<img src="./docs/validation/lighthouse-performance_privacy_policy_mobile.jpg">
+</details>
+<details><summary>Cookie Policy</summary>
+<img src="./docs/validation/lighthouse-performance_cookie_policy_desktop.jpg">
+<img src="./docs/validation/lighthouse-performance_cookie_policy_mobile.jpg">
 </details>
 
 ### Performing tests on various devices 
@@ -583,3 +677,167 @@ The website was tested on the following browsers:
 - Microsoft Egde
 
 ### Testing user stories
+1. As a first time user, I want to know content formats, duration, media type, topics presented on the website
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| feature-main | Navigate to the Content Showcase Module of Home page  | Scan the diverse content formats presented, explore duration, media type and topics | Works as expected |
+
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-1v1-12.jpg">
+<img src="docs/user-story-testing/user-story-1v2.jpg">
+</details>
+
+2. As a first time user, I want to know the price range
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Menu | Navigate to the Menu page | See prices on menu page | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-2.jpg">
+</details>
+
+3. As a first time user, I want to know more about the restaurant
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About Us | Navigate to the About page and locate the About Us section | Find description of the restaurant | Works as expected |
+| Customer reviews | Navigate to the About page, scroll down to What our guests say section | Read customer reviews | Works as expected | 
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-3-14.jpg">
+</details>
+
+4. As a first time user, I want to get a feel of what to expect at the restaurant
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Gallery | Navigate to the Gallery page | Find pictures of the restaurant and food served there | Works as expected |
+| Promo video | Navigate to the GAlelry page and scroll to the promo video | Watch promo video | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-4.jpg">
+</details>
+
+5. As a returning user, I want to see the Sunday meal offer
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Meal-deal | On home page scroll down to the Sunday meal deal section | Find the meal-deal for the upcomming Sunday | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-5.jpg">
+</details>
+
+6. As a returnign user, I want to know the opening times
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer - opening times section | On any page scroll to the footer | See opening times | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-6.jpg">
+</details>
+
+7. As a returning user, I want to find a phone number to call for reservation
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer - contact information section | On any page scroll to the footer | See phone number | Works as expected |
+| Info Box | Navigate to Contact Us page and locate the How to find us section | See phone number | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-7v1-15.jpg">
+<img src="docs/user-story-testing/user-story-7v2-15.jpg">
+</details>
+
+8. As a returning user, I want to see the menu
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Menu | Navigate to the menu page | Read the menu | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-8.jpg">
+</details>
+
+9. As a returning user, I want to leave some comment, suggestion or message to the staff
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Form | Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form | Data submited via contact form | Works as expectd |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-9-15.jpg">
+</details>
+
+10. As a returning user, I want to find the restaurant on social media
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer - social media section | On any page scroll to the bottom | Click on social media links | Works as expected | 
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-10.jpg">
+</details>
+
+11. As a returning user, I want to know who is preparing the food
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Meet the Chef | Navigate to the About page and scroll down to Meet the Chef section | Find brief bio of the Chef | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-11.jpg">
+</details>
+
+12. As a returning user, I want to get directions to the restaurant
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | Navigate to the Contact Us page, locate the map and click on directions link | See directions to the restaurant on Goole Maps | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-1v1-12.jpg">
+</details>
+
+13. As the site owner, I want users to find news about upcoming events or changes in opening times
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| News | Scroll down on home page and locate news section | Find latest news | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-13.jpg">
+</details>
+
+14. As the site owner, I want users to get to know the restaurant 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About Us | Navigate to About page and locate About Us section | See relevant information about the restaurant | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-3-14.jpg">
+</details>
+
+15. As the site owner, I want the users to be able to contact us
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Form | Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form | Data submited via contact form | Works as expectd |
+| Info Box | Navigate to Contact Us page and locate the How to find us section | Find the phone number | Works as expected |
+| Footer - contact information section | On any page scroll down to the footer | Find the phone number | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story-7v1-15.jpg">
+<img src="docs/user-story-testing/user-story-7v2-15.jpg">
+<img src="docs/user-story-testing/user-story-9-15.jpg">
+</details>
+
+
+## Bugs
+
+
