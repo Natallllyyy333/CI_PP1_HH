@@ -711,68 +711,70 @@ The website was tested on the following browsers:
 <img src="./docs/user-story-testing/user-story-1-content-showcase-module.jpg">
 </details>
 
-2. As a first time user, I want to know the price range
+4. As a first-time user, I want to quickly identify and select my preferred content type to find relevant materials efficiently.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Footer | Scroll to the Footer section | See prices on menu page | Works as expected |
+| Feature Browse by Category | Scroll down every page of the website to the "Browse by Category" section  | See four clearly labeled content categories (Documentaries, Articles, Podcasts, Guides) that allow instant filtering of website content by format. | Works as expected |
+
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-2.jpg">
+<img src="./docs/user-story-testing/user-story-feature-browse-by-category.jpg">
 </details>
 
-3. As a first time user, I want to know more about the restaurant
+5. As a first-time user, I want to easily access key website sections and legal information from any page.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| About Us | Navigate to the About page and locate the About Us section | Find description of the restaurant | Works as expected |
-| Customer reviews | Navigate to the About page, scroll down to What our guests say section | Read customer reviews | Works as expected | 
+| Feature Footer | Scroll to page bottom  | See organized footer with: (1) Branding (TheHistory), (2) Navigation links (About Us, Content, Legal), (3) Copyright notice, and (4) Social Media links - all consistently available across the site. | Works as expected |
+
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-3-14.jpg">
+<img src="./docs/user-story-testing/user-story-feature-footer.jpg">
 </details>
 
-4. As a first time user, I want to get a feel of what to expect at the restaurant
+6. As a first-time user, I want to quickly browse article previews to find interesting historical topics that match my available time and interests.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Gallery | Navigate to the Gallery page | Find pictures of the restaurant and food served there | Works as expected |
-| Promo video | Navigate to the GAlelry page and scroll to the promo video | Watch promo video | Works as expected |
+| Article Cards Feature | Click on the Articles Button on the Main Navigation Menu, Scroll down to View the Article Cards Feature section  | See visually distinct article cards with: (1) Clear titles, (2) Read time estimates (5-15 min), and (3) Engaging teaser text that helps the user select content efficiently.. | Works as expected |
+
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-4.jpg">
+<img src="./docs/user-story-testing/user-story-feature-article-cards .jpg">
 </details>
 
-5. As a returning user, I want to see the Sunday meal offer
+5. As a first-time or a returning user, I want to filter video content by geographic region to quickly find topics relevant to my interests.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Meal-deal | On home page scroll down to the Sunday meal deal section | Find the meal-deal for the upcomming Sunday | Works as expected |
+| Video Section Navigation Bar Feature | Click on the Videos Button on the Main Navigation Menu, View the video section header  | See three clear regional filters (EGYPT, EUROPE, WORLD) that allow instant sorting of video content by geographic focus. Click on the button of the Video Section Navigation Bar to go to the video section of interest | Works as expected |
+
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-5.jpg">
+<img src="./docs/user-story-testing/user-story-feature-video-section-navigation-bar.jpg">
 </details>
 
-6. As a returnign user, I want to know the opening times
+6.  As a first-time or a returning user, I want to preview and select themed videos by seeing their titles, sources, and durations before watching.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Footer - opening times section | On any page scroll to the footer | See opening times | Works as expected |
+| Video Cards Carousel Feature | Click on the Videos Button on the Main Navigation Menu, View the video section header, see Video Section Navigation Bar,click on the button of the Video Section Navigation Bar to go to the video section of interest, View the video carousel section, click on the left- or right-go arrows to view the videos available and click on the video of interest to watch  | See scrollable video cards displaying: (1) Descriptive titles, (2) Reputable source (NATIONAL GEOGRAPHIC), and (3) Duration (2:48/7:49) to help me choose content efficiently. Click on left- and right-go arrows lets user navigate left or right accordingly to view the videos available. A click on the video of choice starts the video playing | Works as expected |
+
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-6.jpg">
+<img src="./docs/user-story-testing/user-story-feature-video-cards-carousel_egypt_1.jpg">
 </details>
 
-7. As a returning user, I want to find a phone number to call for reservation
+7.  As a first-time or a returning user, I want to understand podcast episode details including duration, release year, and historical topic before listening.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Footer - contact information section | On any page scroll to the footer | See phone number | Works as expected |
-| Info Box | Navigate to Contact Us page and locate the How to find us section | See phone number | Works as expected |
+| Podcasts Feature | Click on the Podcasts Button on the Main Navigation Menu, View the "Time Travel Through Sound" section | See clearly organized podcasts information: (1) Inspirational quote, (2) Episode title/number, (3) Duration (39 minutes) and year, (4) Expandable details toggle. A click on the play button of a chosen podcast's player starts the audio playing, click again on the pause button pauses the audio, click on the volume icon mutes  the audio, click again unmutes it, dragging the volume control slider lets user adjust the volume level, Clicking the playback speed icon allows user to adjust the playback speed | Works as expected |
+
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-7v1-15.jpg">
-<img src="docs/user-story-testing/user-story-7v2-15.jpg">
+<img src="./docs/user-story-testing/user-story-feature-podcast_1.jpg">
 </details>
 
 8. As a returning user, I want to see the menu
