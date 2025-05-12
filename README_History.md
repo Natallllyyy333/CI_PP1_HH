@@ -685,8 +685,7 @@ The website was tested on the following browsers:
 
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-1v1-12.jpg">
-<img src="docs/user-story-testing/user-story-1v2.jpg">
+<img src="docs/user-story-testing/user-story-1-content-showcase-module.jpg">
 </details>
 
 2. As a first time user, I want to know the price range
