@@ -677,7 +677,30 @@ The website was tested on the following browsers:
 - Microsoft Egde
 
 ### Testing user stories
-1. As a first time user, I want to know content formats, duration, media type, topics presented on the website
+
+1. As a first-time user, I want to easily identify the website brand and navigate between major content sections.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| feature-logo-and-navbar | View the header section  | See the clear brand logo (THEHISTORY) and intuitive navigation links (HOME, ARTICLES, VIDEOS, PODCASTS, GUIDES) to access all main content categories. | Works as expected |
+
+
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-testing/user-story-feature-logo-and-navbar.jpg">
+</details>
+
+2. As a first-time user, I want to immediately understand the website’s purpose and content offerings so I can decide if it meets my interests.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| feature-hero | Land on the homepage  | See a bold headline ("Your Home for History") and a concise list of content types (Award-winning documentaries, articles, podcasts, guides) that clearly communicate the site’s value proposition. | Works as expected |
+
+
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-testing/user-story-feature-hero-banner.jpg">
+</details>
+
+3. As a first time user, I want to know content formats, duration, media type, topics presented on the website
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -685,14 +708,14 @@ The website was tested on the following browsers:
 
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-1-content-showcase-module.jpg">
+<img src="./docs/user-story-testing/user-story-1-content-showcase-module.jpg">
 </details>
 
 2. As a first time user, I want to know the price range
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Menu | Navigate to the Menu page | See prices on menu page | Works as expected |
+| Footer | Scroll to the Footer section | See prices on menu page | Works as expected |
 
 <details><summary>Screenshots</summary>
 <img src="docs/user-story-testing/user-story-2.jpg">
