@@ -1,5 +1,5 @@
-# Bodelschwinger Hof
-(Developer: Ana Runje)
+# TheHistory
+(Developer: Nataliia Illiashenko)
 
 ![Mockup image](./docs/am-i-responsive_.jpg)
 
@@ -777,88 +777,190 @@ The website was tested on the following browsers:
 <img src="./docs/user-story-testing/user-story-feature-podcast_1.jpg">
 </details>
 
-8. As a returning user, I want to see the menu
+8. As a first-time or a returning user, I want to explore podcast episodes with expandable sections to quickly scan topics, key details, and full transcripts.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Menu | Navigate to the menu page | Read the menu | Works as expected |
+| Podcast Accordion Feature | Click on accordion sections  | Sections expand/collapse to reveal episode summaries, historical context, or full transcripts. Content is well-structured and easy to navigate. | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-8.jpg">
+<img src="./docs/user-story-testing/user-story-feature-podcast_1_accordion.jpg">
 </details>
 
-9. As a returning user, I want to leave some comment, suggestion or message to the staff
+9. As a first-time user or a returning user, I want to explore key historical events chronologically to understand their progression and impact on London's development.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Contact Form | Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form | Data submited via contact form | Works as expectd |
+| History Timeline Feature| Navigate to the 'Timewalker's Guide' section on the Guides page | See a visually organized timeline with: (1) Major historical eras (Roman to Modern), (2) Concise event descriptions, and (3) Clear chronological flow from 43AD to 2012. | Works as expectd |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-9-15.jpg">
+<img src="./docs/user-story-testing/user-story-feature-history-time_line.jpg">
 </details>
 
-10. As a returning user, I want to find the restaurant on social media
+10. As a first-time or a returning user, I want to quickly identify a featured video guide's duration and subject to determine if I want to watch it.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Footer - social media section | On any page scroll to the bottom | Click on social media links | Works as expected | 
+| Video Guide Feature | Navigate to the video Guide section on the Guides page and View the video guide section | 1.Immediately see: (1) Clear duration (45:00), and (2) Descriptive title ("Explore London") indicating the video's scope and length. 2. Click to play the full video-guide if interested. | Works as expected | 
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-10.jpg">
+<img src="./docs/user-story-testing/user-story-feature-video-guide.jpg">
 </details>
 
-11. As a returning user, I want to know who is preparing the food
+11. As a first-time user or a returning user, I want to explore London districts through a zoomable map to discover historical areas of interest.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Meet the Chef | Navigate to the About page and scroll down to Meet the Chef section | Find brief bio of the Chef | Works as expected |
+| Interactive Zoomable London Map Guide | Navigate to the Zoomable London Map Guide on the Guides page | 1. View labeled London districts (Wembley, Chelsea, etc.) 2. Interact with zoom functionality to explore areas in detail	 | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-11.jpg">
+<img src="./docs/user-story-testing/user-story-feature-zoomable-london-map-guide.jpg">
 </details>
 
-12. As a returning user, I want to get directions to the restaurant
+12. As a first-time user or a returning user, I want to access a comprehensive offline guide to plan my historical exploration of the city.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Map | Navigate to the Contact Us page, locate the map and click on directions link | See directions to the restaurant on Goole Maps | Works as expected |
+| Downloadable City Guide Feature | Navigate to city guide section on the Guides page | 1. View guide description and file size (14.3MB)
+2. Successfully download PDF with one click
+3. Access offline content including:
+- Curated historical routes
+- Attraction details
+- Map references | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-1v1-12.jpg">
+<img src="docs/user-story-testing/user-story-feature-complete_pdf_city_guide_to_download_button.jpg">
 </details>
 
-13. As the site owner, I want users to find news about upcoming events or changes in opening times
+13. As a first-time or a returning user, I want to read engaging historical articles with clear structure and key takeaways to efficiently absorb information.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| News | Scroll down on home page and locate news section | Find latest news | Works as expected |
+| Article Feature | Navigate to Articles page click on the Ada Lovelace article page card to navigate to the Ada Lovelace article page | 1. View a well-structured article with:
+- Attention-grabbing headline
+- Sectioned facts with subheadings
+- Pull quotes highlighting key insights
+- Readable length (~5min) | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-13.jpg">
+<img src="docs/user-story-testing/user-story-feature-article.jpg">
 </details>
 
-14. As the site owner, I want users to get to know the restaurant 
+14. As a first-time user, I want to understand the website's purpose, content offerings, and unique value to determine if it meets my historical exploration needs.
+
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| About Us | Navigate to About page and locate About Us section | See relevant information about the restaurant | Works as expected |
+| About Us | Navigate to About page  | 1. Learn the platform's mission and vision
+2. Discover available content formats (Documentaries, Podcasts, etc.)
+3. Identify unique value propositions (Expert-Created, Cinematic Quality)
+4. Understand content scope (Global, Multi-Era) | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-3-14.jpg">
+<img src="./docs/user-story-testing/user-story-feature-about_us.jpg">
 </details>
 
-15. As the site owner, I want the users to be able to contact us
+15. As the site owner, I want users to understand our brand identity and content value proposition to increase engagement and conversions.
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About Us | Users view the About Us page | Visitors understand our mission, vision, content formats, unique value propositions and content scope.
+| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-testing/user-story-feature-about_us.jpg">
+</details>
+
+16. As a first-time user, I want to understand the expertise behind the content to evaluate its credibility and production quality.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Contact Form | Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form | Data submited via contact form | Works as expectd |
-| Info Box | Navigate to Contact Us page and locate the How to find us section | Find the phone number | Works as expected |
-| Footer - contact information section | On any page scroll down to the footer | Find the phone number | Works as expected |
-
+| Our Team Feature | Navigate to the Our Team Page to the "Our Story", "Who we are" and "Why we do it" sections| 1. View team composition (Researchers, Storytellers, Innovators)
+2. Learn about founding background
+3. Understand content creation philosophy
+4. Identify credentials (Emmy-nominated, PhD researchers) | Works as expectd |
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-7v1-15.jpg">
-<img src="docs/user-story-testing/user-story-7v2-15.jpg">
-<img src="docs/user-story-testing/user-story-9-15.jpg">
+<img src="./docs/user-story-testing/user-story-feature-our_team.jpg">
+</details>
+
+17. As the site owner, I want users to recognize our team's expertise and passion to build trust in our content and increase engagement.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Our Team Feature | Users navigate to the Our Team Page to the "Our Story", "Who we are" and "Why we do it" sections|  Increase in perceived content credibility | Works as expectd |
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-testing/user-story-feature-our_team.jpg">
+</details>
+
+18. As a first-time user, I want to easily find contact options (email, address) to submit inquiries, feedback, or collaboration requests.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Us Feature | Navigate to the "Contact Us" page |  Clear sections display: email addresses (categorized by purpose), physical address, and partnership opportunities. Users can quickly identify the correct contact method for their needs. | Works as expectd |
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-testing/user-story-feature-contact_us.jpg">
+</details>
+
+19. As the site owner, I want users to easily reach out through proper channels to improve engagement, gather feedback, and develop partnerships.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Us Feature | Users navigate to the "Contact Us" page |  Users access contact information | Works as expectd |
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-testing/user-story-feature-contact_us.jpg">
+</details>
+
+20. As the site owner, I want users to clearly understand their rights and obligations when using our platform to protect our content and maintain a safe community.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Terms of Use Feature | Users navigate to the "Terms of use" page |  Users access and acknowledge Terms of Use | Works as expectd |
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-testing/user-story-feature-terms_of_use.jpg">
+</details>
+
+21. As a first-time user, I want to quickly understand the platform’s rules, content usage policies, and my responsibilities before engaging with the site.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Terms of Use Feature | Navigate to the "Terms of Use" page |  Clearly organized sections display content ownership rules, user obligations, disclaimers, and update policies. Users can easily scan and comprehend key terms. | Works as expectd |
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-testing/user-story-feature-terms_of_use.jpg">
+</details>
+
+22. As a first-time user, I want to clearly understand what data is collected, how it's used, and my privacy rights before using the website.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Privacy Policy Feature | Navigate to the "Privacy Policy" page |  Clearly organized sections display data collection practices, usage policies, cookie information, and user rights. Users can easily find and understand privacy-related information. | Works as expectd |
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-testing/user-story-feature-privacy_policy.jpg">
+</details>
+
+23. As the site owner, I want users to trust our data practices to comply with regulations while maintaining transparency about information collection and usage.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Privacy Policy Feature | Users navigate to the "Privacy Policy" page |  Users review the Privacy Policy | Works as expectd |
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-testing/user-story-feature-privacy_policy.jpg">
+</details>
+
+24. As a first-time user, I want to understand what cookies are used, their purpose, and how to manage them before continuing to browse the site.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Cookie Policy Feature | Navigate to the "Cookie Policy" page |  Clearly organized sections display cookie types (essential/analytics), their purposes, and management options. Users can easily understand and control cookie preferences. | Works as expectd |
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-testing/user-story-feature-cookie_policy.jpg">
+</details>
+
+25. As the site owner, I want users to make informed choices about cookie usage to ensure compliance while maintaining essential site functionality.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Cookie Policy Feature | Users navigate to the "Cookie Policy" page |  Users review/interact with Cookie Policy | Works as expectd |
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-testing/user-story-feature-cookie_policy.jpg">
 </details>
 
 
