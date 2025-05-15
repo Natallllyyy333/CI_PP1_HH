@@ -179,6 +179,7 @@ The page consists of seventeen pages and fourteen features
 links to the Homepage, Articles page, Documentaries page, Podcasts page, Guides page, Roman Empire Article page, Ada Lovelace Article page, First Train Article page, Einstein Article page, Historical Events Article page, Historical Figures Article page, About Us page, Our Team page, Contact us page, Privacy Policy page, Cookie Police page, Terms of Use page.
 - It allows users to easily navigate the page
 - The link for the page the user is currently on is highlighted 
+- User stories covered: 1
 
 ![Logo and navbar](./docs/features/feature-logo-and-navbar.jpg)
 
@@ -186,14 +187,14 @@ links to the Homepage, Articles page, Documentaries page, Podcasts page, Guides 
 - Introduces the user to the website with a themed banner
 - Eye-Catching Imagery – High-quality visuals to grab attention.
 - Headline & Subheadline – Title of the page, motto and content overview
- 
+- User stories covered: 2 
 
 ![Hero Section](./docs/features/feature-hero-section.jpg)
 
 ### Content Showcase Module
 - Allowes the user to see diverse content formats in a scannable way
 - Allowes the user to see duration, media type and topics.
-- User stories covered: 13
+- User stories covered: 3
 
 ![Content Showcase Module](./docs/features/feature-content_showcase_module.jpg)
 
@@ -203,7 +204,7 @@ links to the Homepage, Articles page, Documentaries page, Podcasts page, Guides 
 - Simplifies content discovery
 - Reduces user effort by eliminating nested menus
 - Encourages exploration of diverse media types
-- User stories covered: 13
+- User stories covered: 4
 
 ![Browse by Category Module](./docs/features/feature-browse-by-category.jpg)
 
@@ -217,7 +218,7 @@ links to the Homepage, Articles page, Documentaries page, Podcasts page, Guides 
 3. Legal Compliance: Links to Terms of Use, Privacy Policy, and Cookie Policy
 4. Social Media Links: Encourages cross-platform interaction
 5. Copyright & Branding: Displays "© 2025 HistoryHome. All rights reserved." for legal protection and brand consistency
-- User stories covered: 1, 6, 7, 10, 15
+- User stories covered: 5
 
 ![Footer](./docs/features/feature-footer.jpg)
 
@@ -231,7 +232,7 @@ links to the Homepage, Articles page, Documentaries page, Podcasts page, Guides 
 - Encourages content exploration with scannable, digestible previews.
 - Helps users prioritize reading based on interest and time availability.
 - Maintains a consistent and organized layout for all article listings.
-- User stories covered: 1, 6, 7, 10, 15
+- User stories covered: 6
 
 ![Article Cards](./docs/features/feature-articles-cards.jpg)
 
@@ -242,7 +243,7 @@ links to the Homepage, Articles page, Documentaries page, Podcasts page, Guides 
 - Enables users to instantly switch between regional/thematic video collections.
 - Optimizes content discoverability without overwhelming UI.
 - Maintains consistency with the site's clean aesthetic.
-- User stories covered: 1, 6, 7, 10, 15
+- User stories covered: 7
 
 ![Video Section Navigation Bar](./docs/features/feature-video-section-navbar.jpg)
 
@@ -256,7 +257,7 @@ links to the Homepage, Articles page, Documentaries page, Podcasts page, Guides 
 5. Enhances content discoverability with a compact, interactive layout.
 6. Encourages binge-watching behavior by surfacing related videos.
 7. Optimizes space while maintaining readability and visual appeal.
-- User stories covered: 1, 6, 7, 10, 15
+- User stories covered: 8
 ![Video Cards Carousel](./docs/features/feature-video-cards-carousel_egypt_1.jpg)
 ![Video Cards Carousel](./docs/features/feature-video-cards-carousel_egypt_2.jpg)
 ![Video Cards Carousel](./docs/features/feature-video-cards-carousel_egypt_3.jpg)
@@ -284,7 +285,7 @@ links to the Homepage, Articles page, Documentaries page, Podcasts page, Guides 
 3. Host/creator (e.g., SAN FRED)
 4. Duration & release year (e.g., *51 minutes | 2025*)
 5. Interactive buttons for user actions (play, pause, volume control, playback speed).
-- User stories covered: 1, 6, 7, 10, 15
+- User stories covered: 9
 
 ![Podcasts Feature](./docs/features/feature-podcast_1.jpg)
 ![Podcasts Feature](./docs/features/feature-podcast_2.jpg)
@@ -301,7 +302,7 @@ links to the Homepage, Articles page, Documentaries page, Podcasts page, Guides 
 - Deepens engagement by offering both audio and text-based consumption.
 - Enhances accessibility for users who prefer reading or need transcripts.
 - Provides educational value through curated historical context.
-- User stories covered: 1, 6, 7, 10, 15
+- User stories covered: 10
 
 ![Podcast Accordion Feature](./docs/features/feature-podcast_1_accordion.jpg)
 ![Podcast Accordion Feature](./docs/features/feature-podcast_2_accordion.jpg)
@@ -317,7 +318,7 @@ links to the Homepage, Articles page, Documentaries page, Podcasts page, Guides 
 - Allows user to break down complex history into digestible, scannable segments.
 - Provides visual chronology: Helps users grasp the sequence and impact of events.
 - Encourages user's exploration with a mix of political, cultural, and catastrophic milestones.
-- User stories covered: 1, 6, 7, 10, 15
+- User stories covered: 11
 
 ![History Timeline Feature](./docs/features/feature-history-time_line.jpg)
 
@@ -330,7 +331,7 @@ links to the Homepage, Articles page, Documentaries page, Podcasts page, Guides 
 - Virtual tourism: Offers users a cinematic overview of key landmarks/history.
 - Time transparency: Duration label helps users commit to viewing.
 - Gateway feature: Encourages further exploration of related content (articles, maps).
-- User stories covered: 1, 6, 7, 10, 15
+- User stories covered: 12
 
 ![Video Guide Feature](./docs/features/feature-video-guide.jpg)
 
@@ -345,7 +346,7 @@ links to the Homepage, Articles page, Documentaries page, Podcasts page, Guides 
 - Helps users visualize London’s layout and key areas.
 - Interactive elements invite users's exploration.
 - Acts as a visual guide for tourists, historians, or locals.
-- User stories covered: 1, 6, 7, 10, 15
+- User stories covered: 13
 
 ![Interactive Zoomable London Map Guide](./docs/features/feature-zoomable-london-map-guide.jpg)
 
@@ -356,7 +357,7 @@ links to the Homepage, Articles page, Documentaries page, Podcasts page, Guides 
 2. Download button with file size transparency ("Download PDF (14.3 MB)").
 - Offline accessibility: Lets users explore without internet.
 - Trust-building: File size disclosure manages user expectations.
-- User stories covered: 1, 6, 7, 10, 15
+- User stories covered: 14
 
 ![Downloadable City Guide Feature](./docs/features/feature-complete_pdf_city_guide_to_download_button.jpg)
 
@@ -371,7 +372,7 @@ links to the Homepage, Articles page, Documentaries page, Podcasts page, Guides 
 - Education: Delivers authoritative yet accessible historical/scientific narratives.
 - Engagement: Uses storytelling techniques (e.g., humor, tragedy) to humanize subjects.
 - Shareability: Optimized for social sharing with standout quotes/facts.
-- User stories covered: 1, 6, 7, 10, 15
+- User stories covered: 15
 
 ![Article Feature](./docs/features/feature-article.jpg)
 
@@ -385,7 +386,7 @@ links to the Homepage, Articles page, Documentaries page, Podcasts page, Guides 
 - Brand Identity: Communicates ethos, quality standards, and uniqueness.
 - User Conversion: Encourages exploration of content by highlighting variety and expertise.
 - Trust-Building: Showcases authority (historians, filmmakers) and global perspective.
-- User stories covered: 3, 14
+- User stories covered: 16, 17
 
 ![About Us](./docs/features/feature-about_us.jpg)
 
@@ -399,7 +400,7 @@ links to the Homepage, Articles page, Documentaries page, Podcasts page, Guides 
 - Humanizes the brand: Puts faces and stories behind the content.
 - Builds credibility: Highlights awards, qualifications, and niche roles (e.g., Emmy-nominated filmmakers).
 - Engages talent/partners: Signals professionalism and creative ambition.
-- User stories covered: 3, 14
+- User stories covered: 18, 19
 
 ![Our Team Feature](./docs/features/feature-our_team.jpg)
 
@@ -412,7 +413,7 @@ links to the Homepage, Articles page, Documentaries page, Podcasts page, Guides 
 - Encourages interaction: Makes reaching out easy for users, experts, and partners.
 - Streamlines communication: Directs queries to the right team (e.g., podcasts@historyhome.com for show ideas).
 - Professional transparency: Discloses response times and remote-work policy.
-- User stories covered: 3, 14
+- User stories covered: 20, 21
 
 ![Contact Us Feature](./docs/features/feature-contact_us.jpg)
 
@@ -426,7 +427,7 @@ links to the Homepage, Articles page, Documentaries page, Podcasts page, Guides 
 - Legal Compliance: Meets GDPR, COPPA, and copyright requirements.
 - Risk Mitigation: Protects intellectual property and deters misuse.
 - User Clarity: Avoids legalese with bullet points and plain English.
-- User stories covered: 3, 14
+- User stories covered: 22, 23
 
 ![Terms of Use Feature](./docs/features/feature-terms_of_use.jpg)
 
@@ -441,7 +442,7 @@ links to the Homepage, Articles page, Documentaries page, Podcasts page, Guides 
 - Regulatory Compliance: Meets legal standards while avoiding intimidating legalese.
 - Trust Building: Explicit "no data selling" pledge reassures users.
 - User Empowerment: Clear opt-out/correction steps put visitors in control.
-- User stories covered: 3, 14
+- User stories covered: 24,25
 
 ![Privacy Policy Feature](./docs/features/feature-privacy_policy.jpg)
 
@@ -455,7 +456,7 @@ links to the Homepage, Articles page, Documentaries page, Podcasts page, Guides 
 - Legal Compliance: Meets EU/US transparency mandates.
 - User Trust: Discloses minimal, non-invasive tracking.
 - Empowerment: Provides clear opt-out instructions.
-- User stories covered: 3, 14
+- User stories covered: 26, 27
 
 ![Cookie Policy Feature](./docs/features/feature-cookie_policy.jpg)
 
@@ -682,7 +683,7 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| feature-logo-and-navbar | View the header section  | See the clear brand logo (THEHISTORY) and intuitive navigation links (HOME, ARTICLES, VIDEOS, PODCASTS, GUIDES) to access all main content categories. | Works as expected |
+| Logo and Navigation Bar | View the header section  | See the clear brand logo (THEHISTORY) and intuitive navigation links (HOME, ARTICLES, VIDEOS, PODCASTS, GUIDES) to access all main content categories. | Works as expected |
 
 
 <details><summary>Screenshots</summary>
@@ -693,7 +694,7 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| feature-hero | Land on the homepage  | See a bold headline ("Your Home for History") and a concise list of content types (Award-winning documentaries, articles, podcasts, guides) that clearly communicate the site’s value proposition. | Works as expected |
+| Hero Section | Land on the homepage  | See a bold headline ("Your Home for History") and a concise list of content types (Award-winning documentaries, articles, podcasts, guides) that clearly communicate the site’s value proposition. | Works as expected |
 
 
 <details><summary>Screenshots</summary>
@@ -704,7 +705,7 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| feature-main | Navigate to the Content Showcase Module of Home page  | Scan the diverse content formats presented, explore duration, media type and topics | Works as expected |
+| Content Showcase Module | Navigate to the Content Showcase Module of Home page  | Scan the diverse content formats presented, explore duration, media type and topics | Works as expected |
 
 
 <details><summary>Screenshots</summary>
@@ -744,7 +745,7 @@ The website was tested on the following browsers:
 <img src="./docs/user-story-testing/user-story-feature-article-cards .jpg">
 </details>
 
-5. As a first-time or a returning user, I want to filter video content by geographic region to quickly find topics relevant to my interests.
+7. As a first-time or a returning user, I want to filter video content by geographic region to quickly find topics relevant to my interests.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -755,7 +756,7 @@ The website was tested on the following browsers:
 <img src="./docs/user-story-testing/user-story-feature-video-section-navigation-bar.jpg">
 </details>
 
-6.  As a first-time or a returning user, I want to preview and select themed videos by seeing their titles, sources, and durations before watching.
+8.  As a first-time or a returning user, I want to preview and select themed videos by seeing their titles, sources, and durations before watching.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -766,7 +767,7 @@ The website was tested on the following browsers:
 <img src="./docs/user-story-testing/user-story-feature-video-cards-carousel_egypt_1.jpg">
 </details>
 
-7.  As a first-time or a returning user, I want to understand podcast episode details including duration, release year, and historical topic before listening.
+9.  As a first-time or a returning user, I want to understand podcast episode details including duration, release year, and historical topic before listening.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -777,7 +778,7 @@ The website was tested on the following browsers:
 <img src="./docs/user-story-testing/user-story-feature-podcast_1.jpg">
 </details>
 
-8. As a first-time or a returning user, I want to explore podcast episodes with expandable sections to quickly scan topics, key details, and full transcripts.
+10. As a first-time or a returning user, I want to explore podcast episodes with expandable sections to quickly scan topics, key details, and full transcripts.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -787,7 +788,7 @@ The website was tested on the following browsers:
 <img src="./docs/user-story-testing/user-story-feature-podcast_1_accordion.jpg">
 </details>
 
-9. As a first-time user or a returning user, I want to explore key historical events chronologically to understand their progression and impact on London's development.
+11. As a first-time user or a returning user, I want to explore key historical events chronologically to understand their progression and impact on London's development.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -797,7 +798,7 @@ The website was tested on the following browsers:
 <img src="./docs/user-story-testing/user-story-feature-history-time_line.jpg">
 </details>
 
-10. As a first-time or a returning user, I want to quickly identify a featured video guide's duration and subject to determine if I want to watch it.
+12. As a first-time or a returning user, I want to quickly identify a featured video guide's duration and subject to determine if I want to watch it.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -807,7 +808,7 @@ The website was tested on the following browsers:
 <img src="./docs/user-story-testing/user-story-feature-video-guide.jpg">
 </details>
 
-11. As a first-time user or a returning user, I want to explore London districts through a zoomable map to discover historical areas of interest.
+13. As a first-time user or a returning user, I want to explore London districts through a zoomable map to discover historical areas of interest.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -817,7 +818,7 @@ The website was tested on the following browsers:
 <img src="./docs/user-story-testing/user-story-feature-zoomable-london-map-guide.jpg">
 </details>
 
-12. As a first-time user or a returning user, I want to access a comprehensive offline guide to plan my historical exploration of the city.
+14. As a first-time user or a returning user, I want to access a comprehensive offline guide to plan my historical exploration of the city.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -832,7 +833,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story-feature-complete_pdf_city_guide_to_download_button.jpg">
 </details>
 
-13. As a first-time or a returning user, I want to read engaging historical articles with clear structure and key takeaways to efficiently absorb information.
+15. As a first-time or a returning user, I want to read engaging historical articles with clear structure and key takeaways to efficiently absorb information.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -846,7 +847,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story-feature-article.jpg">
 </details>
 
-14. As a first-time user, I want to understand the website's purpose, content offerings, and unique value to determine if it meets my historical exploration needs.
+16. As a first-time user, I want to understand the website's purpose, content offerings, and unique value to determine if it meets my historical exploration needs.
 
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -860,7 +861,7 @@ The website was tested on the following browsers:
 <img src="./docs/user-story-testing/user-story-feature-about_us.jpg">
 </details>
 
-15. As the site owner, I want users to understand our brand identity and content value proposition to increase engagement and conversions.
+17. As the site owner, I want users to understand our brand identity and content value proposition to increase engagement and conversions.
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | About Us | Users view the About Us page | Visitors understand our mission, vision, content formats, unique value propositions and content scope.
@@ -870,7 +871,7 @@ The website was tested on the following browsers:
 <img src="./docs/user-story-testing/user-story-feature-about_us.jpg">
 </details>
 
-16. As a first-time user, I want to understand the expertise behind the content to evaluate its credibility and production quality.
+18. As a first-time user, I want to understand the expertise behind the content to evaluate its credibility and production quality.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -882,7 +883,7 @@ The website was tested on the following browsers:
 <img src="./docs/user-story-testing/user-story-feature-our_team.jpg">
 </details>
 
-17. As the site owner, I want users to recognize our team's expertise and passion to build trust in our content and increase engagement.
+19. As the site owner, I want users to recognize our team's expertise and passion to build trust in our content and increase engagement.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -891,7 +892,7 @@ The website was tested on the following browsers:
 <img src="./docs/user-story-testing/user-story-feature-our_team.jpg">
 </details>
 
-18. As a first-time user, I want to easily find contact options (email, address) to submit inquiries, feedback, or collaboration requests.
+20. As a first-time user, I want to easily find contact options (email, address) to submit inquiries, feedback, or collaboration requests.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -900,7 +901,7 @@ The website was tested on the following browsers:
 <img src="./docs/user-story-testing/user-story-feature-contact_us.jpg">
 </details>
 
-19. As the site owner, I want users to easily reach out through proper channels to improve engagement, gather feedback, and develop partnerships.
+21. As the site owner, I want users to easily reach out through proper channels to improve engagement, gather feedback, and develop partnerships.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -909,7 +910,7 @@ The website was tested on the following browsers:
 <img src="./docs/user-story-testing/user-story-feature-contact_us.jpg">
 </details>
 
-20. As the site owner, I want users to clearly understand their rights and obligations when using our platform to protect our content and maintain a safe community.
+22. As the site owner, I want users to clearly understand their rights and obligations when using our platform to protect our content and maintain a safe community.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -918,7 +919,7 @@ The website was tested on the following browsers:
 <img src="./docs/user-story-testing/user-story-feature-terms_of_use.jpg">
 </details>
 
-21. As a first-time user, I want to quickly understand the platform’s rules, content usage policies, and my responsibilities before engaging with the site.
+23. As a first-time user, I want to quickly understand the platform’s rules, content usage policies, and my responsibilities before engaging with the site.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -927,7 +928,7 @@ The website was tested on the following browsers:
 <img src="./docs/user-story-testing/user-story-feature-terms_of_use.jpg">
 </details>
 
-22. As a first-time user, I want to clearly understand what data is collected, how it's used, and my privacy rights before using the website.
+24. As a first-time user, I want to clearly understand what data is collected, how it's used, and my privacy rights before using the website.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -936,7 +937,7 @@ The website was tested on the following browsers:
 <img src="./docs/user-story-testing/user-story-feature-privacy_policy.jpg">
 </details>
 
-23. As the site owner, I want users to trust our data practices to comply with regulations while maintaining transparency about information collection and usage.
+25. As the site owner, I want users to trust our data practices to comply with regulations while maintaining transparency about information collection and usage.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -945,7 +946,7 @@ The website was tested on the following browsers:
 <img src="./docs/user-story-testing/user-story-feature-privacy_policy.jpg">
 </details>
 
-24. As a first-time user, I want to understand what cookies are used, their purpose, and how to manage them before continuing to browse the site.
+26. As a first-time user, I want to understand what cookies are used, their purpose, and how to manage them before continuing to browse the site.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -954,7 +955,7 @@ The website was tested on the following browsers:
 <img src="./docs/user-story-testing/user-story-feature-cookie_policy.jpg">
 </details>
 
-25. As the site owner, I want users to make informed choices about cookie usage to ensure compliance while maintaining essential site functionality.
+27. As the site owner, I want users to make informed choices about cookie usage to ensure compliance while maintaining essential site functionality.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -965,5 +966,58 @@ The website was tested on the following browsers:
 
 
 ## Bugs
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+| The logo linking to the Home page displays an unwanted border/outline when clicked or focused. This visual artifact is inconsistent with the design and occurs due to default browser styles or inherited CSS properties applied to <a> elements. | Adding CSS rules to style.css to remove all borders and outlines from the logo link |
 
+## Deployment
+The website was deployed using GitHub Pages by following these steps:
+1. In the GitHub repository navigate to the Settings tab
+2. On the left hand menu select Pages
+3. For the source select Branch: master
+4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://github.com/Natallllyyy333/CI_PP1_HH"
+
+You can for fork the repository by following these steps:
+1. Go to the GitHub repository
+2. Click on Fork button in upper right hand corner
+
+You can clone the repository by following these steps:
+1. Go to the GitHub repository 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7.Press Enter to create your local clone.
+
+## Credits
+Images not referenced below are owned by the developer.
+
+### Media
+In order of apearance:
+- [Hero Section](./docs/features/feature-hero-section.jpg): Photo by <a href="https://en.wikipedia.org/wiki/Jacques-Louis_David">Jacques-Louis David</a> on <a href="https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project_(3x4_close_cropped).jpg">Wikimedia Commons</a>
+
+- [Content Showcase Module](./docs/features/feature-hero-section.jpg): Photo by <a href="https://en.wikipedia.org/wiki/John_Taylor_(painter)">John Taylor</a> on <a href="https://commons.wikimedia.org/wiki/File:Shakespeare.jpg">Wikimedia Commons</a>
+
+- [Content Showcase Module](./docs/features/feature-hero-section.jpg): Photo by Unknown author on <a href="https://commons.wikimedia.org/wiki/File:Portrait_Gandhi.jpg">Wikimedia Commons</a>
+
+- [Content Showcase Module](./docs/features/feature-hero-section.jpg): Photo by <a href="https://static.wixstatic.com/media/b1f026_38f7ba7fe75949f4a0654e05ae672b72~mv2.jpg">Magyar</a> on <a href="https://commons.wikimedia.org/wiki/File:J%C3%A9zus_Krisztus,_az_emberis%C3%A9g_Megv%C3%A1lt%C3%B3ja.jpg">Wikimedia Commons</a>
+
+- [Content Showcase Module](./docs/features/feature-hero-section.jpg): Photo by <a href="https://www.metmuseum.org/art/collection/search/12823">Metropolitan Museum of Art</a> on <a href="https://commons.wikimedia.org/wiki/File:George_Washington_before_the_Battle_of_Trenton_MET_DT217161.jpg">Wikimedia Commons</a>
+
+- [Content Showcase Module](./docs/features/feature-hero-section.jpg): Photo by <a href="https://www.shutterstock.com/g/Kassabova">GK1982</a> on <a href="https://www.shutterstock.com/image-photo/details-skopjemacedonia-statues-historical-city-center-1221818119">Shutterstock.com</a>
+
+- [Content Showcase Module](./docs/features/feature-hero-section.jpg): Photo by Howard Sochurek on <a href="https://www.buzzfeed.com/fr/gabrielsanchez/martin-luther-king-photos-couleurs?epik=dj0yJnU9YmNfUHRIM09Kd1dEaUR2eTJlNk91SU5qbjRaa21PcTQmcD0wJm49QWdWb29LSERpWTNRVklLMFFjUXRfZyZ0PUFBQUFBR2dtVmVv">BuzzFeed</a>
+
+- [Content Showcase Module](./docs/features/feature-hero-section.jpg): Photo by <a href="https://www.flickr.com/photos/libertystudies/">
+Daniel Oliver</a> on <a href="https://www.flickr.com/photos/libertystudies/4500449709/">Flickr</a>
+
+- [Content Showcase Module](./docs/features/feature-hero-section.jpg): Photo by <a href="https://creativeflair.org/author/creativeflair/">
+Creative Flair</a> on <a href="https://creativeflair.org/leonardo-da-vinci/">Creative Flair</a>
+
+- [Content Showcase Module](./docs/features/feature-hero-section.jpg): Photo by <a href="https://en.wikipedia.org/wiki/Enoch_Seeman">
+Enoch Seeman</a> on <a href="https://commons.wikimedia.org/wiki/File:Enoch_Seeman_the_younger_(1689-1690-1745)_-_Isaac_Newton_(1642%E2%80%931727),_Fellow,_Natural_Philosopher_and_Mathematician_-_TC_Oils_P_138_-_Trinity_College.jpg">Wikimedia Commons</a>
+
+- [Content Showcase Module](./assets/images/inca-empire-ceremony-inti-raymi-credit-Nyall-Maryanne-cc2.jpg): Photo by <a href="https://www.flickr.com/photos/zombiepigs/">
+Nyall & Maryanne</a> on <a href="https://www.flickr.com/photos/zombiepigs/3664895969">Flickr</a>
 
