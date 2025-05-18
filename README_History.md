@@ -1135,3 +1135,61 @@ Bassano Ltd</a> on <a href="https://en.wikipedia.org/wiki/File:Sir_Keith_Joseph,
 Arthur Pan</a> on <a href="https://en.wikipedia.org/wiki/File:Pan-Churchill.jpg">Wikipedia</a>
 
 - [Podcast Accordion Feature](./assets/images/winston-churchill-640w.avif): Photo by <a href="https://veteranstoday.com/author/alexis/">Jonas E. Alexis</a> on <a href="https://veteranstoday.com/wp-content/uploads/2021/04/churchill.jpg">veteranstoday.com</a>
+
+- [Hero Section](./assets/images/top-historical-travel-destinations-for-history-buffs-njy-1024-85q-we.webp): Photo by <a href="https://whytravelisimportant.com/author/zac/">Author Zac</a> on <a href="https://whytravelisimportant.com/top-historical-travel-destinations-for-history-buffs/">whytravelisimportant.com</a>
+
+- [Video Guide Feature](./assets/images/london_map_image-asset-640-webp-85q.webp): Video by <a href="https://www.youtube.com/@TRACKSTravelDocs">TRACKS - Travel Documentaries</a> on <a href="https://www.youtube.com/watch?v=5FbNPDknL-g">youtube.com</a>
+
+- [Interactive Zoomable London Map Guide](./assets/images/top-historical-travel-destinations-for-history-buffs-njy-1024-85q-we.webp): Photo by <a href="https://www.tomconnellstudio.com/">Tom Connell</a> on <a href="https://www.tomconnellstudio.com/realistic-2/2015/9/11/london-hotel-map">tomconnellstudio.com/</a>
+
+- [Hero Section](./assets/images/Rise_and_Fall_of_the_Roman_Empire_glory_1020webp.webp): Photo by <a href="https://www.alamy.com/stock-photo/?name=Peter+Horree&pseudoid=85D45CE4-7183-44F5-B00A-AC25B003047F&sortBy=relevant">Peter Horree</a> on <a href="https://www.alamy.com/stock-photo-the-martyrdom-of-st-agnes-in-the-roman-forum-in-the-year-303-under-95735422.html">alamy.com</a>
+
+- [Article Feature](./assets/images/roman_empire_1_1200webp.webp): Photo by <a href="https://openart.ai/@duck_nimble_28">Félix Salas</a> on <a href="https://openart.ai/community/DbECBIPB4lkv0xTP0D0s">openart.ai</a>
+
+- [Hero Section](./assets/images/monitor-1307227_1280.jpg): Photo by <a href="https://pixabay.com/de/users/geralt-9301/">geralt</a> on <a href="https://pixabay.com/de/illustrations/monitor-bin%C3%A4r-bin%C3%A4ren-system-1307227/">pixabay.com</a>
+
+- [Article Feature](./assets/images/ada-lovelace-1024w.webp): Photo by <a href="https://collection.sciencemuseumgroup.org.uk/objects/co67823">
+Science Museum Group</a> on <a href="https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg">Wikimedia Commons</a>
+
+
+- [Hero Section](./assets/images/header_train_cbq35-wessel1_1024_webp.webp): Photo by <a href="https://locomotive.fandom.com/wiki/User:Alexthegeneralarteaga">AlexthegeneralarteagaakaAlex</a> on <a href="https://locomotive.fandom.com/wiki/CB%26Q_No._35?file=Mo328.jpg">locomotive.fandom.com</a>
+
+- [Article Feature](./assets/images/first_train_58754e46b031b2047396b6fa64863701.jpg): Photo by <a href="https://vancouver.ca/your-government/city-of-vancouver-archives.aspx">
+City of Vancouver archives</a> on <a href="https://karen-magill.blogspot.com/2014/01/locomotive-374.html">karen-magill.blogspot.com</a>
+
+
+- [Hero Section](./assets/images/1-1024_webp.webp): Photo by <a href="https://en.wikipedia.org/wiki/Associated_Press">
+Associated Press</a> on <a href="https://commons.wikimedia.org/wiki/File:Albert_Einstein_writing_on_a_blackboard_in_Pasadena_(1931).jpg">Wikimedia Commons</a>
+
+- [Article Feature](./assets/images/albert-einstein-9.jpg): Photo by <a href="https://imgur.com/user/MichaelGorth">
+MichaelGorth</a> on <a href="https://imgur.com/gallery/colorized-albert-einstein-MPuaYe4">imgur.com</a>
+
+- [Hero Section](./assets/images/significant-Events-in-World-History-and-Their-Impact-on-Society.jpg): Photo by <a href="https://thoughtfultakes.com/author/admin/">
+admin</a> on <a href="https://thoughtfultakes.com/wp-content/uploads/2023/04/Significant-Events-in-World-History-and-Their-Impact-on-Society.jpg">thoughtfultakes.com</a>
+
+- [Article Feature](./assets/images/historical_events_1st_image_2webp_1024_webp.webp): Photo by <a href="https://substack.com/@contraptions">Venkatesh Rao
+</a> on <a href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8afb4151-ee4b-4382-b87b-83943a842477_800x600.png">contraptions.venkateshrao.com</a>
+
+- [Article Feature](./assets/images/historical_events_1st_image_2webp_1024_webp.webp): Photo by <a href="https://buycoffee.to/mlynarczyk/">Robert Młynarczyk
+</a> on <a href="https://medievalheritage.eu/wp-content/uploads/2019/10/Pentre-Ifan-rekonstrukcja-11.jpg">medievalheritage.eu</a>
+
+- [Article Feature](./assets/images/ancient-cuneiform-writing-script-on-600nw-1037660671.webp): Photo by <a href="https://www.shutterstock.com/g/HansFree">HansFree
+</a> on <a href="https://www.shutterstock.com/image-photo/ancient-cuneiform-writing-script-on-wall-1037660671">shutterstock.com</a>
+
+- [Article Feature](./assets/images/roman_empire_1_1200webp.webp): Photo by <a href="https://openart.ai/@duck_nimble_28">Félix Salas</a> on <a href="https://openart.ai/community/DbECBIPB4lkv0xTP0D0s">openart.ai</a>
+
+- [Article Feature](./assets/images/constantinechristianity-2-1024w2.webp): Photo by <a href="https://commons.wikimedia.org/wiki/User:Peter1936F">Peter1936F</a> on <a href="https://commons.wikimedia.org/wiki/File:00_Stirnwand_7.jpg">Wikimedia Commons</a>
+
+- [Article Feature](./assets/images/age_of_exploration_640.webp): Photo by <a href="https://www.alamy.com/stock-photo/?name=ZUMA+Press&pseudoid=BC34D460-1085-4607-B2F9-3FBBEC5FBB7C&sortBy=relevant">ZUMA Press</a> on <a href="https://www.alamy.com/aug-5-2014-embarkation-and-departure-of-columbus-from-the-port-of-palos-on-his-first-voyage-of-discovery-3-aug-1492-painting-by-ricardo-balaca-credit-image-glasshousezuma-wire-image658304656.html?imageid=37C70557-3C77-41D8-86F3-7BB61C96C948&p=151045&pn=1&searchId=efe24d3914ef84fc2e6319cbd7d9c605&searchtype=0">alamy.com</a>
+
+- [Article Feature](./assets/images/industrial_revolution_imperial-printing-presses-science-photo-library.jpg): Photo by <a href="https://sciencephotogallery.com/">Science Photo Library</a> on <a href="https://sciencephotogallery.com/featured/imperial-printing-presses-science-photo-library.html">sciencephotogallery.com</a>
+
+- [Article Feature](./assets/images/french_revolution_1024.webp): Photo by <a href="https://www.parismuseescollections.paris.fr/en/node/127343">Les Cris de Paris</a> on <a href="https://de.m.wikipedia.org/wiki/Datei:Jean-Baptiste_Lallemand_-_La_prise_de_la_Bastille,_le_14_juillet_1789_-_P1718_-_Mus%C3%A9e_Carnavalet.jpg">wikipedia.org</a>
+
+- [Article Feature](./assets/images/ww1_Men-of-Iron-painting-_1024.webp): Photo by <a href="https://www.alamy.de/fotos-bilder/?name=Folio&pseudoid=4CDCB662-D053-4422-92FB-9E55DAE722C0&sortBy=relevant">Folio</a> on <a href="https://www.alamy.de/28-division-pennsylvania-nationalgarde-28-erhielt-seine-feuertaufe-am-15-juli-1918-wahrend-der-bundeswehr-s-champag-image9986710.html?imageid=BA7D628A-47EF-47AE-8F56-40CC1BC58132&p=30132&pn=1&searchId=53dba41e4f4d3c019e09bc78feefee9b&searchtype=0">alamy.de</a>
+
+- [Article Feature](./assets/images/ww2_deJgrAQpGJscHezywKYBkm_1024.webp): Photo by <a href="https://www.gettyimages.no/search/photographer?photographer=General%20Photographic%20Agency">General Photographic Agency</a> on <a href="https://www.gettyimages.no/detail/news-photo/the-luftwaffe-flying-low-over-a-city-news-photo/3313403?adppopup=true">gettyimages</a>
+
+- [Article Feature](./assets/images/digital_rev_1024.webp): Photo by <a href="https://www.alamy.com/stock-photo/?name=chaiyapruek+youprasert&pseudoid=4A69D5BF-976B-44A9-84FA-17AC7C752B2D&sortBy=relevant">chaiyapruek youprasert</a> on <a href="https://www.alamy.com/stock-photo-hand-pushing-a-button-on-a-touch-screen-interface-104604867.html?imageid=E6856509-47F9-491C-904E-E2304B42A5BA&p=307766&pn=1&searchId=1c858584c5de79f7be5924eacd74be23&searchtype=0">alamy.com</a>
+
+- [Article Feature](./assets/images/it-remote-working.webp): Photo by <a href="https://www.shutterstock.com/g/KornT">KornT</a> on <a href="https://www.shutterstock.com/image-photo/empty-office-space-while-officer-working-1676114362">shutterstock.com</a>
