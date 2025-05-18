@@ -23,6 +23,19 @@
 4. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
     2. [Frameworks & Tools](#frameworks-&-tools)
+5. [Features](#features)
+6. [Testing](#validation)
+    1. [HTML Validation](#HTML-validation)
+    2. [CSS Validation](#CSS-validation)
+    3. [Accessibility](#accessibility)
+    4. [Performance](#performance)
+    5. [Device testing](#performing-tests-on-various-devices)
+    6. [Browser compatibility](#browser-compatability)
+    7. [Testing user stories](#testing-user-stories)
+8. [Bugs](#Bugs)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
+11. [Acknowledgements](#acknowledgements)
 
 
 ## Project Goals 
@@ -1024,141 +1037,149 @@ Nyall & Maryanne</a> on <a href="https://www.flickr.com/photos/zombiepigs/366489
 - [Content Showcase Module](./assets/images/inca-empire-ceremony-inti-raymi-credit-Nyall-Maryanne-cc2.jpg): Photo by <a href="https://hotwalls.ru/">
 Hotwalls</a> on <a href="https://hotwalls.ru/rimskiy_voin_total_war_rome_ii/1024x768">Hotwalls.ru</a>
 
-- [Content Showcase Module](./assets/images/ada-lovelace-1024w.webp): Photo by <a href="https://collection.sciencemuseumgroup.org.uk/objects/co67823">
+- [Content Showcase Module](./assets/images/ada-lovelace.jpg): Photo by <a href="https://collection.sciencemuseumgroup.org.uk/objects/co67823">
 Science Museum Group</a> on <a href="https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg">Wikimedia Commons</a>
 
-- [Content Showcase Module](./assets/images/The_Great_Sphinx_640w.webp): Photo by <a href="https://www.istockphoto.com/de/portfolio/AlexAnton?mediatype=photography">
+- [Content Showcase Module](./assets/images/The_Great_Sphinx_640.jpg): Photo by <a href="https://www.istockphoto.com/de/portfolio/AlexAnton?mediatype=photography">
 Anton Aleksenko</a> on <a href="https://www.istockphoto.com/de/foto/die-gro%C3%9Fe-sphinx-und-die-chephren-pyramide-bei-sonnenuntergang-gizeh-%C3%A4gypten-gm1404362633-456595057?searchscope=image%2Cfilm">iStock by Getty Images – Logo</a>
 
-- [Content Showcase Module](./assets/images/Napoleon_1024w.webp): Photo by <a href="https://en.gallerix.ru/album/Versailles/pic/glrx-898790212">
+- [Content Showcase Module](./assets/images/Charles_Meynier_-_Entrée_de_Napoléon_à_Berlin._27_octobre_1806.jpg): Photo by <a href="https://en.gallerix.ru/album/Versailles/pic/glrx-898790212">
 Gallerix</a> on <a href="https://commons.wikimedia.org/wiki/File:Charles_Meynier_-_Entr%C3%A9e_de_Napol%C3%A9on_%C3%A0_Berlin._27_octobre_1806.jpg">Wikimedia Commons</a>
 
-- [Content Showcase Module](./assets/images/churchill_1024w.webp): Photo by <a href="https://en.wikipedia.org/wiki/Arthur_Pan">
+- [Content Showcase Module](./assets/images/Pan-Churchill.jpg): Photo by <a href="https://en.wikipedia.org/wiki/Arthur_Pan">
 Arthur Pan</a> on <a href="https://en.wikipedia.org/wiki/File:Pan-Churchill.jpg">Wikipedia</a>
 
-- [Hero Section](./assets/images/sort_your_books-1024w.webp): Photo by <a href="https://www.shutterstock.com/g/Rawpixel">
+- [Hero Section](./assets/images/sort_your_books.jpg): Photo by <a href="https://www.shutterstock.com/g/Rawpixel">
 Rawpixel.com</a> on <a href="https://www.shutterstock.com/image-photo/antique-book-shelf-vintage-background-2074857073">Shutterstock</a>
 
-- [Article Cards Feature](./assets/images/first_train_58754e46b031b2047396b6fa64863701_1024_avif.avif): Photo by <a href="https://locomotive.fandom.com/wiki/User:Alexthegeneralarteaga">
+- [Article Cards Feature](./assets/images/first_train_58754e46b031b2047396b6fa64863701.jpg): Photo by <a href="https://locomotive.fandom.com/wiki/User:Alexthegeneralarteaga">
 Alexthegeneralarteaga</a> on <a href="https://locomotive.fandom.com/wiki/Saint_Paul_and_Pacific_No._1_William_Crooks?file=F389B027-5653-42D1-A44F-BA32FCAA3AB5.jpeg">Locomotive Wiki</a>
 
-- [Article Cards Feature](./assets/images/1-1024_webp.webp): Photo by <a href="https://en.wikipedia.org/wiki/Associated_Press">
+- [Article Cards Feature](./assets/images/1.jpg): Photo by <a href="https://en.wikipedia.org/wiki/Associated_Press">
 Associated Press</a> on <a href="https://commons.wikimedia.org/wiki/File:Albert_Einstein_writing_on_a_blackboard_in_Pasadena_(1931).jpg">Wikimedia Commons</a>
 
-- [Article Cards Feature](./assets/images/oip-640w.avif): Photo by <a href="https://www.1st-art-gallery.com/Eugene-Delacroix/Eugene-Delacroix-oil-paintings.html">
+- [Article Cards Feature](./assets/images/OIP.jpeg): Photo by <a href="https://www.1st-art-gallery.com/Eugene-Delacroix/Eugene-Delacroix-oil-paintings.html">
 1st-Art-Gallery.com</a> on <a href="https://ru.m.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg">Wikipedia</a>
 
-- [Article Cards Feature](./assets/images/oip-640w.avif): Photo by <a href="https://commons.wikimedia.org/w/index.php?title=User:EmirhanEfe1&action=edit&redlink=1">
+- [Article Cards Feature](./assets/images/OIP.jpeg): Photo by <a href="https://commons.wikimedia.org/w/index.php?title=User:EmirhanEfe1&action=edit&redlink=1">
 EmirhanEfe1</a> on <a href="https://commons.wikimedia.org/wiki/File:Lenin_halka_hitap_ederken.jpg">Wikimedia Commons</a>
 
-- [Article Cards Feature](./assets/images/oip-640w.avif): Photo by <a href="https://en.wikipedia.org/wiki/National_Archives_and_Records_Administration">
+- [Article Cards Feature](./assets/images/OIP.jpeg): Photo by <a href="https://en.wikipedia.org/wiki/National_Archives_and_Records_Administration">
 National Archives and Records Administration</a> on <a href="https://commons.wikimedia.org/wiki/File:Civil_Rights_March_on_Washington,_D.C._(Dr._Martin_Luther_King,_Jr._and_Mathew_Ahmann_in_a_crowd.)_-_NARA_-_542015_-_Restoration_(cropped).jpg">Wikimedia Commons</a>
 
-- [Article Cards Feature](./assets/images/oip-640w.avif): Photo by <a href="https://en.m.wikipedia.org/wiki/Scientist">
+- [Article Cards Feature](./assets/images/scientists.jpg): Photo by <a href="https://en.m.wikipedia.org/wiki/Scientist">
 Wikipedia</a> on <a href="https://www.pinterest.com/pin/74661306300299193/">Pinterest.com</a>
 
-- [Hero Section](./assets/images/image-asset-1024w.avif): Photo by <a href="https://pxhere.com/">
+- [Hero Section](./assets/images/image-asset.jpeg): Photo by <a href="https://pxhere.com/">
 pxhere</a> on <a href="https://pxhere.com/en/photo/16107">pxhere.com</a>
 
-- [Video Cards Carousel Feature](./assets/images/poster_egypt_1-560.webp): Video by <a href="https://www.youtube.com/@NatGeo">
+- [Video Cards Carousel Feature](./assets/images/egypt_1_poster.jpg): Video by <a href="https://www.youtube.com/@NatGeo">
 National Geographic</a> on <a href="https://www.youtube.com/watch?v=smqJTUjRx74&t=1s">youtube.com</a>
 
-- [Video Cards Carousel Feature](./assets/images/poster_egypt_2-560.webp): Video by <a href="https://www.youtube.com/@NatGeo">
+- [Video Cards Carousel Feature](./assets/images/egypt_2_poster.jpg): Video by <a href="https://www.youtube.com/@NatGeo">
 National Geographic</a> on <a href="https://www.youtube.com/watch?v=xBKydxlMShw">youtube.com</a>
 
-- [Video Cards Carousel Feature](./assets/images/poster_egypt_3-560.webp): Video by <a href="https://www.youtube.com/@NatGeo">
+- [Video Cards Carousel Feature](./assets/images/egypt_3_poster.jpg): Video by <a href="https://www.youtube.com/@NatGeo">
 National Geographic</a> on <a href="https://www.youtube.com/watch?v=mDi51dEloLM">youtube.com</a>
 
-- [Video Cards Carousel Feature](./assets/images/poster_egypt_4-560.webp): Video by <a href="https://www.youtube.com/@NatGeo">
+- [Video Cards Carousel Feature](./assets/images/egypt_4_poster.jpg): Video by <a href="https://www.youtube.com/@NatGeo">
 National Geographic</a> on <a href="https://www.youtube.com/watch?v=ULofBtBAJn4">youtube.com</a>
 
-- [Video Cards Carousel Feature](./assets/images/poster_egypt_5-560.webp): Video by <a href="https://www.youtube.com/@NatGeo">
+- [Video Cards Carousel Feature](./assets/images/egypt_5_poster.jpg): Video by <a href="https://www.youtube.com/@NatGeo">
 National Geographic</a> on <a href="https://www.youtube.com/watch?v=BoBapnk6TB8">youtube.com</a>
 
-- [Video Cards Carousel Feature](./assets/images/poster_egypt_6-560.webp): Video by <a href="https://www.youtube.com/@CurtisRyanWoodside">
+- [Video Cards Carousel Feature](./assets/images/egypt_6_poster.jpg): Video by <a href="https://www.youtube.com/@CurtisRyanWoodside">
 Curtis Ryan Woodside</a> on <a href="https://www.youtube.com/watch?v=zdGThahx5sE">youtube.com</a>
 
-- [Video Cards Carousel Feature](./assets/images/spain_europe_1_poster-560.webp): Video by <a href="https://www.youtube.com/@Fireoflearning">
+- [Video Cards Carousel Feature](./assets/images/spain_europe_1_poster.jpg): Video by <a href="https://www.youtube.com/@Fireoflearning">
 Fire of Learning</a> on <a href="https://www.youtube.com/watch?v=0qrwa2Ixk5c&t=2s">youtube.com</a>
 
-- [Video Cards Carousel Feature](./assets/images/germany_europe_2_poster-560.webp): Video by <a href="https://www.youtube.com/@CaptivatingHistory">
+- [Video Cards Carousel Feature](./assets/images/germany_europe_2_poster.jpg): Video by <a href="https://www.youtube.com/@CaptivatingHistory">
 Captivating History</a> on <a href="https://www.youtube.com/watch?v=yDnTF860g7M">youtube.com</a>
 
-- [Video Cards Carousel Feature](./assets/images/france_europe_3_poster-560.webp): Video by <a href="https://www.youtube.com/@FortressofLugh">
+- [Video Cards Carousel Feature](./assets/images/france_europe_3_poster.jpg): Video by <a href="https://www.youtube.com/@FortressofLugh">
 Fortress of Lugh</a> on <a href="https://www.youtube.com/watch?v=eJNJdovqmx8&t=27s">youtube.com</a>
 
-- [Video Cards Carousel Feature](./assets/images/italy_europe_4_poster-560.webp): Video by <a href="https://www.youtube.com/@IntroBooksEducation">
+- [Video Cards Carousel Feature](./assets/images/italy_europe_4_poster.jpg): Video by <a href="https://www.youtube.com/@IntroBooksEducation">
 IntroBooks Education</a> on <a href="https://www.youtube.com/watch?v=JUK8j4ZovQs">youtube.com</a>
 
-- [Video Cards Carousel Feature](./assets/images/greece_europe_5_poster-560.webp): Video by <a href="https://www.youtube.com/@Geodiode">
+- [Video Cards Carousel Feature](./assets/images/greece_europe_5_poster.jpg): Video by <a href="https://www.youtube.com/@Geodiode">
 Geodiode</a> on <a href="https://www.youtube.com/watch?v=Mk-OyRI7c7Q&t=2s">youtube.com</a>
 
-- [Video Cards Carousel Feature](./assets/images/norway_europe_6_poster-560.webp): Video by <a href="https://www.youtube.com/@sagastube">
+- [Video Cards Carousel Feature](./assets/images/norway_europe_6_poster.jpg): Video by <a href="https://www.youtube.com/@sagastube">
 SagasTube</a> on <a href="https://www.youtube.com/watch?v=SBRxRYLYLyo">youtube.com</a>
 
-- [Video Cards Carousel Feature](./assets/images/inca_world_1_poster-560.webp): Video by <a href="https://www.youtube.com/@KingsandGenerals">
+- [Video Cards Carousel Feature](./assets/images/inca_world_1_poster.jpg): Video by <a href="https://www.youtube.com/@KingsandGenerals">
 Kings and Generals
 </a> on <a href="https://www.youtube.com/watch?v=iYYfg2tph3w">youtube.com</a>
 
-- [Video Cards Carousel Feature](./assets/images/britain_world_2_poster-560.webp): Video by <a href="https://www.youtube.com/@this_is_history">This Is History
+- [Video Cards Carousel Feature](./assets/images/britain_world_2_poster.jpg): Video by <a href="https://www.youtube.com/@this_is_history">This Is History
 </a> on <a href="https://www.youtube.com/watch?v=P6r_qBoeHuA">youtube.com</a>
 
-- [Video Cards Carousel Feature](./assets/images/china_world_3_poster-560.webp): Video by <a href="https://www.youtube.com/@BeginningToNoww">Beginning To Now
+- [Video Cards Carousel Feature](./assets/images/china_world_3_poster.jpg): Video by <a href="https://www.youtube.com/@BeginningToNoww">Beginning To Now
 </a> on <a href="https://www.youtube.com/watch?v=i_G7pd5eHSo">youtube.com</a>
 
-- [Video Cards Carousel Feature](./assets/images/japan_world_4_poster-560.webp): Video by <a href="https://www.youtube.com/@VoicesofthePast">Voices of the Past
+- [Video Cards Carousel Feature](./assets/images/japan_world_4_poster.jpg): Video by <a href="https://www.youtube.com/@VoicesofthePast">Voices of the Past
 </a> on <a href="https://www.youtube.com/watch?v=_m9_ZiqLg5I&t=1s">youtube.com</a>
 
-- [Video Cards Carousel Feature](./assets/images/brazil_world_5_poster-560.webp): Video by <a href="https://www.youtube.com/@Knowledgia">Knowledgia
+- [Video Cards Carousel Feature](./assets/images/brazil_world_5_poster.jpg): Video by <a href="https://www.youtube.com/@Knowledgia">Knowledgia
 </a> on <a href="https://www.youtube.com/watch?v=rqT51lU1IJw&t=1s">youtube.com</a>
 
-- [Video Cards Carousel Feature](./assets/images/us_world_6_poster-560.webp): Video by <a href="https://www.youtube.com/@BeginningToNoww">Beginning To Now
+- [Video Cards Carousel Feature](./assets/images/us_world_6_poster.jpg): Video by <a href="https://www.youtube.com/@BeginningToNoww">Beginning To Now
 </a> on <a href="https://www.youtube.com/watch?v=hxdSr03ULdM">youtube.com</a>
 
-- [Hero Section](./assets/images/1502858-1024-80q.avif): Photo by <a href="https://www.istockphoto.com/de/portfolio/Petrovich9?mediatype=photography">
+- [Hero Section](./assets/images/1502858-1024-80q.jpg): Photo by <a href="https://www.istockphoto.com/de/portfolio/Petrovich9?mediatype=photography">
 Petrovich9</a> on <a href="https://www.istockphoto.com/de/foto/mikrofon-gm533610469-56373426">iStock by Getty Images</a>
 
 - [Podcasts Feature](./assets/images/napoleon_pic.jpg): Photo by <a href="https://commons.wikimedia.org/wiki/Commons:10,000_paintings_from_Directmedia">
 Commons:10,000 paintings from Directmedia</a> on <a href="https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_Napoleon_Crossing_the_Alps_-_Schloss_Charlottenburg.jpg">Wikimedia Commons</a>
 
-- [Podcast Accordion Feature](./assets/images/Napoleon_I_of_France_by_Andrea_Appiani-640.avif): Photo by <a href="https://commons.wikimedia.org/wiki/Commons:10,000_paintings_from_Directmedia">
+- [Podcasts Feature](./assets/sounds/TheForum-20190328-NapoleonFromEmpireToExile_optimized.mp3): Audio by <a href="https://www.bbc.com/">BBC</a> on <a href="https://www.bbc.com/audio/play/w3cswptk">www.bbc.com</a>
+
+- [Podcast Accordion Feature](./assets/images/Napoleon_I_of_France_by_Andrea_Appiani.jpg): Photo by <a href="https://commons.wikimedia.org/wiki/Commons:10,000_paintings_from_Directmedia">
 Commons:10,000 paintings from Directmedia</a> on <a href="https://commons.wikimedia.org/wiki/File:Napoleon_I_of_France_by_Andrea_Appiani.jpg">Wikimedia Commons</a>
 
-- [Podcasts Feature](./assets/images/napoleon_pic.jpg): Photo by <a href="https://www.alamy.com/stock-photo/?name=Homer+Sykes&pseudoid=886410A4-B340-4AE8-B9AE-89AE03DC32B8&sortBy=relevant">
+
+
+- [Podcasts Feature](./assets/images/Keith_Joseph_pic.png): Photo by <a href="https://www.alamy.com/stock-photo/?name=Homer+Sykes&pseudoid=886410A4-B340-4AE8-B9AE-89AE03DC32B8&sortBy=relevant">
 Homer Sykes<a href="https://www.alamy.com/stock-photo-sir-keith-joseph-mp-1980-conservative-party-political-conference-london-113397848.html?imageid=3ECA51B4-8623-4D40-BACF-9B77A541D7BB&p=5611&pn=1&searchId=f5b9d7773146e1eca57f88ead6ae1bdc&searchtype=0">alamny.com</a>
 
-- [Podcast Accordion Feature](./assets/images/Sir_Keith_Joseph,_Bt_in_1964-640_45.avif): Photo by <a href="https://www.npg.org.uk/collections/search/person/mp08062/bassano-ltd?role=art&_gl=1*1h14h8a*_up*MQ..*_ga*NzAzMjEyNzczLjE3NDc0OTUxMjM.*_ga_3D53N72CHJ*czE3NDc0OTUxMjIkbzEkZzEkdDE3NDc0OTUxMjIkajAkbDAkaDA.">
+- [Podcasts Feature](./assets/sounds/TheHistoryPodcast-20250402-2TheMadMonk_optimized.mp3): Audio by <a href="https://www.bbc.co.uk/">BBC</a> on <a href="https://www.bbc.co.uk/programmes/m0029j8z">www.bbc.com</a>
+
+- [Podcast Accordion Feature](./assets/images/Sir_Keith_Joseph,_Bt_in_1964.jpg): Photo by <a href="https://www.npg.org.uk/collections/search/person/mp08062/bassano-ltd?role=art&_gl=1*1h14h8a*_up*MQ..*_ga*NzAzMjEyNzczLjE3NDc0OTUxMjM.*_ga_3D53N72CHJ*czE3NDc0OTUxMjIkbzEkZzEkdDE3NDc0OTUxMjIkajAkbDAkaDA.">
 Bassano Ltd</a> on <a href="https://en.wikipedia.org/wiki/File:Sir_Keith_Joseph,_Bt_in_1964.jpg">Wikimedia Commons</a>
 
 
-- [Podcasts Feature](./assets/images/churchill_1024w.webp): Photo by <a href="https://en.wikipedia.org/wiki/Arthur_Pan">
+- [Podcasts Feature](./assets/images/Pan-Churchill.jpg): Photo by <a href="https://en.wikipedia.org/wiki/Arthur_Pan">
 Arthur Pan</a> on <a href="https://en.wikipedia.org/wiki/File:Pan-Churchill.jpg">Wikipedia</a>
 
-- [Podcast Accordion Feature](./assets/images/winston-churchill-640w.avif): Photo by <a href="https://veteranstoday.com/author/alexis/">Jonas E. Alexis</a> on <a href="https://veteranstoday.com/wp-content/uploads/2021/04/churchill.jpg">veteranstoday.com</a>
+- [Podcasts Feature](./assets/sounds/Biography_in_Sound_541128_02_Winston_Churchill.mp3): Audio by <a href="https://archive.org/">archive.org</a> on <a href="https://archive.org/details/Biography_in_Sound/Biography_in_Sound_-_541128_-_02_-_Winston_Churchill.mp3">archive.org</a>
 
-- [Hero Section](./assets/images/top-historical-travel-destinations-for-history-buffs-njy-1024-85q-we.webp): Photo by <a href="https://whytravelisimportant.com/author/zac/">Author Zac</a> on <a href="https://whytravelisimportant.com/top-historical-travel-destinations-for-history-buffs/">whytravelisimportant.com</a>
+- [Podcast Accordion Feature](./assets/images/winston-churchill.jpg): Photo by <a href="https://veteranstoday.com/author/alexis/">Jonas E. Alexis</a> on <a href="https://veteranstoday.com/wp-content/uploads/2021/04/churchill.jpg">veteranstoday.com</a>
 
-- [Video Guide Feature](./assets/images/london_map_image-asset-640-webp-85q.webp): Video by <a href="https://www.youtube.com/@TRACKSTravelDocs">TRACKS - Travel Documentaries</a> on <a href="https://www.youtube.com/watch?v=5FbNPDknL-g">youtube.com</a>
+- [Hero Section](./assets/images/top-historical-travel-destinations-for-history-buffs-njy.jpg): Photo by <a href="https://whytravelisimportant.com/author/zac/">Author Zac</a> on <a href="https://whytravelisimportant.com/top-historical-travel-destinations-for-history-buffs/">whytravelisimportant.com</a>
 
-- [Interactive Zoomable London Map Guide](./assets/images/top-historical-travel-destinations-for-history-buffs-njy-1024-85q-we.webp): Photo by <a href="https://www.tomconnellstudio.com/">Tom Connell</a> on <a href="https://www.tomconnellstudio.com/realistic-2/2015/9/11/london-hotel-map">tomconnellstudio.com/</a>
+- [Video Guide Feature](./assets/images/london_guide_video.jpg): Video by <a href="https://www.youtube.com/@TRACKSTravelDocs">TRACKS - Travel Documentaries</a> on <a href="https://www.youtube.com/watch?v=5FbNPDknL-g">youtube.com</a>
 
-- [Hero Section](./assets/images/Rise_and_Fall_of_the_Roman_Empire_glory_1020webp.webp): Photo by <a href="https://www.alamy.com/stock-photo/?name=Peter+Horree&pseudoid=85D45CE4-7183-44F5-B00A-AC25B003047F&sortBy=relevant">Peter Horree</a> on <a href="https://www.alamy.com/stock-photo-the-martyrdom-of-st-agnes-in-the-roman-forum-in-the-year-303-under-95735422.html">alamy.com</a>
+- [Interactive Zoomable London Map Guide](./assets/images/london_map_image-asset.jpeg): Photo by <a href="https://www.tomconnellstudio.com/">Tom Connell</a> on <a href="https://www.tomconnellstudio.com/realistic-2/2015/9/11/london-hotel-map">tomconnellstudio.com/</a>
 
-- [Article Feature](./assets/images/roman_empire_1_1200webp.webp): Photo by <a href="https://openart.ai/@duck_nimble_28">Félix Salas</a> on <a href="https://openart.ai/community/DbECBIPB4lkv0xTP0D0s">openart.ai</a>
+- [Hero Section](./assets/images/Rise_and_Fall_of_the_Roman_Empire_glory.jpg): Photo by <a href="https://www.alamy.com/stock-photo/?name=Peter+Horree&pseudoid=85D45CE4-7183-44F5-B00A-AC25B003047F&sortBy=relevant">Peter Horree</a> on <a href="https://www.alamy.com/stock-photo-the-martyrdom-of-st-agnes-in-the-roman-forum-in-the-year-303-under-95735422.html">alamy.com</a>
+
+- [Article Feature](./assets/images/Rise_and_Fall_of_the_Roman_Empire_glory.jpg): Photo by <a href="https://openart.ai/@duck_nimble_28">Félix Salas</a> on <a href="https://openart.ai/community/DbECBIPB4lkv0xTP0D0s">openart.ai</a>
 
 - [Hero Section](./assets/images/monitor-1307227_1280.jpg): Photo by <a href="https://pixabay.com/de/users/geralt-9301/">geralt</a> on <a href="https://pixabay.com/de/illustrations/monitor-bin%C3%A4r-bin%C3%A4ren-system-1307227/">pixabay.com</a>
 
-- [Article Feature](./assets/images/ada-lovelace-1024w.webp): Photo by <a href="https://collection.sciencemuseumgroup.org.uk/objects/co67823">
+- [Article Feature](./assets/images/ada-lovelace.jpg): Photo by <a href="https://collection.sciencemuseumgroup.org.uk/objects/co67823">
 Science Museum Group</a> on <a href="https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg">Wikimedia Commons</a>
 
 
-- [Hero Section](./assets/images/header_train_cbq35-wessel1_1024_webp.webp): Photo by <a href="https://locomotive.fandom.com/wiki/User:Alexthegeneralarteaga">AlexthegeneralarteagaakaAlex</a> on <a href="https://locomotive.fandom.com/wiki/CB%26Q_No._35?file=Mo328.jpg">locomotive.fandom.com</a>
+- [Hero Section](./assets/images/header_train_cbq35-wessel1.jpg): Photo by <a href="https://locomotive.fandom.com/wiki/User:Alexthegeneralarteaga">AlexthegeneralarteagaakaAlex</a> on <a href="https://locomotive.fandom.com/wiki/CB%26Q_No._35?file=Mo328.jpg">locomotive.fandom.com</a>
 
 - [Article Feature](./assets/images/first_train_58754e46b031b2047396b6fa64863701.jpg): Photo by <a href="https://vancouver.ca/your-government/city-of-vancouver-archives.aspx">
 City of Vancouver archives</a> on <a href="https://karen-magill.blogspot.com/2014/01/locomotive-374.html">karen-magill.blogspot.com</a>
 
 
-- [Hero Section](./assets/images/1-1024_webp.webp): Photo by <a href="https://en.wikipedia.org/wiki/Associated_Press">
+- [Hero Section](./assets/images/1.jpg): Photo by <a href="https://en.wikipedia.org/wiki/Associated_Press">
 Associated Press</a> on <a href="https://commons.wikimedia.org/wiki/File:Albert_Einstein_writing_on_a_blackboard_in_Pasadena_(1931).jpg">Wikimedia Commons</a>
 
 - [Article Feature](./assets/images/albert-einstein-9.jpg): Photo by <a href="https://imgur.com/user/MichaelGorth">
@@ -1167,29 +1188,87 @@ MichaelGorth</a> on <a href="https://imgur.com/gallery/colorized-albert-einstein
 - [Hero Section](./assets/images/significant-Events-in-World-History-and-Their-Impact-on-Society.jpg): Photo by <a href="https://thoughtfultakes.com/author/admin/">
 admin</a> on <a href="https://thoughtfultakes.com/wp-content/uploads/2023/04/Significant-Events-in-World-History-and-Their-Impact-on-Society.jpg">thoughtfultakes.com</a>
 
-- [Article Feature](./assets/images/historical_events_1st_image_2webp_1024_webp.webp): Photo by <a href="https://substack.com/@contraptions">Venkatesh Rao
+- [Article Feature](./assets/images/8afb4151-ee4b-4382-b87b-83943a842477_800x600.jpg): Photo by <a href="https://substack.com/@contraptions">Venkatesh Rao
 </a> on <a href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8afb4151-ee4b-4382-b87b-83943a842477_800x600.png">contraptions.venkateshrao.com</a>
 
-- [Article Feature](./assets/images/historical_events_1st_image_2webp_1024_webp.webp): Photo by <a href="https://buycoffee.to/mlynarczyk/">Robert Młynarczyk
+- [Article Feature](./assets/images/neolit_Pentre-Ifan-rekonstrukcja-11.jpg): Photo by <a href="https://buycoffee.to/mlynarczyk/">Robert Młynarczyk
 </a> on <a href="https://medievalheritage.eu/wp-content/uploads/2019/10/Pentre-Ifan-rekonstrukcja-11.jpg">medievalheritage.eu</a>
 
-- [Article Feature](./assets/images/ancient-cuneiform-writing-script-on-600nw-1037660671.webp): Photo by <a href="https://www.shutterstock.com/g/HansFree">HansFree
+- [Article Feature](./assets/images/cuneiform.jpg): Photo by <a href="https://www.shutterstock.com/g/HansFree">HansFree
 </a> on <a href="https://www.shutterstock.com/image-photo/ancient-cuneiform-writing-script-on-wall-1037660671">shutterstock.com</a>
 
-- [Article Feature](./assets/images/roman_empire_1_1200webp.webp): Photo by <a href="https://openart.ai/@duck_nimble_28">Félix Salas</a> on <a href="https://openart.ai/community/DbECBIPB4lkv0xTP0D0s">openart.ai</a>
+- [Article Feature](./assets/images/roman_empire_1.jpg): Photo by <a href="https://openart.ai/@duck_nimble_28">Félix Salas</a> on <a href="https://openart.ai/community/DbECBIPB4lkv0xTP0D0s">openart.ai</a>
 
-- [Article Feature](./assets/images/constantinechristianity-2-1024w2.webp): Photo by <a href="https://commons.wikimedia.org/wiki/User:Peter1936F">Peter1936F</a> on <a href="https://commons.wikimedia.org/wiki/File:00_Stirnwand_7.jpg">Wikimedia Commons</a>
+- [Article Feature](./assets/images/constantinechristianity-2.jpg): Photo by <a href="https://commons.wikimedia.org/wiki/User:Peter1936F">Peter1936F</a> on <a href="https://commons.wikimedia.org/wiki/File:00_Stirnwand_7.jpg">Wikimedia Commons</a>
 
-- [Article Feature](./assets/images/age_of_exploration_640.webp): Photo by <a href="https://www.alamy.com/stock-photo/?name=ZUMA+Press&pseudoid=BC34D460-1085-4607-B2F9-3FBBEC5FBB7C&sortBy=relevant">ZUMA Press</a> on <a href="https://www.alamy.com/aug-5-2014-embarkation-and-departure-of-columbus-from-the-port-of-palos-on-his-first-voyage-of-discovery-3-aug-1492-painting-by-ricardo-balaca-credit-image-glasshousezuma-wire-image658304656.html?imageid=37C70557-3C77-41D8-86F3-7BB61C96C948&p=151045&pn=1&searchId=efe24d3914ef84fc2e6319cbd7d9c605&searchtype=0">alamy.com</a>
+- [Article Feature](./assets/images/age_of_exploration_GettyImages-517433014-5c4a211a46e0fb00017be09b.jpg): Photo by <a href="https://www.alamy.com/stock-photo/?name=ZUMA+Press&pseudoid=BC34D460-1085-4607-B2F9-3FBBEC5FBB7C&sortBy=relevant">ZUMA Press</a> on <a href="https://www.alamy.com/aug-5-2014-embarkation-and-departure-of-columbus-from-the-port-of-palos-on-his-first-voyage-of-discovery-3-aug-1492-painting-by-ricardo-balaca-credit-image-glasshousezuma-wire-image658304656.html?imageid=37C70557-3C77-41D8-86F3-7BB61C96C948&p=151045&pn=1&searchId=efe24d3914ef84fc2e6319cbd7d9c605&searchtype=0">alamy.com</a>
 
 - [Article Feature](./assets/images/industrial_revolution_imperial-printing-presses-science-photo-library.jpg): Photo by <a href="https://sciencephotogallery.com/">Science Photo Library</a> on <a href="https://sciencephotogallery.com/featured/imperial-printing-presses-science-photo-library.html">sciencephotogallery.com</a>
 
-- [Article Feature](./assets/images/french_revolution_1024.webp): Photo by <a href="https://www.parismuseescollections.paris.fr/en/node/127343">Les Cris de Paris</a> on <a href="https://de.m.wikipedia.org/wiki/Datei:Jean-Baptiste_Lallemand_-_La_prise_de_la_Bastille,_le_14_juillet_1789_-_P1718_-_Mus%C3%A9e_Carnavalet.jpg">wikipedia.org</a>
+- [Article Feature](./assets/images/french_revolution_2470197.jpg): Photo by <a href="https://www.parismuseescollections.paris.fr/en/node/127343">Les Cris de Paris</a> on <a href="https://de.m.wikipedia.org/wiki/Datei:Jean-Baptiste_Lallemand_-_La_prise_de_la_Bastille,_le_14_juillet_1789_-_P1718_-_Mus%C3%A9e_Carnavalet.jpg">wikipedia.org</a>
 
-- [Article Feature](./assets/images/ww1_Men-of-Iron-painting-_1024.webp): Photo by <a href="https://www.alamy.de/fotos-bilder/?name=Folio&pseudoid=4CDCB662-D053-4422-92FB-9E55DAE722C0&sortBy=relevant">Folio</a> on <a href="https://www.alamy.de/28-division-pennsylvania-nationalgarde-28-erhielt-seine-feuertaufe-am-15-juli-1918-wahrend-der-bundeswehr-s-champag-image9986710.html?imageid=BA7D628A-47EF-47AE-8F56-40CC1BC58132&p=30132&pn=1&searchId=53dba41e4f4d3c019e09bc78feefee9b&searchtype=0">alamy.de</a>
+- [Article Feature](./assets/images/ww1_Men-of-Iron-painting-National-Guard-Full-Size-6356-x-4652-scaled-e1647639774270-1200x591.jpg): Photo by <a href="https://www.alamy.de/fotos-bilder/?name=Folio&pseudoid=4CDCB662-D053-4422-92FB-9E55DAE722C0&sortBy=relevant">Folio</a> on <a href="https://www.alamy.de/28-division-pennsylvania-nationalgarde-28-erhielt-seine-feuertaufe-am-15-juli-1918-wahrend-der-bundeswehr-s-champag-image9986710.html?imageid=BA7D628A-47EF-47AE-8F56-40CC1BC58132&p=30132&pn=1&searchId=53dba41e4f4d3c019e09bc78feefee9b&searchtype=0">alamy.de</a>
 
-- [Article Feature](./assets/images/ww2_deJgrAQpGJscHezywKYBkm_1024.webp): Photo by <a href="https://www.gettyimages.no/search/photographer?photographer=General%20Photographic%20Agency">General Photographic Agency</a> on <a href="https://www.gettyimages.no/detail/news-photo/the-luftwaffe-flying-low-over-a-city-news-photo/3313403?adppopup=true">gettyimages</a>
+- [Article Feature](./assets/images/ww2_deJgrAQpGJscHezywKYBkm.jpg): Photo by <a href="https://www.gettyimages.no/search/photographer?photographer=General%20Photographic%20Agency">General Photographic Agency</a> on <a href="https://www.gettyimages.no/detail/news-photo/the-luftwaffe-flying-low-over-a-city-news-photo/3313403?adppopup=true">gettyimages</a>
 
-- [Article Feature](./assets/images/digital_rev_1024.webp): Photo by <a href="https://www.alamy.com/stock-photo/?name=chaiyapruek+youprasert&pseudoid=4A69D5BF-976B-44A9-84FA-17AC7C752B2D&sortBy=relevant">chaiyapruek youprasert</a> on <a href="https://www.alamy.com/stock-photo-hand-pushing-a-button-on-a-touch-screen-interface-104604867.html?imageid=E6856509-47F9-491C-904E-E2304B42A5BA&p=307766&pn=1&searchId=1c858584c5de79f7be5924eacd74be23&searchtype=0">alamy.com</a>
+- [Article Feature](./assets/images/digital_revolution_AdobeStock_96117137-2-1568x1039.jpeg): Photo by <a href="https://www.alamy.com/stock-photo/?name=chaiyapruek+youprasert&pseudoid=4A69D5BF-976B-44A9-84FA-17AC7C752B2D&sortBy=relevant">chaiyapruek youprasert</a> on <a href="https://www.alamy.com/stock-photo-hand-pushing-a-button-on-a-touch-screen-interface-104604867.html?imageid=E6856509-47F9-491C-904E-E2304B42A5BA&p=307766&pn=1&searchId=1c858584c5de79f7be5924eacd74be23&searchtype=0">alamy.com</a>
 
-- [Article Feature](./assets/images/it-remote-working.webp): Photo by <a href="https://www.shutterstock.com/g/KornT">KornT</a> on <a href="https://www.shutterstock.com/image-photo/empty-office-space-while-officer-working-1676114362">shutterstock.com</a>
+- [Article Feature](./assets/images/Remote-Working-during-Covid-–-19-Smart-Accounting-Ireland.png): Photo by <a href="https://www.shutterstock.com/g/KornT">KornT</a> on <a href="https://www.shutterstock.com/image-photo/empty-office-space-while-officer-working-1676114362">shutterstock.com</a>
+
+- [Hero Section](./assets/images/scientists.jpg): Photo by <a href="https://en.m.wikipedia.org/wiki/Scientist">
+Wikipedia</a> on <a href="https://www.pinterest.com/pin/74661306300299193/">Pinterest.com</a>
+
+- [Article Feature](./assets/images/10_figures_99926c44ccdfbc93bf4318c8d1caf07f.jpg): Photo by <a href="https://fr.pinterest.com/squarespace/">Squarespace</a> on <a href="https://fr.pinterest.com/pin/148055906470489827/">pinterest.com</a>
+
+- [Article Feature](./assets/images/jesus_teaching-people-jesus-desktop-uipz34v8fe4878t3.jpg): Photo by <a href="https://freechristimages.com/bible-stories/sermon-on-the-mount.html">freechristimages.com</a> on <a href="https://commons.wikimedia.org/wiki/File:Bloch-SermonOnTheMount.jpg">Wikimedia Commons</a>
+
+- [Article Feature](./assets/images/muhhammad_85ddbb28bc09aa0af8301aed605b0e22.jpg): Photo by <a href="https://pin.it/5NFcJkRyT">Hakan Alp</a> on <a href="https://www.pinterest.com/pin/590253094906174338/">pinterest.com</a>
+
+- [Article Feature](./assets/images/newton_53204e3d8671231f185d3bf22adbb596.jpeg): Photo by <a href="https://exhibitions.lib.cam.ac.uk/linesofthought/artifacts/newton-by-kneller/"> University of Cambridge</a> on <a href="https://commons.wikimedia.org/wiki/File:Portrait_of_Sir_Isaac_Newton,_1689.jpg">Wikimedia Commons</a>
+
+- [Article Feature](./assets/images/2_albert-einstein-1920x1080-1.jpg): Photo by <a href="https://web.archive.org/web/20070211064905/http://www.bhm.ch/de/news_04a.cfm?bid=4&jahr=2006">web.archive.org</a> on <a href="https://commons.wikimedia.org/wiki/File:Einstein_1921_by_F_Schmutzer.jpg">Wikimedia Commons</a>
+
+- [Article Feature](./assets/images/2_chingishan_55555555.jpg): Photo by <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D1%82%D1%8B%D0%B9">24smi.org</a> on <a href="https://24smi.org/public/media/resize/800x-/2017/8/7/03_af7c13E.jpg">Wikimedia Commons</a>
+
+- [Article Feature](./assets/images/2_Karl_Marks_wp1997890.jpg): Photo by <a href="https://commons.wikimedia.org/wiki/User:Vitold_Muratov">Vitold_Muratov</a> on <a href="https://commons.wikimedia.org/wiki/File:%D0%9A%D0%B0%D1%80%D0%BB_%D0%9C%D0%B0%D1%80%D0%BA%D1%81.jpg">Wikimedia Commons</a>
+
+- [Article Feature](./assets/images/2_leonardodavinci_64988079_303.jpg): Photo by <a href="www.telegraph.co.uk">telegraph.co.uk</a> on <a href="https://commons.wikimedia.org/wiki/File:%E9%81%94%E6%96%87%E8%A5%BF%E8%87%AA%E7%95%AB%E5%83%8F.jpg">Wikimedia Commons</a>
+
+- [Article Feature](./assets/images/napoleon_pic.jpg): Photo by <a href="https://commons.wikimedia.org/wiki/Commons:10,000_paintings_from_Directmedia">
+Commons:10,000 paintings from Directmedia</a> on <a href="https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_Napoleon_Crossing_the_Alps_-_Schloss_Charlottenburg.jpg">Wikimedia Commons</a>
+
+- [Article Feature](./assets/images/2_aristotel_2f5bec53-3708-463e-8d85-03bc098f93dc.jpg): Photo by <a href="https://easy-peasy.ai/ai-image-generator">
+Easy-Peasy.AI</a> on <a href="https://easy-peasy.ai/ai-image-generator/images/oil-painting-philosopher-aristotle">easy-peasy.ai</a>
+
+- [Article Feature](./assets/images/Darvin_George_Richmond_Portrait_of_charles_darwin.jpg): Photo by <a href="https://www.livescience.com/">
+livescience.com</a> on <a href="https://commons.wikimedia.org/wiki/File:Charles-Darwin-31.jpg">Wikimedia Commons</a>
+
+- [Article Feature](./assets/images/alexander_the_great_GJxE7MOWMAA1wCl.png): Photo by <a href="https://anime-characters-fight.fandom.com/ru/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:Vomitilchik">
+Vomitilchik</a> on <a href="https://anime-characters-fight.fandom.com/ru/wiki/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%9C%D0%B0%D0%BA%D0%B5%D0%B4%D0%BE%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_(%D0%A1%D0%B5%D1%80%D0%B1%D1%81%D0%BA%D0%B0%D1%8F_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B8%D1%8F)?file=Serbskaalexandr_%28704_x_698_%D0%BF%D0%B8%D0%BA%D1%81%D0%B5%D0%BB%D1%8C%29.jpg">anime-characters-fight.fandom.com</a>
+
+- [Article Feature](./assets/images/galileo-galilei-demonstrating-his-new-astronomical-theories-at-the-university-of-padua-felix-parra.jpg): Photo by <a href="https://artsandculture.google.com/asset/HQGamkQZzU7VVg">
+munal.com.mx/rights.html</a> on <a href="https://commons.wikimedia.org/wiki/File:F%C3%A9lix_Parra_-_Galileo_Demonstrating_the_New_Astronomical_Theories_at_the_University_of_Padua_-_Google_Art_Project.jpg">Wikimedia Commons</a>
+
+- [Article Feature](./assets/images/Ludwig-van-Beethoven.jpg): Photo by <a href="https://artsandculture.google.com/asset/beethoven-with-the-manuscript-of-the-missa-solemnis-joseph-karl-stieler/rAFyeYgdYQP_QA">
+Beethoven-Haus Bonn</a> on <a href="https://en.wikipedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg">Wikipedia</a>
+
+- [Article Feature](./assets/images/tesla.png): Photo by <a href="pulsepowernow.com">
+pulsepowernow.com</a> on <a href="https://commons.wikimedia.org/wiki/File:Nikola_Tesla_color2.jpg">Wikimedia Commons</a>
+
+- [Article Feature](./assets/images/2_gandi_demopicture_31075_20180620093015.jpg): Photo by <a href="https://en.wikipedia.org/wiki/Elliott_%26_Fry">
+Elliott Fry</a> on <a href="https://commons.wikimedia.org/wiki/File:Mahatma-Gandhi,_studio,_1931.jpg">Wikimedia Commons</a>
+
+- [Article Feature](./assets/images/2_budda_905173.jpg): Photo by <a href="https://www.dhammatalks.net/copy_right_issues.htm">
+dhammatalks.net</a> on <a href="https://tibetanbuddhistencyclopedia.com/en/images/3/3b/90698_n.jpg">tibetanbuddhistencyclopedia.com</a>
+
+- [Article Feature](./assets/images/2_konfuziy_D31FF71C-C877-45B1-AB0D-9B7303833BC1-jpeg.jpeg): Photo by <a href="https://depositphotos.com/ru/portfolio-1134101.html?content=photo">
+philipus</a> on <a href="https://depositphotos.com/ru/photo/statue-of-confucius-at-confucian-temple-in-shanghai-china-7910191.html">depositphotos.com</a>
+
+- [Hero Section](./assets/images/history-featured-image.jpg): Photo by <a href="https://www.shutterstock.com/g/scorp37">
+Scorpp</a> on <a href="https://www.shutterstock.com/image-photo/vintage-still-life-compasssextant-spyglass-old-220671568">shutterstock.com</a>
+
+## Acknowledgements
+I would like to take the opportunity to thank:
+- My mentor Mo Shami for his feedback, advice, guidance and support.
+- My family for their support, advice and help with testing.
+- To the lovely people on the Code Institute Slack for providing peer code reviews.
