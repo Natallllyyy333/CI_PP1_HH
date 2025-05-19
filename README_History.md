@@ -160,7 +160,7 @@ The website consists of 17 separate pages:
 <details><summary>About Us</summary>
 <img src="docs/wireframes/wireframes-about_us.jpg">
 </details>
-<details><summary>Guides</summary>
+<details><summary>Article Page</summary>
 <img src="docs/wireframes/wireframes_einstein_article.jpg">
 </details>
 
