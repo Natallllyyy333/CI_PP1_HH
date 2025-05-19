@@ -117,7 +117,7 @@ a {
 }
 
 .index_main-nav ul li {
-  padding: 5px;
+  padding: 4px;
   border-right: 4px solid #d32f2f;
 }
 
@@ -446,7 +446,7 @@ h2.index_section-title {
     top: 73px;
     left: 0;
     width: fit-content;
-    height: 60px;
+    height: 70px;
     background: white;
     box-shadow: 5px 7px 2px 2px #888888;
     border: 1px solid #ddd;
@@ -462,16 +462,17 @@ h2.index_section-title {
   }
 
   .index_main-nav li {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     padding: 5px;
+    height: 50px;
   }
 
   .index_main-nav a {
     text-decoration: none;
     color: #333;
-    font-size: 13px;
+    font-size: 12px;
     display: block;
-    height: 40px;
+    height: 45px;
     padding: 12px 25px;
   }
 
@@ -938,7 +939,7 @@ a {
     top: 73px;
     left: 0;
     width: fit-content;
-    height: 60px;
+    height: 70px;
     background: white;
     border-radius: 0 7px 7px 0;
     box-shadow: 5px 7px 2px 2px #888888;
@@ -954,16 +955,17 @@ a {
 
   .articles_main-nav li {
     padding: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    height: 50px;
   }
 
   .articles_main-nav a {
     text-decoration: none;
     color: #333;
-    font-size: 13px;
+    font-size: 14px;
     height: 44px;
     display: block;
-    padding: 10px 25px;
+    padding: 12px 25px;
   }
 
   .articles_main-nav a:hover {
@@ -1125,7 +1127,7 @@ a {
 }
 
 .documentaries_main-nav ul li {
-  padding: 5px;
+  padding: 4px;
   border-right: 4px solid #d32f2f;
 }
 
@@ -1687,7 +1689,7 @@ span.documentaries_visually-hidden {
   .documentaries_main-nav {
     position: fixed;
     top: 100px;
-    height: 60px;
+    height: 70px;
     left: 0;
     width: fit-content;
     background: white;
@@ -1716,13 +1718,15 @@ span.documentaries_visually-hidden {
     color: #333;
     font-size: 13px;
     display: block;
-    height: 40px;
-    padding: 10px 5px;
+    height: 50px;
+    padding: 10px 25px;
   }
 
-  .documentaries_main-nav a:hover {
+  /* .documentaries_main-nav a:hover {
     font-size: 20px;
-  }
+    padding: 10px 25px;
+    height: 50px;
+  } */
 
   .documentaries_video-nav {
     top: 60px;
@@ -1780,19 +1784,23 @@ span.documentaries_visually-hidden {
   }
 
   .documentaries_main-nav li {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    height: 50px;
   }
 
   .documentaries_main-nav a {
     text-decoration: none;
     color: #333;
-    font-size: 10px;
+    font-size: 14px;
     display: block;
     padding: 12px 25px;
+    height: 45px;
   }
 
   .documentaries_main-nav a:hover {
     font-size: 20px;
+    /* padding: 12px 25px; */
+    padding: 5px 15px;
   }
 
   .documentaries_carousel {
@@ -2460,9 +2468,10 @@ audio::-webkit-media-controls-panel {
     position: fixed;
     top: 73px;
     left: 0;
+    height: 70px;
     width: fit-content;
     background: white;
-    box-shadow: -7px -7px 7px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 7px 2px 2px #888888;
     border-radius: 0 7px 7px 0;
     transform: translateX(-120%);
     transition: transform 0.3s ease-out;
@@ -2471,23 +2480,26 @@ audio::-webkit-media-controls-panel {
 
   .podcasts_main-nav ul {
     list-style: none;
-    padding: 15px;
+    padding: 5px;
   }
 
   .podcasts_main-nav li {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    height: 50px;
   }
 
   .podcasts_main-nav a {
     text-decoration: none;
     color: #333;
-    font-size: 13px;
+    font-size: 14px;
     display: block;
-    padding: 10px 5px;
+    padding: 12px 25px;
+    height: 45px;
   }
 
   .podcasts_main-nav a:hover {
     font-size: 20px;
+
   }
 
   .podcasts_mobile-menu-toggle:checked~.podcasts_main-nav {
@@ -3296,9 +3308,10 @@ body {
     position: fixed;
     top: 73px;
     left: 0;
+    height: 70px;
     width: fit-content;
     background: white;
-    box-shadow: -7px -7px 7px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 7px 2px 2px #888888;
     border-radius: 0 7px 7px 0;
     transform: translateX(-120%);
     transition: transform 0.3s ease-out;
@@ -3307,19 +3320,21 @@ body {
 
   .london_main-nav ul {
     list-style: none;
-    padding: 15px;
+    padding: 5px;
   }
 
   .london_main-nav li {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    height: 50px;
   }
 
   .london_main-nav a {
     text-decoration: none;
     color: #333;
-    font-size: 13px;
+    font-size: 14px;
     display: block;
-    padding: 10px 5px;
+    padding: 12px 25px;
+    height: 45px;
   }
 
   .london_main-nav a:hover {
