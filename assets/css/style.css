@@ -1680,7 +1680,7 @@ span.documentaries_visually-hidden {
   .documentaries_main-nav {
     position: fixed;
     top: 100px;
-    height: 60px;
+    height: 40px;
     left: 0;
     width: fit-content;
     background: white;
