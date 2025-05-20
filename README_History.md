@@ -305,21 +305,15 @@ links to the Homepage, Articles page, Documentaries page, Podcasts page, Guides 
 ![Video Cards Carousel](./docs/features/feature-video-cards-carousel_egypt_1.jpg)
 ![Video Cards Carousel](./docs/features/feature-video-cards-carousel_egypt_2.jpg)
 ![Video Cards Carousel](./docs/features/feature-video-cards-carousel_egypt_3.jpg)
-![Video Cards Carousel](./docs/features/feature-video-cards-carousel_egypt_4.jpg)
-![Video Cards Carousel](./docs/features/feature-video-cards-carousel_egypt_5.jpg)
-![Video Cards Carousel](./docs/features/feature-video-cards-carousel_egypt_6.jpg)
+
 ![Video Cards Carousel](./docs/features/feature-video-cards-carousel_europe_1.jpg)
 ![Video Cards Carousel](./docs/features/feature-video-cards-carousel_europe_2.jpg)
 ![Video Cards Carousel](./docs/features/feature-video-cards-carousel_europe_3.jpg)
-![Video Cards Carousel](./docs/features/feature-video-cards-carousel_europe_4.jpg)
-![Video Cards Carousel](./docs/features/feature-video-cards-carousel_europe_5.jpg)
-![Video Cards Carousel](./docs/features/feature-video-cards-carousel_europe_6.jpg)
+
 ![Video Cards Carousel](./docs/features/feature-video-cards-carousel_world_1.jpg)
 ![Video Cards Carousel](./docs/features/feature-video-cards-carousel_world_2.jpg)
 ![Video Cards Carousel](./docs/features/feature-video-cards-carousel_world_3.jpg)
-![Video Cards Carousel](./docs/features/feature-video-cards-carousel_world_4.jpg)
-![Video Cards Carousel](./docs/features/feature-video-cards-carousel_world_5.jpg)
-![Video Cards Carousel](./docs/features/feature-video-cards-carousel_world_6.jpg)
+
 
 ### Podcasts Feature
 - Showcases curated history podcasts with immersive preview cards that blend content, context, and inspiration.
