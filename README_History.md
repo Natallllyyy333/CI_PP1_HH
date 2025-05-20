@@ -157,11 +157,41 @@ The website consists of 17 separate pages:
 <details><summary>Guides</summary>
 <img src="docs/wireframes/wireframes_guides.jpg">
 </details>
-<details><summary>About Us</summary>
-<img src="docs/wireframes/wireframes-about_us.jpg">
+<details><summary>Roman Empire Article</summary>
+<img src="docs/wireframes/wireframes_roman_empire_article.jpg">
 </details>
-<details><summary>Article Page</summary>
+<details><summary>Ada Lovelace Article</summary>
+<img src="docs/wireframes/wireframes_ada_lovelace_article.jpg">
+</details>
+<details><summary>First Train Article</summary>
+<img src="docs/wireframes/wireframes_first_train.jpg">
+</details>
+<details><summary>Einstein Article Page</summary>
 <img src="docs/wireframes/wireframes_einstein_article.jpg">
+</details>
+<details><summary>Events Article</summary>
+<img src="docs/wireframes/wireframes_events.jpg">
+</details>
+<details><summary>People Article</summary>
+<img src="docs/wireframes/wireframes_people_article_page.jpg">
+</details>
+<details><summary>About Us</summary>
+<img src="docs/wireframes/wireframes_about_us.jpg">
+</details>
+<details><summary>Our Team</summary>
+<img src="docs/wireframes/wireframes_our_team.jpg">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/wireframes/wireframes_contact_us.jpg">
+</details>
+<details><summary>Terms of Use</summary>
+<img src="docs/wireframes/wireframes_terms_of_use.jpg">
+</details>
+<details><summary>Privacy Policy</summary>
+<img src="docs/wireframes/wireframes_privacy_policy.jpg">
+</details>
+<details><summary>Cookie Policy</summary>
+<img src="docs/wireframes/wireframes_cookie_policy.jpg">
 </details>
 
 ## Technologies Used
@@ -182,6 +212,7 @@ The website consists of 17 separate pages:
 - Adobe Color
 - Font Awsome
 - Favicon<span>.</span>io
+- Miro
 
 ## Features
 The page consists of seventeen pages and fourteen features
